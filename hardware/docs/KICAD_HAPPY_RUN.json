@@ -1,0 +1,85 @@
+{
+  "source": "https://github.com/aklofas/kicad-happy",
+  "commit": "a6bba1add1e18b89e3aa0824b9769ed1d9d79174",
+  "installed_skills": [
+    "kicad",
+    "datasheets",
+    "emc",
+    "spice",
+    "bom"
+  ],
+  "native_kicad": "10.0.6",
+  "rerun_at": "2026-09-20T18:25+08:00",
+  "rerun_trigger": "schematic/06_AUDIO.kicad_sch edited at 18:18, after the 18:01 check run",
+  "executed": [
+    {
+      "tool": "analyze_schematic.py",
+      "output": "analysis/kicad-happy/schematic.r111.json",
+      "findings": 75,
+      "by_severity": { "error": 4, "warning": 23, "info": 48 },
+      "scope": "126 components, 129 nets, 427 wires"
+    },
+    {
+      "tool": "analyze_pcb.py --full",
+      "output": "analysis/kicad-happy/pcb.json",
+      "findings": 18,
+      "by_severity": { "error": 16, "warning": 1, "info": 1 },
+      "scope": "25 footprints, 0 tracks, 0 vias; 16 KO-001 are bounding-box false positives"
+    },
+    {
+      "tool": "cross_analysis.py",
+      "output": "analysis/kicad-happy/cross.json",
+      "findings": 1,
+      "by_severity": { "warning": 1 },
+      "scope": "XV-001: 105 schematic components absent from PCB, matches native schematic_parity"
+    },
+    {
+      "tool": "analyze_emc.py",
+      "output": "analysis/kicad-happy/emc.json",
+      "findings": 8,
+      "by_severity": { "error": 2, "warning": 3, "info": 3 },
+      "scope": "risk score 77.5 is not release evidence; no routing, planes or RF module pins"
+    },
+    {
+      "tool": "analyze_thermal.py",
+      "output": "analysis/kicad-happy/thermal.json",
+      "findings": 1,
+      "scope": "only U7 estimated (tj 44.0 C, board 0.127 W); score 100 rejected as evidence"
+    },
+    {
+      "tool": "lifecycle_audit.py --only lcsc",
+      "output": "analysis/kicad-happy/lifecycle.json",
+      "findings": 10,
+      "scope": "all statuses unknown from this source; no active/lifecycle claim made"
+    },
+    {
+      "tool": "diff_analysis.py",
+      "output": "analysis/kicad-happy/delta.json",
+      "scope": "pre-fix snapshot vs r111: 21 added, 0 removed, auto-tagged breaking with 7 regressions"
+    },
+    {
+      "tool": "deep_review_gate.py",
+      "output": "gate stdout only",
+      "scope": "3 verified, 0 quarantined; requires --project-dir . or the computation script path resolves as missing"
+    },
+    {
+      "tool": "tools/check_kicad.py (native)",
+      "output": "docs/NATIVE_CHECK.json, docs/erc.json, docs/drc.json, docs/aiot-watch.net.xml",
+      "scope": "ERC 155 (28 errors / 127 warnings) exit 5; geometry DRC 0 exit 5 with parity; parity 105 missing_footprint; netlist 126 components / 348 pin-net checks match"
+    },
+    {
+      "tool": "tools/validate_draft.py (native static)",
+      "output": "docs/STATIC_CHECK.json",
+      "scope": "PASS_STATIC_ONLY only; not ERC, DRC, footprint or electrical verification"
+    }
+  ],
+  "spice": "NOT_RUN - simulator not found",
+  "gerber": "NOT_APPLICABLE - manufacturing release blocked",
+  "structured_datasheet_extraction": "NOT_COMPLETED - direct PDF review for U6/U7/U9/U10",
+  "open_schematic_errors": {
+    "PP-001": "2 - tool rail-name heuristic does not recognise net 'SYS' (VSYS is whitelisted, SYS is not); native netlist shows U6.11 power_out driving SYS into U7.12/13 VIN",
+    "VM-001": "1 - same heuristic treats SYS as a signal net crossing 5.0V/3.3V domains",
+    "SS-001": "1 - real sourcing blocker, 10 of 36 unique BOM lines carry an MPN"
+  },
+  "verdict": "PARTIAL; NOT FABRICATION READY"
+}

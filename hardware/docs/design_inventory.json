@@ -1,0 +1,6250 @@
+{
+  "components": [
+    {
+      "Reference": "U6",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Texas Instruments",
+      "MPN": "BQ24074RGTR",
+      "Value": "BQ24074RGTR",
+      "Package": "RGT 16 + EP",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "EP physical pad identifier requires footprint review; TMR and ITERM open use defaults; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "U7",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Texas Instruments",
+      "MPN": "TPS63070RNMR",
+      "Value": "TPS63070RNMR",
+      "Package": "RNM 15",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "No separate invented EP; pins 9/10/11 are large power pads; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "U8",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Texas Instruments",
+      "MPN": "TLV75518PDBVR",
+      "Value": "TLV75518PDBVR",
+      "Package": "DBV SOT23-5",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "1V8 is optional auxiliary rail, NOT presumed to equal modem VDD_EXT; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "U5",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Analog Devices",
+      "MPN": "MAX17048G+",
+      "Value": "MAX17048G+",
+      "Package": "TDFN8 + EP",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Powered/sensed from VBAT, not 3V3; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "J5",
+      "Quantity": 1,
+      "Category": "Connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "BATTERY + NTC",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; Exact connector and pack NTC curve required"
+    },
+    {
+      "Reference": "D1",
+      "Quantity": 1,
+      "Category": "TVS",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "POGO INPUT TVS",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; Select standoff/clamp/leakage; not fitted electrically until selected"
+    },
+    {
+      "Reference": "R101",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1.78k 1%",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R102",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1.62k 1%",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R103",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R104",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C101",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "4.7u 16V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C102",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C103",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "L101",
+      "Quantity": 1,
+      "Category": "Inductor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1.5uH / Isat TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R105",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "470k 1%",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R106",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "150k 1%",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C104",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R107",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C105",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C106",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C107",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C108",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "22u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C109",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "22u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C110",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C111",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C112",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C113",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R108",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R109",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Shared EN/PS_SYNC series resistor; TI SLVSC58B sections 8.4.2 and 8.4.5 recommend 1k-1M; final resistor MPN/footprint pending"
+    },
+    {
+      "Reference": "U1",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Espressif",
+      "MPN": "ESP32-S3-PICO-1-N8R8",
+      "Value": "ESP32-S3-PICO-1-N8R8",
+      "Package": "LGA56 + GND57 / 7x7",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://documentation.espressif.com/esp32-s3-pico-1_datasheet_en.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "GPIO0/3/45/46 reserved for strap behavior; GPIO33-37 and SPICS1 are internal PSRAM; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "R201",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C201",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R202",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R203",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "4.7k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R204",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "4.7k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R205",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "0R / tune SI",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R206",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "0R / tune SI",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C202",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "22u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C203",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Locate at U1 supply pin 2"
+    },
+    {
+      "Reference": "C204",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Locate at U1 supply pin 3"
+    },
+    {
+      "Reference": "C205",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Locate at U1 supply pin 20"
+    },
+    {
+      "Reference": "C206",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Locate at U1 supply pin 46"
+    },
+    {
+      "Reference": "C207",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Locate at U1 supply pin 55"
+    },
+    {
+      "Reference": "C208",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Locate at U1 supply pin 56"
+    },
+    {
+      "Reference": "U2",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "SIM8230C",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://cn.simcom.com/product/SIM8230C.html",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; V2.04 required; no alternate SIM8230 pin map imported"
+    },
+    {
+      "Reference": "J2",
+      "Quantity": 1,
+      "Category": "Connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "J_SIM Nano SIM",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; Socket MPN/contact map required; eSIM mechanical option unallocated"
+    },
+    {
+      "Reference": "U12",
+      "Quantity": 1,
+      "Category": "Level translator",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "MODEM IO TRANSLATOR TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; Direction, OE, VDD_EXT, power-off protection and PCM master TBD"
+    },
+    {
+      "Reference": "D2",
+      "Quantity": 1,
+      "Category": "ESD",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "SIM ESD ARRAY TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; Low capacitance; socket-side; no invented array pin map"
+    },
+    {
+      "Reference": "C301",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD C / DNP",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R301",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "0R",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C302",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD C / DNP",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "ANT1",
+      "Quantity": 1,
+      "Category": "RF connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "RF CONNECTOR TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; U.FL/MHF4 exact part and land pattern not selected"
+    },
+    {
+      "Reference": "C303",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD C / DNP",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R302",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "0R",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C304",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD C / DNP",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "ANT2",
+      "Quantity": 1,
+      "Category": "RF connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "RF CONNECTOR TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; U.FL/MHF4 exact part and land pattern not selected"
+    },
+    {
+      "Reference": "C305",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD C / DNP",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R303",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "0R",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C306",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD C / DNP",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "ANT3",
+      "Quantity": 1,
+      "Category": "RF connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "RF CONNECTOR TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; U.FL/MHF4 exact part and land pattern not selected"
+    },
+    {
+      "Reference": "C307",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD C / DNP",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R304",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "0R",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C308",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD C / DNP",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "ANT4",
+      "Quantity": 1,
+      "Category": "RF connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "RF CONNECTOR TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; U.FL/MHF4 exact part and land pattern not selected"
+    },
+    {
+      "Reference": "C321",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "220u low ESR",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C322",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "220u low ESR",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C323",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "22u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C324",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "22u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C325",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "22u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C326",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "22u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C327",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C328",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C329",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "C330",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PROVISIONAL user target; revise to SIM8230C HDG and fit check"
+    },
+    {
+      "Reference": "U3",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Bosch Sensortec",
+      "MPN": "BMI270",
+      "Value": "BMI270",
+      "Package": "LGA14 / 2.5x3",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "I2C address 0x68; unused auxiliary pins DNC per table22; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "U4",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Micro Crystal",
+      "MPN": "RV-3028-C7",
+      "Value": "RV-3028-C7",
+      "Package": "C7 / 3.2x1.5",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3028-C7_App-Manual.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Backup disabled by 10k to GND; keeps time with system power, not battery removal; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "C401",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n VDDIO",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C402",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n VDD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C403",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u local",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C404",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n RTC",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R401",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R402",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "J3",
+      "Quantity": 1,
+      "Category": "LCD connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "J_LCD_GENERIC",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; LCD CONNECTOR PINOUT TBD; touch nets not connected to MCU"
+    },
+    {
+      "Reference": "U13",
+      "Quantity": 1,
+      "Category": "Backlight driver",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "LCD backlight driver TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Select after LED string voltage/current; no pin-bearing symbol"
+    },
+    {
+      "Reference": "U9",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Everest Semiconductor",
+      "MPN": "ES8311",
+      "Value": "ES8311",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.everest-semi.com/pdf/ES8311%20PB.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Pin table verified against ES8311 Rev 5.0 (mirror copy, official host unreachable); QFN-20 land pattern, mic bias rail and register setup still open"
+    },
+    {
+      "Reference": "MIC1",
+      "Quantity": 1,
+      "Category": "Analog MEMS microphone",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "TBD_MIC bottom-port",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; Acoustic hole and recommended land pattern blocked"
+    },
+    {
+      "Reference": "U10",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Diodes Incorporated",
+      "MPN": "PAM8302A",
+      "Value": "PAM8302A",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.diodes.com/datasheet/download/PAM8302A.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Pin table verified against DS41333 Rev.6-2; orderable part code depends on the package choice (SO-8 / MSOP-8 / U-DFN3030-8) which stays open"
+    },
+    {
+      "Reference": "J4",
+      "Quantity": 1,
+      "Category": "Connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "SPEAKER CONTACTS",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; Floating BTL output; neither contact goes to GND"
+    },
+    {
+      "Reference": "C601",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "ES8311 PVDD decoupling"
+    },
+    {
+      "Reference": "C602",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "ES8311 DVDD decoupling"
+    },
+    {
+      "Reference": "C603",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "ES8311 AVDD bulk"
+    },
+    {
+      "Reference": "C604",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "ES8311 AVDD reservoir"
+    },
+    {
+      "Reference": "C605",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "DAC reference bypass"
+    },
+    {
+      "Reference": "C606",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "ADC reference bypass"
+    },
+    {
+      "Reference": "C607",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "VMID / mic bias reference"
+    },
+    {
+      "Reference": "C608",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "mic input AC coupling"
+    },
+    {
+      "Reference": "C609",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "mic input AC coupling"
+    },
+    {
+      "Reference": "C610",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "220n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "DAC to amp AC coupling"
+    },
+    {
+      "Reference": "C611",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "220n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "DAC to amp AC coupling"
+    },
+    {
+      "Reference": "C612",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PAM8302A VDD decoupling"
+    },
+    {
+      "Reference": "C613",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10u 10V",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "PAM8302A VDD reservoir"
+    },
+    {
+      "Reference": "C614",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "shutdown release delay"
+    },
+    {
+      "Reference": "R601",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "shutdown pull-up"
+    },
+    {
+      "Reference": "U11",
+      "Quantity": 1,
+      "Category": "IC",
+      "Manufacturer": "Texas Instruments",
+      "MPN": "DRV2605LDGSR",
+      "Value": "DRV2605LDGSR",
+      "Package": "DGS VSSOP10",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/drv2605l.pdf",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Motor selection/calibration TBD; enable uses removable pull-up, not spare MCU GPIO; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "J6",
+      "Quantity": 1,
+      "Category": "Connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "MOTOR CONNECTOR",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; LRA/ERM voltage/current and actual connector required"
+    },
+    {
+      "Reference": "C701",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C702",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1u",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C703",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R701",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "SW1",
+      "Quantity": 1,
+      "Category": "Switch",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "SOS NO",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Logical contacts only; physical switch footprint/pin map TBD"
+    },
+    {
+      "Reference": "R711",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R712",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C711",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "SW2",
+      "Quantity": 1,
+      "Category": "Switch",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "AI NO",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Logical contacts only; physical switch footprint/pin map TBD"
+    },
+    {
+      "Reference": "R713",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R714",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "C712",
+      "Quantity": 1,
+      "Category": "Capacitor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "100n",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "J1",
+      "Quantity": 1,
+      "Category": "Connector",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "POGO_4_LOGICAL",
+      "Package": "Physical pogo pattern TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Numbering is user-defined. UART at connector has series resistors.; Electrical draft; land-pattern release pending"
+    },
+    {
+      "Reference": "R801",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "R802",
+      "Quantity": 1,
+      "Category": "Resistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "1k",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": ""
+    },
+    {
+      "Reference": "D3",
+      "Quantity": 1,
+      "Category": "ESD",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "POGO UART ESD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "NOT RELEASED: no pin-bearing symbol; Select clamps compatible with 3V3 factory UART"
+    },
+    {
+      "Reference": "TP1",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_5V",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_5V; net VBUS_5V"
+    },
+    {
+      "Reference": "TP2",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_VBAT",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_VBAT; net VBAT"
+    },
+    {
+      "Reference": "TP3",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_VBAT_MODEM",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_VBAT_MODEM; net VBAT_MODEM"
+    },
+    {
+      "Reference": "TP4",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_3V3",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_3V3; net +3V3_SYS"
+    },
+    {
+      "Reference": "TP5",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_1V8",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_1V8; net +1V8"
+    },
+    {
+      "Reference": "TP6",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_GND",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_GND; net GND"
+    },
+    {
+      "Reference": "TP7",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_UART_TX",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_UART_TX; net UART0_TX"
+    },
+    {
+      "Reference": "TP8",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_UART_RX",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_UART_RX; net UART0_RX"
+    },
+    {
+      "Reference": "TP9",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_I2C_SCL",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_I2C_SCL; net I2C_SCL"
+    },
+    {
+      "Reference": "TP10",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_I2C_SDA",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_I2C_SDA; net I2C_SDA"
+    },
+    {
+      "Reference": "TP11",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_MODEM_TX",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_MODEM_TX; net MODEM_TX"
+    },
+    {
+      "Reference": "TP12",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_MODEM_RX",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_MODEM_RX; net MODEM_RX"
+    },
+    {
+      "Reference": "TP13",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_MODEM_PWRKEY",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_MODEM_PWRKEY; net MODEM_PWRKEY"
+    },
+    {
+      "Reference": "TP14",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_ESP_USB_DP",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_ESP_USB_DP; net ESP_USB_DP"
+    },
+    {
+      "Reference": "TP15",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_ESP_USB_DM",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_ESP_USB_DM; net ESP_USB_DM"
+    },
+    {
+      "Reference": "TP16",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_MODEM_USB_DP",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_MODEM_USB_DP; net MODEM_USB_DP"
+    },
+    {
+      "Reference": "TP17",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_MODEM_USB_DM",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_MODEM_USB_DM; net MODEM_USB_DM"
+    },
+    {
+      "Reference": "TP18",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_RESET",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_RESET; net ESP_EN"
+    },
+    {
+      "Reference": "TP19",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_BOOT",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_BOOT; net ESP_BOOT"
+    },
+    {
+      "Reference": "TP20",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_CHG_STATUS",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_CHG_STATUS; net CHG_STATUS"
+    },
+    {
+      "Reference": "TP21",
+      "Quantity": 1,
+      "Category": "Test point",
+      "Manufacturer": "PCB fabricator",
+      "MPN": "PCB feature",
+      "Value": "TP_PGOOD",
+      "Package": "1.0mm copper disc",
+      "KiCad Footprint": "project:TestPad_1mm",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Fixture name TP_PGOOD; net PGOOD"
+    },
+    {
+      "Reference": "D4",
+      "Quantity": 1,
+      "Category": "ESD",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "USB ESD TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Required protection for ESP_USB_DP, ESP_USB_DM, GND; no pin-bearing symbol until selected"
+    },
+    {
+      "Reference": "D5",
+      "Quantity": 1,
+      "Category": "ESD",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "USB ESD TBD",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Required protection for MODEM_USB_DP, MODEM_USB_DM, GND; no pin-bearing symbol until selected"
+    },
+    {
+      "Reference": "NTC1",
+      "Quantity": 1,
+      "Category": "Thermistor",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "10k NTC in battery pack",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "No",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Off-board actual cell temperature sensing; B curve and thresholds TBD"
+    },
+    {
+      "Reference": "FB1",
+      "Quantity": 1,
+      "Category": "Ferrite bead",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "Audio ferrite bead option",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Not connected until codec power circuit confirmed; impedance/current TBD"
+    },
+    {
+      "Reference": "ESIM1",
+      "Quantity": 1,
+      "Category": "eSIM",
+      "Manufacturer": "TBD",
+      "MPN": "TBD",
+      "Value": "eSIM option",
+      "Package": "TBD",
+      "KiCad Footprint": "TBD",
+      "Datasheet": "",
+      "DNP": "Yes",
+      "Alternative": "TBD; requires re-review",
+      "Notes": "Logical future option only; no shared populated SIM stubs or guessed pin map"
+    }
+  ],
+  "pins": [
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "1",
+      "Function": "TS",
+      "Net": "BAT_NTC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "2",
+      "Function": "BAT",
+      "Net": "VBAT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "3",
+      "Function": "BAT",
+      "Net": "VBAT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "4",
+      "Function": "CE_N",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "5",
+      "Function": "EN2",
+      "Net": "SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "6",
+      "Function": "EN1",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "7",
+      "Function": "PGOOD_N",
+      "Net": "PGOOD",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "8",
+      "Function": "VSS",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "9",
+      "Function": "CHG_N",
+      "Net": "CHG_STATUS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "10",
+      "Function": "OUT",
+      "Net": "SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "11",
+      "Function": "OUT",
+      "Net": "SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "12",
+      "Function": "ILIM",
+      "Net": "CHG_ILIM",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "13",
+      "Function": "IN",
+      "Net": "VBUS_5V",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "14",
+      "Function": "TMR",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "15",
+      "Function": "ITERM",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "16",
+      "Function": "ISET",
+      "Net": "CHG_ISET",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U6",
+      "Pin": "EP",
+      "Function": "THERMAL_PAD",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bq24074"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "1",
+      "Function": "PS_SYNC",
+      "Net": "DCDC_CTRL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "2",
+      "Function": "PG",
+      "Net": "DCDC_PG",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "3",
+      "Function": "VAUX",
+      "Net": "DCDC_VAUX",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "4",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "5",
+      "Function": "FB",
+      "Net": "DCDC_FB",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "6",
+      "Function": "FB2",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "7",
+      "Function": "VOUT",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "8",
+      "Function": "VOUT",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "9",
+      "Function": "L2",
+      "Net": "DCDC_L2",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "10",
+      "Function": "PGND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "11",
+      "Function": "L1",
+      "Net": "DCDC_L1",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "12",
+      "Function": "VIN",
+      "Net": "SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "13",
+      "Function": "VIN",
+      "Net": "SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "14",
+      "Function": "EN",
+      "Net": "DCDC_CTRL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U7",
+      "Pin": "15",
+      "Function": "VSEL",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U8",
+      "Pin": "1",
+      "Function": "IN",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tlv755p"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U8",
+      "Pin": "2",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tlv755p"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U8",
+      "Pin": "3",
+      "Function": "EN",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tlv755p"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U8",
+      "Pin": "4",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tlv755p"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U8",
+      "Pin": "5",
+      "Function": "OUT",
+      "Net": "+1V8",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "tlv755p"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "1",
+      "Function": "CTG",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "2",
+      "Function": "CELL",
+      "Net": "VBAT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "3",
+      "Function": "VDD",
+      "Net": "VBAT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "4",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "5",
+      "Function": "ALRT",
+      "Net": "BAT_ALERT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "6",
+      "Function": "QSTRT",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "7",
+      "Function": "SCL",
+      "Net": "I2C_SCL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "8",
+      "Function": "SDA",
+      "Net": "I2C_SDA",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "U5",
+      "Pin": "EP",
+      "Function": "EP",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "max17048"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "J5",
+      "Pin": "TBD",
+      "Function": "VBAT",
+      "Net": "VBAT",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "J5",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "J5",
+      "Pin": "TBD",
+      "Function": "BAT_NTC",
+      "Net": "BAT_NTC",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "D1",
+      "Pin": "TBD",
+      "Function": "VBUS_5V",
+      "Net": "VBUS_5V",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "D1",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R101",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "CHG_ISET",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R101",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R102",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "CHG_ILIM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R102",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R103",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R103",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "CHG_STATUS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R104",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R104",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "PGOOD",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C101",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBUS_5V",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C101",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C102",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C102",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C103",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C103",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "L101",
+      "Pin": "1",
+      "Function": "L",
+      "Net": "DCDC_L1",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "L101",
+      "Pin": "2",
+      "Function": "L",
+      "Net": "DCDC_L2",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R105",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R105",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "DCDC_FB",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R106",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "DCDC_FB",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R106",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C104",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "DCDC_VAUX",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C104",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R107",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R107",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "DCDC_PG",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C105",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C105",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C106",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C106",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C107",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C107",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C108",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C108",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C109",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C109",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C110",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C110",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C111",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C111",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C112",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+1V8",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C112",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C113",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "C113",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R108",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R108",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "BAT_ALERT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "1",
+      "Function": "LNA_IN",
+      "Net": "ESP_RF",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "2",
+      "Function": "VDD3P3",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "3",
+      "Function": "VDD3P3",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "4",
+      "Function": "CHIP_PU",
+      "Net": "ESP_EN",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "5",
+      "Function": "GPIO0",
+      "Net": "ESP_BOOT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "6",
+      "Function": "GPIO1",
+      "Net": "BTN_SOS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "7",
+      "Function": "GPIO2",
+      "Net": "BTN_AI",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "8",
+      "Function": "GPIO3",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "9",
+      "Function": "GPIO4",
+      "Net": "I2C_SDA",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "10",
+      "Function": "GPIO5",
+      "Net": "I2C_SCL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "11",
+      "Function": "GPIO6",
+      "Net": "IMU_INT1",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "12",
+      "Function": "GPIO7",
+      "Net": "IMU_INT2",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "13",
+      "Function": "GPIO8",
+      "Net": "RTC_INT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "14",
+      "Function": "GPIO9",
+      "Net": "BAT_ALERT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "15",
+      "Function": "GPIO10",
+      "Net": "LCD_CS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "16",
+      "Function": "GPIO11",
+      "Net": "LCD_MOSI",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "17",
+      "Function": "GPIO12",
+      "Net": "LCD_SCLK",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "18",
+      "Function": "GPIO13",
+      "Net": "LCD_DC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "19",
+      "Function": "GPIO14",
+      "Net": "I2S0_BCLK",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "20",
+      "Function": "VDD3P3_RTC",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "21",
+      "Function": "GPIO15",
+      "Net": "I2S0_LRCK",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "22",
+      "Function": "GPIO16",
+      "Net": "I2S0_DOUT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "23",
+      "Function": "GPIO17",
+      "Net": "I2S0_DIN",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "24",
+      "Function": "GPIO18",
+      "Net": "AUDIO_MCLK",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "25",
+      "Function": "GPIO19",
+      "Net": "ESP_USB_DM_RAW",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "26",
+      "Function": "GPIO20",
+      "Net": "ESP_USB_DP_RAW",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "27",
+      "Function": "GPIO21",
+      "Net": "MCU_MODEM_TX",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "28",
+      "Function": "SPICS1_PSRAM",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "29",
+      "Function": "VDD_SPI",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "30",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "31",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "32",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "33",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "34",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "35",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "36",
+      "Function": "GPIO48",
+      "Net": "LCD_RST",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "37",
+      "Function": "GPIO47",
+      "Net": "LCD_BL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "38",
+      "Function": "GPIO33",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "39",
+      "Function": "GPIO34",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "40",
+      "Function": "GPIO35",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "41",
+      "Function": "GPIO36",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "42",
+      "Function": "GPIO37",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "43",
+      "Function": "GPIO38",
+      "Net": "MCU_MODEM_RX",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "44",
+      "Function": "GPIO39",
+      "Net": "MCU_PCM_CLK",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "45",
+      "Function": "GPIO40",
+      "Net": "MCU_PCM_SYNC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "46",
+      "Function": "VDD3P3_CPU",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "47",
+      "Function": "GPIO41",
+      "Net": "MCU_PCM_DIN",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "48",
+      "Function": "GPIO42",
+      "Net": "MCU_PCM_DOUT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "49",
+      "Function": "GPIO43",
+      "Net": "UART0_TX",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "50",
+      "Function": "GPIO44",
+      "Net": "UART0_RX",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "51",
+      "Function": "GPIO45",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "52",
+      "Function": "GPIO46",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "53",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "54",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "55",
+      "Function": "VDDA",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "56",
+      "Function": "VDDA",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "U1",
+      "Pin": "57",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "esp32"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R201",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R201",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "ESP_EN",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C201",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "ESP_EN",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C201",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R202",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R202",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "ESP_BOOT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R203",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R203",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "I2C_SCL",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R204",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R204",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "I2C_SDA",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R205",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "ESP_USB_DP_RAW",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R205",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "ESP_USB_DP",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R206",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "ESP_USB_DM_RAW",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "R206",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "ESP_USB_DM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C202",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C202",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C203",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C203",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C204",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C204",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C205",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C205",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C206",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C206",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C207",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C207",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C208",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "02_ESP32",
+      "Reference": "C208",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "VBAT_MODEM",
+      "Net": "VBAT_MODEM",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_TX",
+      "Net": "MODEM_TX",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_RX",
+      "Net": "MODEM_RX",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_PWRKEY",
+      "Net": "MODEM_PWRKEY",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_RESET",
+      "Net": "MODEM_RESET",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_STATUS",
+      "Net": "MODEM_STATUS",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_USB_DP",
+      "Net": "MODEM_USB_DP",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_USB_DM",
+      "Net": "MODEM_USB_DM",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_PCM_CLK",
+      "Net": "MODEM_PCM_CLK",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_PCM_SYNC",
+      "Net": "MODEM_PCM_SYNC",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_PCM_DIN",
+      "Net": "MODEM_PCM_DIN",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "MODEM_PCM_DOUT",
+      "Net": "MODEM_PCM_DOUT",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "SIM_VCC",
+      "Net": "SIM_VCC",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "SIM_CLK",
+      "Net": "SIM_CLK",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "SIM_DATA",
+      "Net": "SIM_DATA",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "SIM_RST",
+      "Net": "SIM_RST",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "CELL_MAIN_RF",
+      "Net": "CELL_MAIN_RF",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "CELL_DIV_RF",
+      "Net": "CELL_DIV_RF",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U2",
+      "Pin": "TBD",
+      "Function": "GNSS_RF",
+      "Net": "GNSS_RF",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": "simcom"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "J2",
+      "Pin": "TBD",
+      "Function": "SIM_VCC",
+      "Net": "SIM_VCC",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "J2",
+      "Pin": "TBD",
+      "Function": "SIM_CLK",
+      "Net": "SIM_CLK",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "J2",
+      "Pin": "TBD",
+      "Function": "SIM_DATA",
+      "Net": "SIM_DATA",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "J2",
+      "Pin": "TBD",
+      "Function": "SIM_RST",
+      "Net": "SIM_RST",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "J2",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MCU_MODEM_TX",
+      "Net": "MCU_MODEM_TX",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MCU_MODEM_RX",
+      "Net": "MCU_MODEM_RX",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MCU_PCM_CLK",
+      "Net": "MCU_PCM_CLK",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MCU_PCM_SYNC",
+      "Net": "MCU_PCM_SYNC",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MCU_PCM_DIN",
+      "Net": "MCU_PCM_DIN",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MCU_PCM_DOUT",
+      "Net": "MCU_PCM_DOUT",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MODEM_TX",
+      "Net": "MODEM_TX",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MODEM_RX",
+      "Net": "MODEM_RX",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MODEM_PCM_CLK",
+      "Net": "MODEM_PCM_CLK",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MODEM_PCM_SYNC",
+      "Net": "MODEM_PCM_SYNC",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MODEM_PCM_DIN",
+      "Net": "MODEM_PCM_DIN",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "U12",
+      "Pin": "TBD",
+      "Function": "MODEM_PCM_DOUT",
+      "Net": "MODEM_PCM_DOUT",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "D2",
+      "Pin": "TBD",
+      "Function": "SIM_VCC",
+      "Net": "SIM_VCC",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "D2",
+      "Pin": "TBD",
+      "Function": "SIM_CLK",
+      "Net": "SIM_CLK",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "D2",
+      "Pin": "TBD",
+      "Function": "SIM_DATA",
+      "Net": "SIM_DATA",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "D2",
+      "Pin": "TBD",
+      "Function": "SIM_RST",
+      "Net": "SIM_RST",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "D2",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C301",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "CELL_MAIN_RF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C301",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "R301",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "CELL_MAIN_RF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "R301",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "RF_CELL_MAIN",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C302",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "RF_CELL_MAIN",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C302",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "ANT1",
+      "Pin": "TBD",
+      "Function": "RF_CELL_MAIN",
+      "Net": "RF_CELL_MAIN",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "ANT1",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C303",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "CELL_DIV_RF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C303",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "R302",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "CELL_DIV_RF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "R302",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "RF_CELL_DIV",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C304",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "RF_CELL_DIV",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C304",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "ANT2",
+      "Pin": "TBD",
+      "Function": "RF_CELL_DIV",
+      "Net": "RF_CELL_DIV",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "ANT2",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C305",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "GNSS_RF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C305",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "R303",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "GNSS_RF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "R303",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "RF_GNSS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C306",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "RF_GNSS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C306",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "ANT3",
+      "Pin": "TBD",
+      "Function": "RF_GNSS",
+      "Net": "RF_GNSS",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "ANT3",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C307",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "ESP_RF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C307",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "R304",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "ESP_RF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "R304",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "RF_WIFI",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C308",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "RF_WIFI",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C308",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "ANT4",
+      "Pin": "TBD",
+      "Function": "RF_WIFI",
+      "Net": "RF_WIFI",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "ANT4",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C321",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C321",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C322",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C322",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C323",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C323",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C324",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C324",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C325",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C325",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C326",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C326",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C327",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C327",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C328",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C328",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C329",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C329",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C330",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT_MODEM",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "03_MODEM_SIM_RF",
+      "Reference": "C330",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "1",
+      "Function": "SDO_SA0",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "2",
+      "Function": "ASDx",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "3",
+      "Function": "ASCx",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "4",
+      "Function": "INT1",
+      "Net": "IMU_INT1",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "5",
+      "Function": "VDDIO",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "6",
+      "Function": "GNDIO",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "7",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "8",
+      "Function": "VDD",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "9",
+      "Function": "INT2",
+      "Net": "IMU_INT2",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "10",
+      "Function": "OCSB",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "11",
+      "Function": "OSDO",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "12",
+      "Function": "CSB",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "13",
+      "Function": "SCx",
+      "Net": "I2C_SCL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U3",
+      "Pin": "14",
+      "Function": "SDx",
+      "Net": "I2C_SDA",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "bmi270"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U4",
+      "Pin": "1",
+      "Function": "CLKOUT",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "rtc"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U4",
+      "Pin": "2",
+      "Function": "INT_N",
+      "Net": "RTC_INT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "rtc"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U4",
+      "Pin": "3",
+      "Function": "SCL",
+      "Net": "I2C_SCL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "rtc"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U4",
+      "Pin": "4",
+      "Function": "SDA",
+      "Net": "I2C_SDA",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "rtc"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U4",
+      "Pin": "5",
+      "Function": "VSS",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "rtc"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U4",
+      "Pin": "6",
+      "Function": "VBACKUP",
+      "Net": "RTC_VBACKUP",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "rtc"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U4",
+      "Pin": "7",
+      "Function": "VDD",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "rtc"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "U4",
+      "Pin": "8",
+      "Function": "EVI",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "rtc"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "C401",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "C401",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "C402",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "C402",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "C403",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "C403",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "C404",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "C404",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "R401",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "R401",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "RTC_INT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "R402",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "RTC_VBACKUP",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "04_IMU_RTC",
+      "Reference": "R402",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "+3V3_SYS",
+      "Net": "+3V3_SYS",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "LCD_SCLK",
+      "Net": "LCD_SCLK",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "LCD_MOSI",
+      "Net": "LCD_MOSI",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "LCD_CS",
+      "Net": "LCD_CS",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "LCD_DC",
+      "Net": "LCD_DC",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "LCD_RST",
+      "Net": "LCD_RST",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "LCD_BL",
+      "Net": "LCD_BL",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "TP_SCL",
+      "Net": "TP_SCL",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "TP_SDA",
+      "Net": "TP_SDA",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "05_DISPLAY",
+      "Reference": "J3",
+      "Pin": "TBD",
+      "Function": "TP_INT",
+      "Net": "TP_INT",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "MIC1",
+      "Pin": "TBD",
+      "Function": "MIC_SUPPLY_TBD",
+      "Net": "MIC_SUPPLY_TBD",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "MIC1",
+      "Pin": "TBD",
+      "Function": "MIC1_P",
+      "Net": "MIC1_P",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "MIC1",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "J4",
+      "Pin": "TBD",
+      "Function": "SPK_P",
+      "Net": "SPK_P",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "J4",
+      "Pin": "TBD",
+      "Function": "SPK_N",
+      "Net": "SPK_N",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "1",
+      "Function": "CCLK",
+      "Net": "I2C_SCL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "2",
+      "Function": "MCLK",
+      "Net": "AUDIO_MCLK",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "3",
+      "Function": "PVDD",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "4",
+      "Function": "DVDD",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "5",
+      "Function": "DGND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "6",
+      "Function": "SCLK/DMIC_SCL",
+      "Net": "I2S0_BCLK",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "7",
+      "Function": "ASDOUT",
+      "Net": "I2S0_DIN",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "8",
+      "Function": "LRCK",
+      "Net": "I2S0_LRCK",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "9",
+      "Function": "DSDIN",
+      "Net": "I2S0_DOUT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "10",
+      "Function": "AGND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "11",
+      "Function": "AVDD",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "12",
+      "Function": "OUTP",
+      "Net": "CODEC_DAC_P",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "13",
+      "Function": "OUTN",
+      "Net": "CODEC_DAC_N",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "14",
+      "Function": "DACVREF",
+      "Net": "CODEC_DACVREF",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "15",
+      "Function": "ADCVREF",
+      "Net": "CODEC_ADCVREF",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "16",
+      "Function": "VMID",
+      "Net": "CODEC_VMID",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "17",
+      "Function": "MIC1N",
+      "Net": "CODEC_MIC_N",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "18",
+      "Function": "MIC1P/DMIC_SDA",
+      "Net": "CODEC_MIC_P",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "19",
+      "Function": "CDATA",
+      "Net": "I2C_SDA",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U9",
+      "Pin": "20",
+      "Function": "CE",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "es8311"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U10",
+      "Pin": "1",
+      "Function": "SHDN_N",
+      "Net": "AMP_SD",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "pam8302"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U10",
+      "Pin": "2",
+      "Function": "NC",
+      "Net": "NC",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "pam8302"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U10",
+      "Pin": "3",
+      "Function": "IN+",
+      "Net": "AMP_IN_P",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "pam8302"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U10",
+      "Pin": "4",
+      "Function": "IN-",
+      "Net": "AMP_IN_N",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "pam8302"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U10",
+      "Pin": "5",
+      "Function": "VO+",
+      "Net": "SPK_P",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "pam8302"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U10",
+      "Pin": "6",
+      "Function": "VDD",
+      "Net": "VBAT",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "pam8302"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U10",
+      "Pin": "7",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "pam8302"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "U10",
+      "Pin": "8",
+      "Function": "VO-",
+      "Net": "SPK_N",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "pam8302"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C601",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C601",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C602",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C602",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C603",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C603",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C604",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C604",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C605",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "CODEC_DACVREF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C605",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C606",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "CODEC_ADCVREF",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C606",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C607",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "CODEC_VMID",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C607",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C608",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "MIC1_P",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C608",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "CODEC_MIC_P",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C609",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "MIC1_N",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C609",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "CODEC_MIC_N",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C610",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "CODEC_DAC_P",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C610",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "AMP_IN_P",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C611",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "CODEC_DAC_N",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C611",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "AMP_IN_N",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C612",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C612",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C613",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "VBAT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C613",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C614",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "AMP_SD",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "C614",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "R601",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "VBAT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "R601",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "AMP_SD",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "1",
+      "Function": "REG",
+      "Net": "HAPTIC_REG",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "2",
+      "Function": "SCL",
+      "Net": "I2C_SCL",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "3",
+      "Function": "SDA",
+      "Net": "I2C_SDA",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "4",
+      "Function": "IN_TRIG",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "5",
+      "Function": "EN",
+      "Net": "HAPTIC_EN",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "6",
+      "Function": "VDD_NC",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "7",
+      "Function": "OUT_P",
+      "Net": "HAPTIC_P",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "8",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "9",
+      "Function": "OUT_N",
+      "Net": "HAPTIC_N",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "U11",
+      "Pin": "10",
+      "Function": "VDD",
+      "Net": "+3V3_SYS",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": "drv2605l"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "J6",
+      "Pin": "TBD",
+      "Function": "HAPTIC_P",
+      "Net": "HAPTIC_P",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "J6",
+      "Pin": "TBD",
+      "Function": "HAPTIC_N",
+      "Net": "HAPTIC_N",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C701",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "HAPTIC_REG",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C701",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C702",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C702",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C703",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C703",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R701",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R701",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "HAPTIC_EN",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "SW1",
+      "Pin": "1",
+      "Function": "SW",
+      "Net": "BTN_SOS_CONTACT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "SW1",
+      "Pin": "2",
+      "Function": "SW",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R711",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "BTN_SOS_CONTACT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R711",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "BTN_SOS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R712",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R712",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "BTN_SOS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C711",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "BTN_SOS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C711",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "SW2",
+      "Pin": "1",
+      "Function": "SW",
+      "Net": "BTN_AI_CONTACT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "SW2",
+      "Pin": "2",
+      "Function": "SW",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R713",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "BTN_AI_CONTACT",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R713",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "BTN_AI",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R714",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "+3V3_SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "R714",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "BTN_AI",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C712",
+      "Pin": "1",
+      "Function": "C",
+      "Net": "BTN_AI",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "07_HAPTIC_BUTTONS",
+      "Reference": "C712",
+      "Pin": "2",
+      "Function": "C",
+      "Net": "GND",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "J1",
+      "Pin": "1",
+      "Function": "5V",
+      "Net": "VBUS_5V",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": ""
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "J1",
+      "Pin": "2",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": ""
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "J1",
+      "Pin": "3",
+      "Function": "TX",
+      "Net": "POGO_UART_TX",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": ""
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "J1",
+      "Pin": "4",
+      "Function": "RX",
+      "Net": "POGO_UART_RX",
+      "Status": "PIN VERIFIED; draft circuit",
+      "Source": ""
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "R801",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "UART0_TX",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "R801",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "POGO_UART_TX",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "R802",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "POGO_UART_RX",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "R802",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "UART0_RX",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "D3",
+      "Pin": "TBD",
+      "Function": "POGO_UART_TX",
+      "Net": "POGO_UART_TX",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "D3",
+      "Pin": "TBD",
+      "Function": "POGO_UART_RX",
+      "Net": "POGO_UART_RX",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "D3",
+      "Pin": "TBD",
+      "Function": "GND",
+      "Net": "GND",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP1",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "VBUS_5V",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP2",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "VBAT",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP3",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "VBAT_MODEM",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP4",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "+3V3_SYS",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP5",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "+1V8",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP6",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "GND",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP7",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "UART0_TX",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP8",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "UART0_RX",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP9",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "I2C_SCL",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP10",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "I2C_SDA",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP11",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "MODEM_TX",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP12",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "MODEM_RX",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP13",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "MODEM_PWRKEY",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP14",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "ESP_USB_DP",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP15",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "ESP_USB_DM",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP16",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "MODEM_USB_DP",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP17",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "MODEM_USB_DM",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP18",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "ESP_EN",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP19",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "ESP_BOOT",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP20",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "CHG_STATUS",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "08_DEBUG_TEST",
+      "Reference": "TP21",
+      "Pin": "1",
+      "Function": "TP",
+      "Net": "PGOOD",
+      "Status": "project-defined test pad",
+      "Source": "design"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R109",
+      "Pin": "1",
+      "Function": "R",
+      "Net": "SYS",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "01_POWER",
+      "Reference": "R109",
+      "Pin": "2",
+      "Function": "R",
+      "Net": "DCDC_CTRL",
+      "Status": "logical terminal; footprint TBD",
+      "Source": "tps63070"
+    },
+    {
+      "Sheet": "06_AUDIO",
+      "Reference": "MIC1",
+      "Pin": "TBD",
+      "Function": "MIC1_N",
+      "Net": "MIC1_N",
+      "Status": "UNCONNECTED INTENT; not an IC pin",
+      "Source": ""
+    }
+  ],
+  "testpoints": [
+    [
+      "TP1",
+      "VBUS_5V"
+    ],
+    [
+      "TP2",
+      "VBAT"
+    ],
+    [
+      "TP3",
+      "VBAT_MODEM"
+    ],
+    [
+      "TP4",
+      "+3V3_SYS"
+    ],
+    [
+      "TP5",
+      "+1V8"
+    ],
+    [
+      "TP6",
+      "GND"
+    ],
+    [
+      "TP7",
+      "UART0_TX"
+    ],
+    [
+      "TP8",
+      "UART0_RX"
+    ],
+    [
+      "TP9",
+      "I2C_SCL"
+    ],
+    [
+      "TP10",
+      "I2C_SDA"
+    ],
+    [
+      "TP11",
+      "MODEM_TX"
+    ],
+    [
+      "TP12",
+      "MODEM_RX"
+    ],
+    [
+      "TP13",
+      "MODEM_PWRKEY"
+    ],
+    [
+      "TP14",
+      "ESP_USB_DP"
+    ],
+    [
+      "TP15",
+      "ESP_USB_DM"
+    ],
+    [
+      "TP16",
+      "MODEM_USB_DP"
+    ],
+    [
+      "TP17",
+      "MODEM_USB_DM"
+    ],
+    [
+      "TP18",
+      "ESP_EN"
+    ],
+    [
+      "TP19",
+      "ESP_BOOT"
+    ],
+    [
+      "TP20",
+      "CHG_STATUS"
+    ],
+    [
+      "TP21",
+      "PGOOD"
+    ]
+  ],
+  "testpoint_names": {
+    "TP1": "TP_5V",
+    "TP2": "TP_VBAT",
+    "TP3": "TP_VBAT_MODEM",
+    "TP4": "TP_3V3",
+    "TP5": "TP_1V8",
+    "TP6": "TP_GND",
+    "TP7": "TP_UART_TX",
+    "TP8": "TP_UART_RX",
+    "TP9": "TP_I2C_SCL",
+    "TP10": "TP_I2C_SDA",
+    "TP11": "TP_MODEM_TX",
+    "TP12": "TP_MODEM_RX",
+    "TP13": "TP_MODEM_PWRKEY",
+    "TP14": "TP_ESP_USB_DP",
+    "TP15": "TP_ESP_USB_DM",
+    "TP16": "TP_MODEM_USB_DP",
+    "TP17": "TP_MODEM_USB_DM",
+    "TP18": "TP_RESET",
+    "TP19": "TP_BOOT",
+    "TP20": "TP_CHG_STATUS",
+    "TP21": "TP_PGOOD"
+  }
+}

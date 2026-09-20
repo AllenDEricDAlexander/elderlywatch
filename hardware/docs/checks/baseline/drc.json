@@ -1,0 +1,548 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T15:39:43",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "aiot-watch.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "H1 的 NPTH 焊盘",
+                    "pos": {
+                        "x": -15.05,
+                        "y": -17.8
+                    },
+                    "uuid": "2f9dcb12-ace2-4167-9df6-91fd3e97789c"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "H2 的 NPTH 焊盘",
+                    "pos": {
+                        "x": 15.05,
+                        "y": -17.8
+                    },
+                    "uuid": "e8d4c2ec-75fa-4ddc-873a-c03e0a07ffd6"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "H3 的 NPTH 焊盘",
+                    "pos": {
+                        "x": -15.05,
+                        "y": 17.8
+                    },
+                    "uuid": "5208da64-3dbf-4df1-906b-c9c2a7bc244d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "H4 的 NPTH 焊盘",
+                    "pos": {
+                        "x": 15.05,
+                        "y": 17.8
+                    },
+                    "uuid": "4191741a-5a6c-49e3-abe3-45045713a9e6"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "在库 'project' 中找不到封装 'NPTH_1.4mm'",
+            "items": [
+                {
+                    "description": "封装 H1",
+                    "pos": {
+                        "x": -15.05,
+                        "y": -17.8
+                    },
+                    "uuid": "d192f540-8a22-5ac6-9e5d-d535a2881713"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "在库 'project' 中找不到封装 'NPTH_1.4mm'",
+            "items": [
+                {
+                    "description": "封装 H2",
+                    "pos": {
+                        "x": 15.05,
+                        "y": -17.8
+                    },
+                    "uuid": "c8ae4b1d-171d-5c35-80fd-64230859a5cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "在库 'project' 中找不到封装 'NPTH_1.4mm'",
+            "items": [
+                {
+                    "description": "封装 H3",
+                    "pos": {
+                        "x": -15.05,
+                        "y": 17.8
+                    },
+                    "uuid": "b0d9f115-390a-5395-a26c-1774c865eea0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "在库 'project' 中找不到封装 'NPTH_1.4mm'",
+            "items": [
+                {
+                    "description": "封装 H4",
+                    "pos": {
+                        "x": 15.05,
+                        "y": 17.8
+                    },
+                    "uuid": "c96dc15a-f67c-53bd-9a1f-8f26b4d8a7fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_5V",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 4.0
+                    },
+                    "uuid": "8d6ff2fb-67e9-5fa5-b934-3ea2af37b343"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_VBAT",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 4.0
+                    },
+                    "uuid": "3d7ee721-14cd-5bc5-adb9-b244f3414f79"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_VBAT_MODEM",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 4.0
+                    },
+                    "uuid": "cb55ca10-563c-5420-a407-71d359ea6e0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_3V3",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 5.75
+                    },
+                    "uuid": "73e64d65-e62b-5bc4-984d-a6d4e5132c66"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_1V8",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 5.75
+                    },
+                    "uuid": "91408364-a6d0-5f21-b5b3-949e0e1bec36"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_GND",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 5.75
+                    },
+                    "uuid": "000ea013-cce8-5686-9699-af4f81520a67"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_UART_TX",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 7.5
+                    },
+                    "uuid": "15fe2ee0-e064-5adf-b53d-6eb34411eff9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_UART_RX",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 7.5
+                    },
+                    "uuid": "dc6f27b8-d677-543d-a330-192c9e4b8301"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_I2C_SCL",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 7.5
+                    },
+                    "uuid": "b41c3d77-2ec8-50f1-a510-f28ef27815e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_I2C_SDA",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 9.25
+                    },
+                    "uuid": "72a48966-388f-5528-a4ac-edbc8f82cff0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_TX",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 9.25
+                    },
+                    "uuid": "ffe77d32-dd5f-5dba-a84a-ec95f5c817ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_RX",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 9.25
+                    },
+                    "uuid": "9fa2ffb4-8e01-52bb-b283-153b13d54e02"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_PWRKEY",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 11.0
+                    },
+                    "uuid": "cf619d0b-581c-5ea0-910f-93091d109e51"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_ESP_USB_DP",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 11.0
+                    },
+                    "uuid": "0a82c453-fedf-51fe-9335-ad70240ddef6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_ESP_USB_DM",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 11.0
+                    },
+                    "uuid": "58f1a850-5450-5962-859b-8864663ebc4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_USB_DP",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 12.75
+                    },
+                    "uuid": "30577d5f-0851-5120-a0f5-a14cce0f0d9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_USB_DM",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 12.75
+                    },
+                    "uuid": "9ce758e5-eb69-5a26-b8ed-c2d6fce5cf58"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_RESET",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 12.75
+                    },
+                    "uuid": "34b3f59b-b6fe-5607-aea5-3d8152475b94"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_BOOT",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 14.5
+                    },
+                    "uuid": "fad239a4-0957-5460-b64d-584977c16c26"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_CHG_STATUS",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 14.5
+                    },
+                    "uuid": "430e31c9-aa39-5e73-9538-b2a66db7740a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_PGOOD",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 14.5
+                    },
+                    "uuid": "c7f26de8-8d5b-501f-b9fa-b74c9c2d8047"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.6500 mm)",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'AIOT-SENIOR-WATCH EVT-V1'",
+                    "pos": {
+                        "x": 0.0,
+                        "y": -19.0
+                    },
+                    "uuid": "6761a7a2-bb79-5aeb-8349-cd05d0fb5e79"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)",
+            "items": [
+                {
+                    "description": "H1 的参考字段",
+                    "pos": {
+                        "x": -15.05,
+                        "y": -19.3
+                    },
+                    "uuid": "b7d021c3-a27e-4604-93d4-f2435f4d1221"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)",
+            "items": [
+                {
+                    "description": "H2 的参考字段",
+                    "pos": {
+                        "x": 15.05,
+                        "y": -19.3
+                    },
+                    "uuid": "b6650cea-636e-4c4a-9c83-839c7bdf5d97"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)",
+            "items": [
+                {
+                    "description": "H3 的参考字段",
+                    "pos": {
+                        "x": -15.05,
+                        "y": 16.3
+                    },
+                    "uuid": "d37758f2-cc1d-4739-9cbd-079e8b6d4605"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)",
+            "items": [
+                {
+                    "description": "H4 的参考字段",
+                    "pos": {
+                        "x": 15.05,
+                        "y": 16.3
+                    },
+                    "uuid": "f0ae81e3-1f16-44d7-93d4-83ad71e9b5d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}

@@ -1,0 +1,2930 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T15:39:43",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53",
+            "violations": [
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'TP_SCL'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.8763
+                            },
+                            "uuid": "75c9fa16-62c3-50d1-98a3-aaca1d406a4e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'TP_SDA'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.9144
+                            },
+                            "uuid": "2dc3e72f-2fbf-5d37-b02a-a2de92da4c06"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'TP_INT'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.9525
+                            },
+                            "uuid": "78e63049-3940-5ca6-aa5c-9326721b2597"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_RESET'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.6985
+                            },
+                            "uuid": "db47a799-3507-54d8-b5de-f2577bd10e48"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_STATUS'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.7366
+                            },
+                            "uuid": "fa5c7d2f-cea4-5085-b51e-8fa1e8cfcb40"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PCM_CLK'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.8636
+                            },
+                            "uuid": "dda76a06-59d9-5b48-a5c5-4cfd0c4023f7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PCM_SYNC'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.9017
+                            },
+                            "uuid": "6b2d3ad8-7931-5eb2-aa15-810dd4b44a37"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PCM_DIN'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.9398
+                            },
+                            "uuid": "6544361a-336f-5f5d-8926-121fff9cb0d8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PCM_DOUT'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.9779
+                            },
+                            "uuid": "3059e600-15a1-50b0-8ad7-2372dd5f05bc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_VCC'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 1.016
+                            },
+                            "uuid": "fe41e330-0603-5257-a23f-59d0e2ae5e8b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_CLK'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 1.0541
+                            },
+                            "uuid": "cecc70c5-da76-5568-bfdb-36d1ca53c6f6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_DATA'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 1.1049
+                            },
+                            "uuid": "5ce16e96-b0fa-5a81-a6f4-7be8c7c35905"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_RST'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 1.143
+                            },
+                            "uuid": "33548be8-6fc8-567c-bf61-0a125dc0b980"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_VCC'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.4953
+                            },
+                            "uuid": "c54aa417-a849-5703-8b2b-50a8c9415cc1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_CLK'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.5461
+                            },
+                            "uuid": "3263f7a8-e5e7-5e6e-a7dd-2be80c26f2b5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_DATA'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.5842
+                            },
+                            "uuid": "309c0cd5-81ae-557d-80ee-d89074c130bd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_RST'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.6223
+                            },
+                            "uuid": "270cedb3-ae13-58de-8956-678f1865cc93"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_VCC'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 1.1557
+                            },
+                            "uuid": "58e69f91-693f-5527-8f01-81efac0863d7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_CLK'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 1.1938
+                            },
+                            "uuid": "d0cd313e-6860-5d14-8357-abdfaade165f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_DATA'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 1.2319
+                            },
+                            "uuid": "665299a7-a27c-5ee9-8c78-e76ac4e8f084"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SIM_RST'",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 1.27
+                            },
+                            "uuid": "37951869-c9a6-5509-8c21-8dbcaa79c3c4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PCM_CLK'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.8255
+                            },
+                            "uuid": "c6566a88-f169-50a3-95bb-ef351c02a7b0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PCM_SYNC'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.8636
+                            },
+                            "uuid": "1f84be82-205a-5dc7-b10d-665fb84b3074"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PCM_DIN'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.9017
+                            },
+                            "uuid": "54a23bf3-d408-52d7-981f-9fd1e1fe059b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PCM_DOUT'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.9398
+                            },
+                            "uuid": "a1182e41-5436-5eba-8ad9-75f0dc45dfc9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MIC_ANALOG'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.9144
+                            },
+                            "uuid": "606e4e41-1fa3-5ceb-b46d-cbda36a640fd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'CODEC_DAC'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.9525
+                            },
+                            "uuid": "71af90cf-4222-5ebd-a011-bfcdc30ea7b2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MIC_SUPPLY_TBD'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.5461
+                            },
+                            "uuid": "0b845d92-c2b4-59c4-9496-e1554d56034b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'MIC_ANALOG'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.5842
+                            },
+                            "uuid": "091f3795-2c97-52a2-99f0-181f74d43925"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'AMP_SUPPLY_TBD'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 1.3462
+                            },
+                            "uuid": "0fba72f6-cf2e-519d-915d-ba06572b10e5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'AMP_ENABLE_TBD'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 1.4351
+                            },
+                            "uuid": "96901a3e-cdd7-5584-8251-f5338e1a79c5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'CODEC_DAC'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 1.4732
+                            },
+                            "uuid": "eeb005f0-0320-5c2b-9c2c-f4be51533a84"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SPK_P'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 1.5113
+                            },
+                            "uuid": "a830f5c5-ca48-5f9e-afdb-5929e3fa7a87"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SPK_N'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 1.5494
+                            },
+                            "uuid": "2b38d7ae-369b-502e-88d8-378913989d69"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SPK_P'",
+                            "pos": {
+                                "x": 4.3688,
+                                "y": 0.5461
+                            },
+                            "uuid": "6d804c4a-d9fb-5806-816b-6edc703efc4b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "全局标签 'SPK_N'",
+                            "pos": {
+                                "x": 4.3688,
+                                "y": 0.5842
+                            },
+                            "uuid": "35bf7254-6db6-544e-991f-476953f97a02"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'BAT_NTC'",
+                            "pos": {
+                                "x": 0.2413,
+                                "y": 0.4318
+                            },
+                            "uuid": "49bea31e-78c9-5e15-b2c8-1ec3f7533816"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.2319
+                            },
+                            "uuid": "4061b2e7-fd29-5ead-99b8-e7ab4ae60c30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.27
+                            },
+                            "uuid": "d345b70b-039b-575e-89d1-109e9dc26122"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.3081
+                            },
+                            "uuid": "286092fe-a405-5155-a071-29c6f5fee08f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'BAT_NTC'",
+                            "pos": {
+                                "x": 2.4638,
+                                "y": 1.3081
+                            },
+                            "uuid": "110d2c59-f070-5f39-bd50-938f79bf7b63"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 4.3561,
+                                "y": 1.2319
+                            },
+                            "uuid": "0df74c33-611b-53a0-81d7-152964999d63"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 4.3561,
+                                "y": 1.27
+                            },
+                            "uuid": "1ba2e3e9-6b8c-54ff-81ac-d32c9c0405f8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'HAPTIC_P'",
+                            "pos": {
+                                "x": 1.4351,
+                                "y": 0.5207
+                            },
+                            "uuid": "905ef4c3-fbd3-5e0a-b5a2-3a6c2b100ad1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'HAPTIC_N'",
+                            "pos": {
+                                "x": 1.4351,
+                                "y": 0.5969
+                            },
+                            "uuid": "5813b6ac-7434-5152-8da9-a2032a900242"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 2.5527,
+                                "y": 0.5461
+                            },
+                            "uuid": "9964a5be-bbe9-536d-b721-f49e57d8eb39"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 2.5527,
+                                "y": 0.5842
+                            },
+                            "uuid": "78ab05c6-e6ab-5e08-aacf-98edbc4432a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'HAPTIC_P'",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 0.5461
+                            },
+                            "uuid": "f2e9a70e-09be-54db-a316-dec02393f0d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'HAPTIC_N'",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 0.5842
+                            },
+                            "uuid": "bcab668c-b79e-5f54-bbe1-ca2a764b79ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_CS'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.016
+                            },
+                            "uuid": "a358b7d1-f590-52c3-856e-b6c08c509aea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_MOSI'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.0541
+                            },
+                            "uuid": "02abeb6e-9e21-5139-a55e-9fe9afe078b1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_SCLK'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.0922
+                            },
+                            "uuid": "6e970350-1c5c-5c30-b5ba-d87923382bbd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_DC'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.1303
+                            },
+                            "uuid": "7b491aa3-ddab-58e0-997d-3f34e9f2e5a3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'I2S0_BCLK'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.1684
+                            },
+                            "uuid": "323ea471-3031-51a5-b363-1972f555b3a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'I2S0_LRCK'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.2446
+                            },
+                            "uuid": "822c7528-957d-509a-ad49-1ff6b18a39b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'I2S0_DOUT'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.2827
+                            },
+                            "uuid": "cdd66fa0-2e30-5cdb-a3dc-4aa3401da749"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'I2S0_DIN'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.3208
+                            },
+                            "uuid": "f1a9c796-bd98-571a-81d2-797f3973d550"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'AUDIO_MCLK'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.3589
+                            },
+                            "uuid": "773043ef-2138-5633-a311-f1e19f4a618b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_MODEM_TX'",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.4732
+                            },
+                            "uuid": "bc1354d0-bd08-59f6-a825-63ca84daa05f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_RST'",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.7112
+                            },
+                            "uuid": "0d3d4b57-c4ce-54fe-b090-4a1667874223"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_BL'",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.7493
+                            },
+                            "uuid": "98e0ea05-ed5c-5a84-9071-844a96c205ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_MODEM_RX'",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.9779
+                            },
+                            "uuid": "ceb8573c-bac9-5430-a6dd-dcf6a89942f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_PCM_CLK'",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.016
+                            },
+                            "uuid": "0b794666-90cd-5516-bcc8-2aa7f4e9d4c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_PCM_SYNC'",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.0541
+                            },
+                            "uuid": "3e00728f-079e-5a74-80b5-b92d3dfa36a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_PCM_DIN'",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.1303
+                            },
+                            "uuid": "33f08889-74b3-5279-9d03-655d686019ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_PCM_DOUT'",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.1684
+                            },
+                            "uuid": "fc48597d-f300-56dc-a3f5-f84a66a480e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.5461
+                            },
+                            "uuid": "538c3838-77d9-506f-a3b2-00297f54e1b5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.5842
+                            },
+                            "uuid": "2c17eafc-d103-5307-9b23-9ccf54e110e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.635
+                            },
+                            "uuid": "f36ecb9e-51de-5a6c-a8bf-01c1818f7bbe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.6731
+                            },
+                            "uuid": "50c05bc9-8ebf-520c-ba19-305927fd1d37"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.7112
+                            },
+                            "uuid": "d43afaff-eec5-58af-aa04-1e5507c78b5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.7493
+                            },
+                            "uuid": "93524d22-9623-5845-9a5b-307baefbd75a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.7874
+                            },
+                            "uuid": "89429f39-cce4-53ab-b6ce-5614ee31f1e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.8255
+                            },
+                            "uuid": "228a6cdf-7291-5bb1-abf5-29621618bf17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.8763
+                            },
+                            "uuid": "4b2ed95c-902d-5688-81a5-10d72e1f4f7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.9144
+                            },
+                            "uuid": "52d04df1-dad9-5699-80aa-03aed6b0e546"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.9525
+                            },
+                            "uuid": "ef67f827-7f93-5317-80b2-3a1537e57fb8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_SCLK'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.635
+                            },
+                            "uuid": "0d9b6b31-c220-55e0-9ee2-606a22890b2f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_MOSI'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.6731
+                            },
+                            "uuid": "8fd2f247-f20f-5b7f-b8c4-aec1cf540da2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_CS'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.7112
+                            },
+                            "uuid": "49e7d2ef-6355-58a7-af16-5e9184069e64"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_DC'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.7493
+                            },
+                            "uuid": "247ad213-0563-5ed9-add3-dfdf758f209d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_RST'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.7874
+                            },
+                            "uuid": "a8e680b2-e30c-5e36-ae2f-a63214940b1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'LCD_BL'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.8255
+                            },
+                            "uuid": "d06a5fcf-823b-5762-b2f5-b879ea85c992"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PWRKEY'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 2.1971
+                            },
+                            "uuid": "cea21f93-1716-556c-abf5-8156c7daa4f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_USB_DP'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 2.4511
+                            },
+                            "uuid": "b4001743-0675-524e-ae84-ab748453d52c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_TX'",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 1.9558
+                            },
+                            "uuid": "e6ed69b3-75ee-54aa-ae6f-3a41139e6452"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_USB_DM'",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 2.4511
+                            },
+                            "uuid": "97813e72-b8ec-5770-8339-a2ce1243a5e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_RX'",
+                            "pos": {
+                                "x": 3.9624,
+                                "y": 1.9558
+                            },
+                            "uuid": "8dc69d9d-cd8a-52d7-971f-78d9dfef72ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 4.2545,
+                                "y": 0.5461
+                            },
+                            "uuid": "8010a3e4-160b-5b7c-8305-2f2d20a963ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 4.2545,
+                                "y": 0.5842
+                            },
+                            "uuid": "c0f2a093-6707-54ca-9e46-472685b467c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 4.2545,
+                                "y": 0.635
+                            },
+                            "uuid": "b1c6f956-542b-5067-b4e9-7102783bfe13"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.4953
+                            },
+                            "uuid": "1a08f1af-fe8b-541d-80fe-6bee07532f9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.5461
+                            },
+                            "uuid": "5033ab7f-6d7d-5b2b-8afb-b125172f8352"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.5842
+                            },
+                            "uuid": "6a53e253-9b47-50a2-b512-fd0ebb2dc68a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.6223
+                            },
+                            "uuid": "9d311807-b34b-54f1-9df3-58d86765cfee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.6604
+                            },
+                            "uuid": "e74f75c3-e2df-5c77-88e7-4097e01c62fe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.6985
+                            },
+                            "uuid": "6889b87c-19f3-555d-91f4-e6a079bd6e5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.7366
+                            },
+                            "uuid": "28a6bfbc-eb89-59d5-906f-c035470e426e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.7747
+                            },
+                            "uuid": "44804d18-204a-5980-b2d1-d87933a148ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.8255
+                            },
+                            "uuid": "5d33a5cc-dd3e-557f-aa46-13c32e15fb53"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.8636
+                            },
+                            "uuid": "dfcdbd9c-4881-5c6c-9877-347e9a94eff4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.9017
+                            },
+                            "uuid": "f653cbbc-7867-5ec8-8bf3-6a5e2b83c345"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.9398
+                            },
+                            "uuid": "0d2141f9-30f9-5bc4-9526-afbe0b147eae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.9779
+                            },
+                            "uuid": "31c8b427-462a-5988-81c1-d36d78af5e00"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 1.016
+                            },
+                            "uuid": "2e2635c2-8267-5c16-8cec-25a2ccb21e04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 1.0541
+                            },
+                            "uuid": "8f79f909-91a3-5025-8119-437ad6bf7daa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 1.1049
+                            },
+                            "uuid": "4466836a-7256-5de7-8c76-8aa2700a578b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 1.143
+                            },
+                            "uuid": "3677507a-9e57-5bb7-866f-a890404e4bcb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 1.1811
+                            },
+                            "uuid": "74048b66-66d7-5e24-b03a-36367e8dac9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 1.2192
+                            },
+                            "uuid": "00e0470f-208b-5a6c-8f36-4811f80e40ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 1.2573
+                            },
+                            "uuid": "36687411-c155-5e59-a064-e637dc59743b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_TX'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.5842
+                            },
+                            "uuid": "220ac13d-7f13-5615-b340-08b7f621360a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_RX'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.6223
+                            },
+                            "uuid": "b241af5b-0717-514d-88ee-8b4f809c1ae4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_PWRKEY'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.6604
+                            },
+                            "uuid": "0367c87b-5305-55ca-b68d-6f18efb33162"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_USB_DP'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.7747
+                            },
+                            "uuid": "6aff7e4b-7543-5834-b595-e2bede3eddb9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_USB_DM'",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.8255
+                            },
+                            "uuid": "61a99e02-03cc-5d0c-8301-8fad56acaa57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.4953
+                            },
+                            "uuid": "bb3110e5-ec50-5846-b1c1-15f717133eb4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.5461
+                            },
+                            "uuid": "9931066b-f804-5f42-ab5c-1fe376871904"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.5842
+                            },
+                            "uuid": "90ad52b8-fc8a-5d30-a987-8cc9dd61f097"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.6223
+                            },
+                            "uuid": "b01309e5-8105-5d15-b371-0cce2d1488db"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.6604
+                            },
+                            "uuid": "c22f0983-b9f0-5c98-a736-a4f0c6523089"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 1.1557
+                            },
+                            "uuid": "38de2560-b2b4-5872-a11e-23de0b83ffc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 1.1938
+                            },
+                            "uuid": "548e09cd-ddb1-5e58-bc37-92382d8d8984"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 1.2319
+                            },
+                            "uuid": "14a765ee-8bd3-568d-8522-4a8c041348dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 1.27
+                            },
+                            "uuid": "ac6ac8c8-b07a-56c5-ba29-8a78b9e35d30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 1.3081
+                            },
+                            "uuid": "e9e99433-836b-545f-ade3-47f4a30333b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.4953
+                            },
+                            "uuid": "4dd69aa1-a101-510f-9f51-1c33d0e3310a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.5461
+                            },
+                            "uuid": "0340e975-5548-5e22-80b3-017aeab484a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.5842
+                            },
+                            "uuid": "bc24a884-1537-5489-8627-0790c77b7de3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.6223
+                            },
+                            "uuid": "f168cc61-fa64-5673-9ca9-869321ca5c9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.6604
+                            },
+                            "uuid": "d695fc76-b2b0-502b-b425-21eff9f24ec3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.6985
+                            },
+                            "uuid": "1fb86e2e-c4d0-5eb7-8d68-223cf4bea08d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.7366
+                            },
+                            "uuid": "23a78403-c9a6-50c8-b072-63b027d91e7b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.7747
+                            },
+                            "uuid": "1e9ce370-9aef-5600-9c8f-2f12ccc89094"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.8255
+                            },
+                            "uuid": "5b56871f-33a9-568d-bf75-ca430abc6c94"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.8636
+                            },
+                            "uuid": "f5bd2f0a-28ae-560b-b141-06f860073c1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.9017
+                            },
+                            "uuid": "80c6abfa-1a2a-5c18-94d2-e919f0a7ad83"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 0.9398
+                            },
+                            "uuid": "9e83a9ed-4077-563e-9463-02537ec4f50e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_MODEM_TX'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.4953
+                            },
+                            "uuid": "b1916387-b72d-5389-9996-39392117fb77"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_MODEM_RX'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.5461
+                            },
+                            "uuid": "d8ebf2fc-0141-5fb1-a7d3-7b4114995bb4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_PCM_CLK'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.5842
+                            },
+                            "uuid": "460cc763-4faf-54f7-bf44-d58c76afe477"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_PCM_SYNC'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.6223
+                            },
+                            "uuid": "5dc53eca-dbe0-584e-a42b-17d94bbe5984"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_PCM_DIN'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.6604
+                            },
+                            "uuid": "95865710-2774-5ba6-b0e3-04c9f05989fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MCU_PCM_DOUT'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.6985
+                            },
+                            "uuid": "c908f78c-58e4-5e2d-8b7c-f8221628e772"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_TX'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.7366
+                            },
+                            "uuid": "db8da1f8-071a-5eef-b418-1869a62a4eeb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'MODEM_RX'",
+                            "pos": {
+                                "x": 4.0259,
+                                "y": 0.7747
+                            },
+                            "uuid": "dbcfc815-56ea-5906-8607-8e6710404d8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 1.905
+                            },
+                            "uuid": "16f286cf-af4f-5905-a035-29fa0d0d785d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 1.9431
+                            },
+                            "uuid": "55098f52-ed33-5223-be00-69faa6f3b9b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 2.3368
+                            },
+                            "uuid": "cae98ca7-d6c3-5bb2-8b07-31b49f40c318"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 2.3749
+                            },
+                            "uuid": "bb5d03bf-5207-5c90-97cf-d79e5ad8f843"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 2.7813
+                            },
+                            "uuid": "4e260684-b17b-5aa7-8ff7-8383119f9137"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 2.8194
+                            },
+                            "uuid": "321d90cd-3e09-5ec1-a884-4349ac4ec646"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 3.2258
+                            },
+                            "uuid": "565b7ea8-ee35-5f18-ba9b-cd284ce49e38"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 3.2639
+                            },
+                            "uuid": "75af44c9-739b-56a3-ac69-8c7322ccc250"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.5461
+                            },
+                            "uuid": "47f20015-09e3-5f34-b715-d6aeb6634db8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.5842
+                            },
+                            "uuid": "354facc9-e9ee-5458-8fe4-9ad6141bd426"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.635
+                            },
+                            "uuid": "ed422347-7d08-52c9-9ac0-ed49a039d962"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.6731
+                            },
+                            "uuid": "b2039e95-09ba-5c1e-a559-a21fe2ccd31d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.7112
+                            },
+                            "uuid": "d1be4012-17c2-5058-bd1f-cb5631b4bed1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.7493
+                            },
+                            "uuid": "7dde7a53-64f6-597e-9ac6-d0e05e43a81c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.7874
+                            },
+                            "uuid": "c43abad5-d11c-5dcb-b7b1-55c0a19a9dd0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.8255
+                            },
+                            "uuid": "500b2c4e-17df-5613-abf0-2b90a0bc6829"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.8763
+                            },
+                            "uuid": "4f139e28-538c-509e-84c2-6708cff36e82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.9144
+                            },
+                            "uuid": "79457509-e69b-5b6a-93e5-4d64b4323939"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.9525
+                            },
+                            "uuid": "4bc3394e-38cc-564b-91e9-97aa2c14fb57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'I2S0_BCLK'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.7112
+                            },
+                            "uuid": "58096bd7-92d3-5bc5-b3e8-154d46c39212"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'I2S0_LRCK'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.7493
+                            },
+                            "uuid": "bdff6962-cae2-523a-b5c4-cbfb3cf4c3ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'I2S0_DIN'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.7874
+                            },
+                            "uuid": "57861fa2-a377-5a63-bda9-2185c0c619a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'I2S0_DOUT'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.8255
+                            },
+                            "uuid": "01b7d140-ec59-509a-a68e-3d249af005e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'AUDIO_MCLK'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.8763
+                            },
+                            "uuid": "94b42d91-5a2e-5e03-9eb9-5587461f0363"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 0.5461
+                            },
+                            "uuid": "0d21e52f-dcc1-5677-9902-d6084438a306"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 0.5842
+                            },
+                            "uuid": "fe72ab63-bb53-591f-b801-be06f95ee4f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 0.635
+                            },
+                            "uuid": "0d681c67-1a57-5fe3-be68-182124c54941"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.3462
+                            },
+                            "uuid": "a2d9354e-79da-53c1-a44b-2bbd93d34cee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.3843
+                            },
+                            "uuid": "ae1aef0b-3098-5a44-ba56-69d1712eb206"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.4351
+                            },
+                            "uuid": "bfe5b799-3d56-5912-add8-92d9217dce61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.4732
+                            },
+                            "uuid": "c5a5aba5-425f-5fca-b929-c3c3e51b6454"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.5113
+                            },
+                            "uuid": "016e1b47-a26a-5531-a4d7-df856aa9d6f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0762 mm",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.5494
+                            },
+                            "uuid": "175f6531-a947-5e07-917f-7301da4fcbe0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 4.3053,
+                                "y": 0.5461
+                            },
+                            "uuid": "3c354c83-4cb7-518c-bded-dacebc7fea6c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0635 mm",
+                            "pos": {
+                                "x": 4.3053,
+                                "y": 0.5842
+                            },
+                            "uuid": "d5a9bc9a-7a11-53ec-ab1e-bb0bbe8fda30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                }
+            ]
+        },
+        {
+            "path": "/00_TOP/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39",
+            "violations": []
+        },
+        {
+            "path": "/00_TOP/01_POWER/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39/3892657a-dc5a-587f-8df9-53b1a29030e5",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 引脚 1 [TS, 输入, 图线]",
+                            "pos": {
+                                "x": 0.6731,
+                                "y": 0.4318
+                            },
+                            "uuid": "bca425ea-f297-54ef-bbe3-f0b6d3c2d361"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "类型为 电源输出 和 电源输出 的引脚已连接",
+                    "items": [
+                        {
+                            "description": "Symbol U6 引脚 2 [BAT, 电源输出, 图线]",
+                            "pos": {
+                                "x": 0.6731,
+                                "y": 0.4699
+                            },
+                            "uuid": "311e4fa2-2f86-586e-b07d-ea355fedfdb9"
+                        },
+                        {
+                            "description": "Symbol U6 引脚 3 [BAT, 电源输出, 图线]",
+                            "pos": {
+                                "x": 0.6731,
+                                "y": 0.508
+                            },
+                            "uuid": "9f400084-133e-5c52-961f-05a2d553adbf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "类型为 电源输出 和 电源输出 的引脚已连接",
+                    "items": [
+                        {
+                            "description": "Symbol U6 引脚 10 [OUT, 电源输出, 图线]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.4318
+                            },
+                            "uuid": "bc5ae652-a782-5459-bcb7-51f97727838e"
+                        },
+                        {
+                            "description": "Symbol U6 引脚 11 [OUT, 电源输出, 图线]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.4699
+                            },
+                            "uuid": "7cc0ccfb-6777-5e51-a7ed-b69159780cd4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 引脚 13 [IN, 电源输入, 图线]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.5461
+                            },
+                            "uuid": "4f3b65e0-87ce-598a-8be3-9d36480704ac"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "类型为 电源输出 和 电源输出 的引脚已连接",
+                    "items": [
+                        {
+                            "description": "Symbol U7 引脚 7 [VOUT, 电源输出, 图线]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 0.6604
+                            },
+                            "uuid": "4266f1e7-67bc-59ca-a51b-1be67e2db297"
+                        },
+                        {
+                            "description": "Symbol U7 引脚 8 [VOUT, 电源输出, 图线]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 0.6985
+                            },
+                            "uuid": "5ffe142b-a5d8-506b-b3d0-d0574705b1f8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/00_TOP/02_ESP32/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39/04e10a14-903a-54a9-9b78-82aa93e7976d",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 引脚 57 [GND, 电源输入, 图线]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 1.5113
+                            },
+                            "uuid": "c7ad3907-a559-5715-896f-bb1d333cf25b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/00_TOP/03_MODEM_SIM_RF/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39/e8eb715b-befc-5256-b0d9-2eed9120f902",
+            "violations": []
+        },
+        {
+            "path": "/00_TOP/04_IMU_RTC/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39/98aa92dd-77ab-5d14-b6e6-2a920cb9e8f9",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 引脚 6 [VBACKUP, 电源输入, 图线]",
+                            "pos": {
+                                "x": 3.7338,
+                                "y": 0.5207
+                            },
+                            "uuid": "7b981273-7ed2-5e45-86b5-3ccfc4be9775"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/00_TOP/05_DISPLAY/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39/210b02f0-f6c2-57ee-b947-e96f167fd7cd",
+            "violations": []
+        },
+        {
+            "path": "/00_TOP/06_AUDIO/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39/072e1252-db8a-51c1-9592-de50dea932ce",
+            "violations": []
+        },
+        {
+            "path": "/00_TOP/07_HAPTIC_BUTTONS/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39/3479753a-bf70-5e3b-b997-2dca57aad833",
+            "violations": []
+        },
+        {
+            "path": "/00_TOP/08_DEBUG_TEST/",
+            "uuid_path": "/cfaf2e1b-398b-55f8-be91-353789ea1b53/e9382dd4-19a4-54ec-8dcf-a4c010b13e39/b2f14357-100b-5dba-ae58-1329a8b85335",
+            "violations": []
+        }
+    ],
+    "source": "aiot-watch.kicad_sch"
+}

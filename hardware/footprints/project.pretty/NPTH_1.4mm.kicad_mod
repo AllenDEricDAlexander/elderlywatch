@@ -1,0 +1,7 @@
+(footprint "NPTH_1.4mm" (version 20240108) (generator "aiot_watch_review") (layer "F.Cu")
+ (descr "User-specified 1.4mm NPTH; screw head envelope TBD")
+ (attr board_only exclude_from_pos_files exclude_from_bom)
+ (fp_text reference "REF**" (at 0 -1.5) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+ (fp_text value "NPTH 1.4" (at 0 1.5) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness 0.12))))
+ (fp_circle (center 0 0) (end 0.7 0) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+ (pad "" np_thru_hole circle (at 0 0) (size 1.4 1.4) (drill 1.4) (layers "*.Cu" "*.Mask")))

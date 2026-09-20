@@ -1,0 +1,16 @@
+{
+  "status": "PASS_STATIC_ONLY",
+  "sexpr_files": 16,
+  "bom_rows": 147,
+  "pin_and_intent_rows": 453,
+  "pin_bearing_symbols": 128,
+  "connected_or_nc_symbol_pins": 378,
+  "copper_layers": 6,
+  "testpads": 21,
+  "npth_holes": 4,
+  "kicad_cli": "/opt/homebrew/bin/kicad-cli",
+  "native_checks": "See NATIVE_CHECK.json; not executed by this script",
+  "manufacturing_release": "BLOCKED",
+  "limitations": "S-expression structure and selected invariants only; not KiCad parsing, ERC, DRC, full connectivity, footprint or electronics verification.",
+  "kicad_version": "10.0.6"
+}

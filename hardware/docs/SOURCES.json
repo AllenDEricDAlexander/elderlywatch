@@ -1,0 +1,92 @@
+[
+  {
+    "id": "esp32",
+    "url": "https://documentation.espressif.com/esp32-s3-pico-1_datasheet_en.pdf",
+    "revision_or_scope": "v1.2; pin table pp11-13; reference p29; package p30",
+    "sha256": "44daca9121111a9c7df437e18c3c153258a20e68fe57fcd3bd9be593ad162979",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "bq24074",
+    "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+    "revision_or_scope": "SLUS810N; pp7-9, electrical table, application; RGT land pattern not released",
+    "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "tps63070",
+    "url": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+    "revision_or_scope": "SLVSC58B; p3; pp16-19; RNM land pattern not released",
+    "sha256": "a88ef66f3493156ff6e7da0849de0e0e1068647f2553d08c1844d4a90c5c65ef",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "bmi270",
+    "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf",
+    "revision_or_scope": "BST-BMI270-DS000-08; pp134-137; package section",
+    "sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "rtc",
+    "url": "https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3028-C7_App-Manual.pdf",
+    "revision_or_scope": "Rev1.4; p9; application section; p107",
+    "sha256": "146f8af2b28c162a84b1d9395a51a363ac239f5ef8b9162122f6ca25773160b9",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "max17048",
+    "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+    "revision_or_scope": "Rev7; p6 TDFN pin table; package land pattern pending",
+    "sha256": "70dc8eef0e012276dcdc58b6dce64af08258304bcf865ceace64e856b8029330",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "drv2605l",
+    "url": "https://www.ti.com/lit/ds/symlink/drv2605l.pdf",
+    "revision_or_scope": "SLOS854D; p5 DGS variant; application; land pattern not released",
+    "sha256": "0597de48de2dd1d08d3d2a801ced819c1c756f152916367608b9146c927bb290",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "tlv755p",
+    "url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+    "revision_or_scope": "SBVS320D; DBV variant pin table; application; land pattern not released",
+    "sha256": "7eb7bc6935bf6c1d247b2fce62c9e5a49a474fd94359ddc390a4baf0ac1f5293",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "simcom",
+    "url": "https://cn.simcom.com/product/SIM8230C.html",
+    "revision_or_scope": "product page only; Hardware Design V2.04 requires login",
+    "sha256": "0fe932d2e3fb8ea02468e58d2d12ff0edd0915467321d6577d1ec9efa48d3ac8",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  },
+  {
+    "id": "es8311",
+    "url": "https://www.everest-semi.com/pdf/ES8311%20PB.pdf",
+    "revision_or_scope": "Rev 5.0, March 2019; pin table and typical application circuit; QFN-20 land pattern not present in this copy",
+    "sha256": "22d946391c4b94b364d72955dad50404c825cb188a6652e3827700c5f08b7f80",
+    "retrieved": "2026-09-20",
+    "status": "downloaded from third-party mirror",
+    "mirror_url": "https://static6.datasheet4u.com/dshtm/1546638/1/ES8311.html",
+    "provenance_warning": "Official Everest host was unreachable. The mirror copy was re-rendered (PDFium, 2024-10-05) and prints \"Confidential\" on 11 of 12 pages, so it is evidence for internal pin review only. Obtain the vendor release before any supplier, certification or external distribution use."
+  },
+  {
+    "id": "pam8302",
+    "url": "https://www.diodes.com/datasheet/download/PAM8302A.pdf",
+    "revision_or_scope": "DS41333 Rev.6-2; pin/terminal table pp1-2, absolute maximum 2.0-5.5V VDD, SHDN timing, recommended CI 0.1-0.22uF; SO-8/MSOP-8/U-DFN3030-8 land patterns not transferred to a footprint",
+    "sha256": "fb2ab762c31b5fd45f352b116a5e528fa434e9f46aebbee2582e362fc64ef516",
+    "retrieved": "2026-09-20",
+    "status": "downloaded"
+  }
+]

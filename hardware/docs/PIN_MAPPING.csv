@@ -1,0 +1,454 @@
+Sheet,Reference,Pin,Function,Net,Status,Source
+01_POWER,U6,1,TS,BAT_NTC,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,2,BAT,VBAT,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,3,BAT,VBAT,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,4,CE_N,GND,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,5,EN2,SYS,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,6,EN1,GND,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,7,PGOOD_N,PGOOD,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,8,VSS,GND,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,9,CHG_N,CHG_STATUS,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,10,OUT,SYS,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,11,OUT,SYS,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,12,ILIM,CHG_ILIM,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,13,IN,VBUS_5V,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,14,TMR,NC,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,15,ITERM,NC,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,16,ISET,CHG_ISET,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U6,EP,THERMAL_PAD,GND,PIN VERIFIED; draft circuit,bq24074
+01_POWER,U7,1,PS_SYNC,DCDC_CTRL,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,2,PG,DCDC_PG,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,3,VAUX,DCDC_VAUX,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,4,GND,GND,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,5,FB,DCDC_FB,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,6,FB2,NC,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,7,VOUT,+3V3_SYS,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,8,VOUT,+3V3_SYS,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,9,L2,DCDC_L2,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,10,PGND,GND,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,11,L1,DCDC_L1,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,12,VIN,SYS,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,13,VIN,SYS,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,14,EN,DCDC_CTRL,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U7,15,VSEL,GND,PIN VERIFIED; draft circuit,tps63070
+01_POWER,U8,1,IN,+3V3_SYS,PIN VERIFIED; draft circuit,tlv755p
+01_POWER,U8,2,GND,GND,PIN VERIFIED; draft circuit,tlv755p
+01_POWER,U8,3,EN,+3V3_SYS,PIN VERIFIED; draft circuit,tlv755p
+01_POWER,U8,4,NC,NC,PIN VERIFIED; draft circuit,tlv755p
+01_POWER,U8,5,OUT,+1V8,PIN VERIFIED; draft circuit,tlv755p
+01_POWER,U5,1,CTG,GND,PIN VERIFIED; draft circuit,max17048
+01_POWER,U5,2,CELL,VBAT,PIN VERIFIED; draft circuit,max17048
+01_POWER,U5,3,VDD,VBAT,PIN VERIFIED; draft circuit,max17048
+01_POWER,U5,4,GND,GND,PIN VERIFIED; draft circuit,max17048
+01_POWER,U5,5,ALRT,BAT_ALERT,PIN VERIFIED; draft circuit,max17048
+01_POWER,U5,6,QSTRT,GND,PIN VERIFIED; draft circuit,max17048
+01_POWER,U5,7,SCL,I2C_SCL,PIN VERIFIED; draft circuit,max17048
+01_POWER,U5,8,SDA,I2C_SDA,PIN VERIFIED; draft circuit,max17048
+01_POWER,U5,EP,EP,GND,PIN VERIFIED; draft circuit,max17048
+01_POWER,J5,TBD,VBAT,VBAT,UNCONNECTED INTENT; not an IC pin,
+01_POWER,J5,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+01_POWER,J5,TBD,BAT_NTC,BAT_NTC,UNCONNECTED INTENT; not an IC pin,
+01_POWER,D1,TBD,VBUS_5V,VBUS_5V,UNCONNECTED INTENT; not an IC pin,
+01_POWER,D1,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+01_POWER,R101,1,R,CHG_ISET,logical terminal; footprint TBD,design
+01_POWER,R101,2,R,GND,logical terminal; footprint TBD,design
+01_POWER,R102,1,R,CHG_ILIM,logical terminal; footprint TBD,design
+01_POWER,R102,2,R,GND,logical terminal; footprint TBD,design
+01_POWER,R103,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,R103,2,R,CHG_STATUS,logical terminal; footprint TBD,design
+01_POWER,R104,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,R104,2,R,PGOOD,logical terminal; footprint TBD,design
+01_POWER,C101,1,C,VBUS_5V,logical terminal; footprint TBD,design
+01_POWER,C101,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C102,1,C,VBAT,logical terminal; footprint TBD,design
+01_POWER,C102,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C103,1,C,SYS,logical terminal; footprint TBD,design
+01_POWER,C103,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,L101,1,L,DCDC_L1,logical terminal; footprint TBD,design
+01_POWER,L101,2,L,DCDC_L2,logical terminal; footprint TBD,design
+01_POWER,R105,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,R105,2,R,DCDC_FB,logical terminal; footprint TBD,design
+01_POWER,R106,1,R,DCDC_FB,logical terminal; footprint TBD,design
+01_POWER,R106,2,R,GND,logical terminal; footprint TBD,design
+01_POWER,C104,1,C,DCDC_VAUX,logical terminal; footprint TBD,design
+01_POWER,C104,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,R107,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,R107,2,R,DCDC_PG,logical terminal; footprint TBD,design
+01_POWER,C105,1,C,SYS,logical terminal; footprint TBD,design
+01_POWER,C105,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C106,1,C,SYS,logical terminal; footprint TBD,design
+01_POWER,C106,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C107,1,C,SYS,logical terminal; footprint TBD,design
+01_POWER,C107,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C108,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,C108,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C109,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,C109,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C110,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,C110,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C111,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,C111,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C112,1,C,+1V8,logical terminal; footprint TBD,design
+01_POWER,C112,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,C113,1,C,VBAT,logical terminal; footprint TBD,design
+01_POWER,C113,2,C,GND,logical terminal; footprint TBD,design
+01_POWER,R108,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+01_POWER,R108,2,R,BAT_ALERT,logical terminal; footprint TBD,design
+02_ESP32,U1,1,LNA_IN,ESP_RF,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,2,VDD3P3,+3V3_SYS,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,3,VDD3P3,+3V3_SYS,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,4,CHIP_PU,ESP_EN,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,5,GPIO0,ESP_BOOT,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,6,GPIO1,BTN_SOS,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,7,GPIO2,BTN_AI,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,8,GPIO3,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,9,GPIO4,I2C_SDA,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,10,GPIO5,I2C_SCL,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,11,GPIO6,IMU_INT1,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,12,GPIO7,IMU_INT2,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,13,GPIO8,RTC_INT,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,14,GPIO9,BAT_ALERT,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,15,GPIO10,LCD_CS,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,16,GPIO11,LCD_MOSI,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,17,GPIO12,LCD_SCLK,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,18,GPIO13,LCD_DC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,19,GPIO14,I2S0_BCLK,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,20,VDD3P3_RTC,+3V3_SYS,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,21,GPIO15,I2S0_LRCK,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,22,GPIO16,I2S0_DOUT,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,23,GPIO17,I2S0_DIN,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,24,GPIO18,AUDIO_MCLK,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,25,GPIO19,ESP_USB_DM_RAW,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,26,GPIO20,ESP_USB_DP_RAW,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,27,GPIO21,MCU_MODEM_TX,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,28,SPICS1_PSRAM,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,29,VDD_SPI,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,30,NC,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,31,NC,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,32,NC,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,33,NC,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,34,NC,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,35,NC,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,36,GPIO48,LCD_RST,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,37,GPIO47,LCD_BL,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,38,GPIO33,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,39,GPIO34,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,40,GPIO35,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,41,GPIO36,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,42,GPIO37,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,43,GPIO38,MCU_MODEM_RX,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,44,GPIO39,MCU_PCM_CLK,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,45,GPIO40,MCU_PCM_SYNC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,46,VDD3P3_CPU,+3V3_SYS,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,47,GPIO41,MCU_PCM_DIN,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,48,GPIO42,MCU_PCM_DOUT,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,49,GPIO43,UART0_TX,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,50,GPIO44,UART0_RX,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,51,GPIO45,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,52,GPIO46,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,53,NC,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,54,NC,NC,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,55,VDDA,+3V3_SYS,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,56,VDDA,+3V3_SYS,PIN VERIFIED; draft circuit,esp32
+02_ESP32,U1,57,GND,GND,PIN VERIFIED; draft circuit,esp32
+02_ESP32,R201,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,R201,2,R,ESP_EN,logical terminal; footprint TBD,design
+02_ESP32,C201,1,C,ESP_EN,logical terminal; footprint TBD,design
+02_ESP32,C201,2,C,GND,logical terminal; footprint TBD,design
+02_ESP32,R202,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,R202,2,R,ESP_BOOT,logical terminal; footprint TBD,design
+02_ESP32,R203,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,R203,2,R,I2C_SCL,logical terminal; footprint TBD,design
+02_ESP32,R204,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,R204,2,R,I2C_SDA,logical terminal; footprint TBD,design
+02_ESP32,R205,1,R,ESP_USB_DP_RAW,logical terminal; footprint TBD,design
+02_ESP32,R205,2,R,ESP_USB_DP,logical terminal; footprint TBD,design
+02_ESP32,R206,1,R,ESP_USB_DM_RAW,logical terminal; footprint TBD,design
+02_ESP32,R206,2,R,ESP_USB_DM,logical terminal; footprint TBD,design
+02_ESP32,C202,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,C202,2,C,GND,logical terminal; footprint TBD,design
+02_ESP32,C203,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,C203,2,C,GND,logical terminal; footprint TBD,design
+02_ESP32,C204,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,C204,2,C,GND,logical terminal; footprint TBD,design
+02_ESP32,C205,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,C205,2,C,GND,logical terminal; footprint TBD,design
+02_ESP32,C206,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,C206,2,C,GND,logical terminal; footprint TBD,design
+02_ESP32,C207,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,C207,2,C,GND,logical terminal; footprint TBD,design
+02_ESP32,C208,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+02_ESP32,C208,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,U2,TBD,VBAT_MODEM,VBAT_MODEM,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_TX,MODEM_TX,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_RX,MODEM_RX,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_PWRKEY,MODEM_PWRKEY,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_RESET,MODEM_RESET,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_STATUS,MODEM_STATUS,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_USB_DP,MODEM_USB_DP,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_USB_DM,MODEM_USB_DM,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_PCM_CLK,MODEM_PCM_CLK,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_PCM_SYNC,MODEM_PCM_SYNC,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_PCM_DIN,MODEM_PCM_DIN,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,MODEM_PCM_DOUT,MODEM_PCM_DOUT,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,SIM_VCC,SIM_VCC,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,SIM_CLK,SIM_CLK,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,SIM_DATA,SIM_DATA,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,SIM_RST,SIM_RST,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,CELL_MAIN_RF,CELL_MAIN_RF,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,CELL_DIV_RF,CELL_DIV_RF,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,U2,TBD,GNSS_RF,GNSS_RF,UNCONNECTED INTENT; not an IC pin,simcom
+03_MODEM_SIM_RF,J2,TBD,SIM_VCC,SIM_VCC,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,J2,TBD,SIM_CLK,SIM_CLK,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,J2,TBD,SIM_DATA,SIM_DATA,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,J2,TBD,SIM_RST,SIM_RST,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,J2,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MCU_MODEM_TX,MCU_MODEM_TX,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MCU_MODEM_RX,MCU_MODEM_RX,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MCU_PCM_CLK,MCU_PCM_CLK,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MCU_PCM_SYNC,MCU_PCM_SYNC,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MCU_PCM_DIN,MCU_PCM_DIN,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MCU_PCM_DOUT,MCU_PCM_DOUT,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MODEM_TX,MODEM_TX,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MODEM_RX,MODEM_RX,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MODEM_PCM_CLK,MODEM_PCM_CLK,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MODEM_PCM_SYNC,MODEM_PCM_SYNC,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MODEM_PCM_DIN,MODEM_PCM_DIN,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,U12,TBD,MODEM_PCM_DOUT,MODEM_PCM_DOUT,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,D2,TBD,SIM_VCC,SIM_VCC,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,D2,TBD,SIM_CLK,SIM_CLK,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,D2,TBD,SIM_DATA,SIM_DATA,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,D2,TBD,SIM_RST,SIM_RST,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,D2,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,C301,1,C,CELL_MAIN_RF,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C301,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,R301,1,R,CELL_MAIN_RF,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,R301,2,R,RF_CELL_MAIN,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C302,1,C,RF_CELL_MAIN,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C302,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,ANT1,TBD,RF_CELL_MAIN,RF_CELL_MAIN,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,ANT1,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,C303,1,C,CELL_DIV_RF,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C303,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,R302,1,R,CELL_DIV_RF,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,R302,2,R,RF_CELL_DIV,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C304,1,C,RF_CELL_DIV,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C304,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,ANT2,TBD,RF_CELL_DIV,RF_CELL_DIV,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,ANT2,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,C305,1,C,GNSS_RF,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C305,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,R303,1,R,GNSS_RF,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,R303,2,R,RF_GNSS,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C306,1,C,RF_GNSS,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C306,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,ANT3,TBD,RF_GNSS,RF_GNSS,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,ANT3,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,C307,1,C,ESP_RF,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C307,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,R304,1,R,ESP_RF,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,R304,2,R,RF_WIFI,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C308,1,C,RF_WIFI,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C308,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,ANT4,TBD,RF_WIFI,RF_WIFI,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,ANT4,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+03_MODEM_SIM_RF,C321,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C321,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C322,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C322,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C323,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C323,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C324,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C324,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C325,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C325,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C326,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C326,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C327,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C327,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C328,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C328,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C329,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C329,2,C,GND,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C330,1,C,VBAT_MODEM,logical terminal; footprint TBD,design
+03_MODEM_SIM_RF,C330,2,C,GND,logical terminal; footprint TBD,design
+04_IMU_RTC,U3,1,SDO_SA0,GND,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,2,ASDx,NC,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,3,ASCx,NC,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,4,INT1,IMU_INT1,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,5,VDDIO,+3V3_SYS,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,6,GNDIO,GND,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,7,GND,GND,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,8,VDD,+3V3_SYS,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,9,INT2,IMU_INT2,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,10,OCSB,NC,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,11,OSDO,NC,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,12,CSB,+3V3_SYS,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,13,SCx,I2C_SCL,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U3,14,SDx,I2C_SDA,PIN VERIFIED; draft circuit,bmi270
+04_IMU_RTC,U4,1,CLKOUT,NC,PIN VERIFIED; draft circuit,rtc
+04_IMU_RTC,U4,2,INT_N,RTC_INT,PIN VERIFIED; draft circuit,rtc
+04_IMU_RTC,U4,3,SCL,I2C_SCL,PIN VERIFIED; draft circuit,rtc
+04_IMU_RTC,U4,4,SDA,I2C_SDA,PIN VERIFIED; draft circuit,rtc
+04_IMU_RTC,U4,5,VSS,GND,PIN VERIFIED; draft circuit,rtc
+04_IMU_RTC,U4,6,VBACKUP,RTC_VBACKUP,PIN VERIFIED; draft circuit,rtc
+04_IMU_RTC,U4,7,VDD,+3V3_SYS,PIN VERIFIED; draft circuit,rtc
+04_IMU_RTC,U4,8,EVI,GND,PIN VERIFIED; draft circuit,rtc
+04_IMU_RTC,C401,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+04_IMU_RTC,C401,2,C,GND,logical terminal; footprint TBD,design
+04_IMU_RTC,C402,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+04_IMU_RTC,C402,2,C,GND,logical terminal; footprint TBD,design
+04_IMU_RTC,C403,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+04_IMU_RTC,C403,2,C,GND,logical terminal; footprint TBD,design
+04_IMU_RTC,C404,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+04_IMU_RTC,C404,2,C,GND,logical terminal; footprint TBD,design
+04_IMU_RTC,R401,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+04_IMU_RTC,R401,2,R,RTC_INT,logical terminal; footprint TBD,design
+04_IMU_RTC,R402,1,R,RTC_VBACKUP,logical terminal; footprint TBD,design
+04_IMU_RTC,R402,2,R,GND,logical terminal; footprint TBD,design
+05_DISPLAY,J3,TBD,+3V3_SYS,+3V3_SYS,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,LCD_SCLK,LCD_SCLK,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,LCD_MOSI,LCD_MOSI,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,LCD_CS,LCD_CS,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,LCD_DC,LCD_DC,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,LCD_RST,LCD_RST,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,LCD_BL,LCD_BL,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,TP_SCL,TP_SCL,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,TP_SDA,TP_SDA,UNCONNECTED INTENT; not an IC pin,
+05_DISPLAY,J3,TBD,TP_INT,TP_INT,UNCONNECTED INTENT; not an IC pin,
+06_AUDIO,MIC1,TBD,MIC_SUPPLY_TBD,MIC_SUPPLY_TBD,UNCONNECTED INTENT; not an IC pin,
+06_AUDIO,MIC1,TBD,MIC1_P,MIC1_P,UNCONNECTED INTENT; not an IC pin,
+06_AUDIO,MIC1,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+06_AUDIO,J4,TBD,SPK_P,SPK_P,UNCONNECTED INTENT; not an IC pin,
+06_AUDIO,J4,TBD,SPK_N,SPK_N,UNCONNECTED INTENT; not an IC pin,
+06_AUDIO,U9,1,CCLK,I2C_SCL,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,2,MCLK,AUDIO_MCLK,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,3,PVDD,+3V3_SYS,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,4,DVDD,+3V3_SYS,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,5,DGND,GND,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,6,SCLK/DMIC_SCL,I2S0_BCLK,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,7,ASDOUT,I2S0_DIN,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,8,LRCK,I2S0_LRCK,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,9,DSDIN,I2S0_DOUT,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,10,AGND,GND,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,11,AVDD,+3V3_SYS,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,12,OUTP,CODEC_DAC_P,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,13,OUTN,CODEC_DAC_N,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,14,DACVREF,CODEC_DACVREF,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,15,ADCVREF,CODEC_ADCVREF,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,16,VMID,CODEC_VMID,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,17,MIC1N,CODEC_MIC_N,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,18,MIC1P/DMIC_SDA,CODEC_MIC_P,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,19,CDATA,I2C_SDA,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U9,20,CE,GND,PIN VERIFIED; draft circuit,es8311
+06_AUDIO,U10,1,SHDN_N,AMP_SD,PIN VERIFIED; draft circuit,pam8302
+06_AUDIO,U10,2,NC,NC,PIN VERIFIED; draft circuit,pam8302
+06_AUDIO,U10,3,IN+,AMP_IN_P,PIN VERIFIED; draft circuit,pam8302
+06_AUDIO,U10,4,IN-,AMP_IN_N,PIN VERIFIED; draft circuit,pam8302
+06_AUDIO,U10,5,VO+,SPK_P,PIN VERIFIED; draft circuit,pam8302
+06_AUDIO,U10,6,VDD,VBAT,PIN VERIFIED; draft circuit,pam8302
+06_AUDIO,U10,7,GND,GND,PIN VERIFIED; draft circuit,pam8302
+06_AUDIO,U10,8,VO-,SPK_N,PIN VERIFIED; draft circuit,pam8302
+06_AUDIO,C601,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+06_AUDIO,C601,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C602,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+06_AUDIO,C602,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C603,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+06_AUDIO,C603,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C604,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+06_AUDIO,C604,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C605,1,C,CODEC_DACVREF,logical terminal; footprint TBD,design
+06_AUDIO,C605,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C606,1,C,CODEC_ADCVREF,logical terminal; footprint TBD,design
+06_AUDIO,C606,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C607,1,C,CODEC_VMID,logical terminal; footprint TBD,design
+06_AUDIO,C607,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C608,1,C,MIC1_P,logical terminal; footprint TBD,design
+06_AUDIO,C608,2,C,CODEC_MIC_P,logical terminal; footprint TBD,design
+06_AUDIO,C609,1,C,MIC1_N,logical terminal; footprint TBD,design
+06_AUDIO,C609,2,C,CODEC_MIC_N,logical terminal; footprint TBD,design
+06_AUDIO,C610,1,C,CODEC_DAC_P,logical terminal; footprint TBD,design
+06_AUDIO,C610,2,C,AMP_IN_P,logical terminal; footprint TBD,design
+06_AUDIO,C611,1,C,CODEC_DAC_N,logical terminal; footprint TBD,design
+06_AUDIO,C611,2,C,AMP_IN_N,logical terminal; footprint TBD,design
+06_AUDIO,C612,1,C,VBAT,logical terminal; footprint TBD,design
+06_AUDIO,C612,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C613,1,C,VBAT,logical terminal; footprint TBD,design
+06_AUDIO,C613,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,C614,1,C,AMP_SD,logical terminal; footprint TBD,design
+06_AUDIO,C614,2,C,GND,logical terminal; footprint TBD,design
+06_AUDIO,R601,1,R,VBAT,logical terminal; footprint TBD,design
+06_AUDIO,R601,2,R,AMP_SD,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,U11,1,REG,HAPTIC_REG,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,2,SCL,I2C_SCL,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,3,SDA,I2C_SDA,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,4,IN_TRIG,GND,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,5,EN,HAPTIC_EN,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,6,VDD_NC,+3V3_SYS,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,7,OUT_P,HAPTIC_P,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,8,GND,GND,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,9,OUT_N,HAPTIC_N,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,U11,10,VDD,+3V3_SYS,PIN VERIFIED; draft circuit,drv2605l
+07_HAPTIC_BUTTONS,J6,TBD,HAPTIC_P,HAPTIC_P,UNCONNECTED INTENT; not an IC pin,
+07_HAPTIC_BUTTONS,J6,TBD,HAPTIC_N,HAPTIC_N,UNCONNECTED INTENT; not an IC pin,
+07_HAPTIC_BUTTONS,C701,1,C,HAPTIC_REG,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C701,2,C,GND,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C702,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C702,2,C,GND,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C703,1,C,+3V3_SYS,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C703,2,C,GND,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R701,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R701,2,R,HAPTIC_EN,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,SW1,1,SW,BTN_SOS_CONTACT,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,SW1,2,SW,GND,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R711,1,R,BTN_SOS_CONTACT,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R711,2,R,BTN_SOS,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R712,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R712,2,R,BTN_SOS,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C711,1,C,BTN_SOS,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C711,2,C,GND,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,SW2,1,SW,BTN_AI_CONTACT,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,SW2,2,SW,GND,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R713,1,R,BTN_AI_CONTACT,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R713,2,R,BTN_AI,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R714,1,R,+3V3_SYS,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,R714,2,R,BTN_AI,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C712,1,C,BTN_AI,logical terminal; footprint TBD,design
+07_HAPTIC_BUTTONS,C712,2,C,GND,logical terminal; footprint TBD,design
+08_DEBUG_TEST,J1,1,5V,VBUS_5V,PIN VERIFIED; draft circuit,
+08_DEBUG_TEST,J1,2,GND,GND,PIN VERIFIED; draft circuit,
+08_DEBUG_TEST,J1,3,TX,POGO_UART_TX,PIN VERIFIED; draft circuit,
+08_DEBUG_TEST,J1,4,RX,POGO_UART_RX,PIN VERIFIED; draft circuit,
+08_DEBUG_TEST,R801,1,R,UART0_TX,logical terminal; footprint TBD,design
+08_DEBUG_TEST,R801,2,R,POGO_UART_TX,logical terminal; footprint TBD,design
+08_DEBUG_TEST,R802,1,R,POGO_UART_RX,logical terminal; footprint TBD,design
+08_DEBUG_TEST,R802,2,R,UART0_RX,logical terminal; footprint TBD,design
+08_DEBUG_TEST,D3,TBD,POGO_UART_TX,POGO_UART_TX,UNCONNECTED INTENT; not an IC pin,
+08_DEBUG_TEST,D3,TBD,POGO_UART_RX,POGO_UART_RX,UNCONNECTED INTENT; not an IC pin,
+08_DEBUG_TEST,D3,TBD,GND,GND,UNCONNECTED INTENT; not an IC pin,
+08_DEBUG_TEST,TP1,1,TP,VBUS_5V,project-defined test pad,design
+08_DEBUG_TEST,TP2,1,TP,VBAT,project-defined test pad,design
+08_DEBUG_TEST,TP3,1,TP,VBAT_MODEM,project-defined test pad,design
+08_DEBUG_TEST,TP4,1,TP,+3V3_SYS,project-defined test pad,design
+08_DEBUG_TEST,TP5,1,TP,+1V8,project-defined test pad,design
+08_DEBUG_TEST,TP6,1,TP,GND,project-defined test pad,design
+08_DEBUG_TEST,TP7,1,TP,UART0_TX,project-defined test pad,design
+08_DEBUG_TEST,TP8,1,TP,UART0_RX,project-defined test pad,design
+08_DEBUG_TEST,TP9,1,TP,I2C_SCL,project-defined test pad,design
+08_DEBUG_TEST,TP10,1,TP,I2C_SDA,project-defined test pad,design
+08_DEBUG_TEST,TP11,1,TP,MODEM_TX,project-defined test pad,design
+08_DEBUG_TEST,TP12,1,TP,MODEM_RX,project-defined test pad,design
+08_DEBUG_TEST,TP13,1,TP,MODEM_PWRKEY,project-defined test pad,design
+08_DEBUG_TEST,TP14,1,TP,ESP_USB_DP,project-defined test pad,design
+08_DEBUG_TEST,TP15,1,TP,ESP_USB_DM,project-defined test pad,design
+08_DEBUG_TEST,TP16,1,TP,MODEM_USB_DP,project-defined test pad,design
+08_DEBUG_TEST,TP17,1,TP,MODEM_USB_DM,project-defined test pad,design
+08_DEBUG_TEST,TP18,1,TP,ESP_EN,project-defined test pad,design
+08_DEBUG_TEST,TP19,1,TP,ESP_BOOT,project-defined test pad,design
+08_DEBUG_TEST,TP20,1,TP,CHG_STATUS,project-defined test pad,design
+08_DEBUG_TEST,TP21,1,TP,PGOOD,project-defined test pad,design
+01_POWER,R109,1,R,SYS,logical terminal; footprint TBD,tps63070
+01_POWER,R109,2,R,DCDC_CTRL,logical terminal; footprint TBD,tps63070
+06_AUDIO,MIC1,TBD,MIC1_N,MIC1_N,UNCONNECTED INTENT; not an IC pin,

@@ -1,0 +1,148 @@
+Reference,Quantity,Category,Manufacturer,MPN,Value,Package,KiCad Footprint,Datasheet,DNP,Alternative,Notes
+U6,1,IC,Texas Instruments,BQ24074RGTR,BQ24074RGTR,RGT 16 + EP,TBD,https://www.ti.com/lit/ds/symlink/bq24074.pdf,No,TBD; requires re-review,EP physical pad identifier requires footprint review; TMR and ITERM open use defaults; Electrical draft; land-pattern release pending
+U7,1,IC,Texas Instruments,TPS63070RNMR,TPS63070RNMR,RNM 15,TBD,https://www.ti.com/lit/ds/symlink/tps63070.pdf,No,TBD; requires re-review,No separate invented EP; pins 9/10/11 are large power pads; Electrical draft; land-pattern release pending
+U8,1,IC,Texas Instruments,TLV75518PDBVR,TLV75518PDBVR,DBV SOT23-5,TBD,https://www.ti.com/lit/ds/symlink/tlv755p.pdf,No,TBD; requires re-review,"1V8 is optional auxiliary rail, NOT presumed to equal modem VDD_EXT; Electrical draft; land-pattern release pending"
+U5,1,IC,Analog Devices,MAX17048G+,MAX17048G+,TDFN8 + EP,TBD,https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf,No,TBD; requires re-review,"Powered/sensed from VBAT, not 3V3; Electrical draft; land-pattern release pending"
+J5,1,Connector,TBD,TBD,BATTERY + NTC,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; Exact connector and pack NTC curve required
+D1,1,TVS,TBD,TBD,POGO INPUT TVS,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; Select standoff/clamp/leakage; not fitted electrically until selected
+R101,1,Resistor,TBD,TBD,1.78k 1%,TBD,TBD,,No,TBD; requires re-review,
+R102,1,Resistor,TBD,TBD,1.62k 1%,TBD,TBD,,No,TBD; requires re-review,
+R103,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+R104,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+C101,1,Capacitor,TBD,TBD,4.7u 16V,TBD,TBD,,No,TBD; requires re-review,
+C102,1,Capacitor,TBD,TBD,10u 10V,TBD,TBD,,No,TBD; requires re-review,
+C103,1,Capacitor,TBD,TBD,10u 10V,TBD,TBD,,No,TBD; requires re-review,
+L101,1,Inductor,TBD,TBD,1.5uH / Isat TBD,TBD,TBD,,No,TBD; requires re-review,
+R105,1,Resistor,TBD,TBD,470k 1%,TBD,TBD,,No,TBD; requires re-review,
+R106,1,Resistor,TBD,TBD,150k 1%,TBD,TBD,,No,TBD; requires re-review,
+C104,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,
+R107,1,Resistor,TBD,TBD,100k,TBD,TBD,,No,TBD; requires re-review,
+C105,1,Capacitor,TBD,TBD,10u 10V,TBD,TBD,,No,TBD; requires re-review,
+C106,1,Capacitor,TBD,TBD,10u 10V,TBD,TBD,,No,TBD; requires re-review,
+C107,1,Capacitor,TBD,TBD,10u 10V,TBD,TBD,,No,TBD; requires re-review,
+C108,1,Capacitor,TBD,TBD,22u 10V,TBD,TBD,,No,TBD; requires re-review,
+C109,1,Capacitor,TBD,TBD,22u 10V,TBD,TBD,,No,TBD; requires re-review,
+C110,1,Capacitor,TBD,TBD,10u 10V,TBD,TBD,,No,TBD; requires re-review,
+C111,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,
+C112,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,
+C113,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,
+R108,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+R109,1,Resistor,TBD,TBD,100k,TBD,TBD,https://www.ti.com/lit/ds/symlink/tps63070.pdf,No,TBD; requires re-review,Shared EN/PS_SYNC series resistor; TI SLVSC58B sections 8.4.2 and 8.4.5 recommend 1k-1M; final resistor MPN/footprint pending
+U1,1,IC,Espressif,ESP32-S3-PICO-1-N8R8,ESP32-S3-PICO-1-N8R8,LGA56 + GND57 / 7x7,TBD,https://documentation.espressif.com/esp32-s3-pico-1_datasheet_en.pdf,No,TBD; requires re-review,GPIO0/3/45/46 reserved for strap behavior; GPIO33-37 and SPICS1 are internal PSRAM; Electrical draft; land-pattern release pending
+R201,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+C201,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,
+R202,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+R203,1,Resistor,TBD,TBD,4.7k,TBD,TBD,,No,TBD; requires re-review,
+R204,1,Resistor,TBD,TBD,4.7k,TBD,TBD,,No,TBD; requires re-review,
+R205,1,Resistor,TBD,TBD,0R / tune SI,TBD,TBD,,No,TBD; requires re-review,
+R206,1,Resistor,TBD,TBD,0R / tune SI,TBD,TBD,,No,TBD; requires re-review,
+C202,1,Capacitor,TBD,TBD,22u,TBD,TBD,,No,TBD; requires re-review,
+C203,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,Locate at U1 supply pin 2
+C204,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,Locate at U1 supply pin 3
+C205,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,Locate at U1 supply pin 20
+C206,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,Locate at U1 supply pin 46
+C207,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,Locate at U1 supply pin 55
+C208,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,Locate at U1 supply pin 56
+U2,1,IC,TBD,TBD,SIM8230C,TBD,TBD,https://cn.simcom.com/product/SIM8230C.html,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; V2.04 required; no alternate SIM8230 pin map imported
+J2,1,Connector,TBD,TBD,J_SIM Nano SIM,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; Socket MPN/contact map required; eSIM mechanical option unallocated
+U12,1,Level translator,TBD,TBD,MODEM IO TRANSLATOR TBD,TBD,TBD,,No,TBD; requires re-review,"NOT RELEASED: no pin-bearing symbol; Direction, OE, VDD_EXT, power-off protection and PCM master TBD"
+D2,1,ESD,TBD,TBD,SIM ESD ARRAY TBD,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; Low capacitance; socket-side; no invented array pin map
+C301,1,Capacitor,TBD,TBD,TBD C / DNP,TBD,TBD,,Yes,TBD; requires re-review,
+R301,1,Resistor,TBD,TBD,0R,TBD,TBD,,No,TBD; requires re-review,
+C302,1,Capacitor,TBD,TBD,TBD C / DNP,TBD,TBD,,Yes,TBD; requires re-review,
+ANT1,1,RF connector,TBD,TBD,RF CONNECTOR TBD,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; U.FL/MHF4 exact part and land pattern not selected
+C303,1,Capacitor,TBD,TBD,TBD C / DNP,TBD,TBD,,Yes,TBD; requires re-review,
+R302,1,Resistor,TBD,TBD,0R,TBD,TBD,,No,TBD; requires re-review,
+C304,1,Capacitor,TBD,TBD,TBD C / DNP,TBD,TBD,,Yes,TBD; requires re-review,
+ANT2,1,RF connector,TBD,TBD,RF CONNECTOR TBD,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; U.FL/MHF4 exact part and land pattern not selected
+C305,1,Capacitor,TBD,TBD,TBD C / DNP,TBD,TBD,,Yes,TBD; requires re-review,
+R303,1,Resistor,TBD,TBD,0R,TBD,TBD,,No,TBD; requires re-review,
+C306,1,Capacitor,TBD,TBD,TBD C / DNP,TBD,TBD,,Yes,TBD; requires re-review,
+ANT3,1,RF connector,TBD,TBD,RF CONNECTOR TBD,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; U.FL/MHF4 exact part and land pattern not selected
+C307,1,Capacitor,TBD,TBD,TBD C / DNP,TBD,TBD,,Yes,TBD; requires re-review,
+R304,1,Resistor,TBD,TBD,0R,TBD,TBD,,No,TBD; requires re-review,
+C308,1,Capacitor,TBD,TBD,TBD C / DNP,TBD,TBD,,Yes,TBD; requires re-review,
+ANT4,1,RF connector,TBD,TBD,RF CONNECTOR TBD,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; U.FL/MHF4 exact part and land pattern not selected
+C321,1,Capacitor,TBD,TBD,220u low ESR,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C322,1,Capacitor,TBD,TBD,220u low ESR,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C323,1,Capacitor,TBD,TBD,22u,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C324,1,Capacitor,TBD,TBD,22u,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C325,1,Capacitor,TBD,TBD,22u,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C326,1,Capacitor,TBD,TBD,22u,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C327,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C328,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C329,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+C330,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,PROVISIONAL user target; revise to SIM8230C HDG and fit check
+U3,1,IC,Bosch Sensortec,BMI270,BMI270,LGA14 / 2.5x3,TBD,https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf,No,TBD; requires re-review,I2C address 0x68; unused auxiliary pins DNC per table22; Electrical draft; land-pattern release pending
+U4,1,IC,Micro Crystal,RV-3028-C7,RV-3028-C7,C7 / 3.2x1.5,TBD,https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3028-C7_App-Manual.pdf,No,TBD; requires re-review,"Backup disabled by 10k to GND; keeps time with system power, not battery removal; Electrical draft; land-pattern release pending"
+C401,1,Capacitor,TBD,TBD,100n VDDIO,TBD,TBD,,No,TBD; requires re-review,
+C402,1,Capacitor,TBD,TBD,100n VDD,TBD,TBD,,No,TBD; requires re-review,
+C403,1,Capacitor,TBD,TBD,1u local,TBD,TBD,,No,TBD; requires re-review,
+C404,1,Capacitor,TBD,TBD,100n RTC,TBD,TBD,,No,TBD; requires re-review,
+R401,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+R402,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+J3,1,LCD connector,TBD,TBD,J_LCD_GENERIC,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; LCD CONNECTOR PINOUT TBD; touch nets not connected to MCU
+U13,1,Backlight driver,TBD,TBD,LCD backlight driver TBD,TBD,TBD,,No,TBD; requires re-review,Select after LED string voltage/current; no pin-bearing symbol
+U9,1,IC,Everest Semiconductor,ES8311,ES8311,TBD,TBD,https://www.everest-semi.com/pdf/ES8311%20PB.pdf,No,TBD; requires re-review,"Pin table verified against ES8311 Rev 5.0 (mirror copy, official host unreachable); QFN-20 land pattern, mic bias rail and register setup still open"
+MIC1,1,Analog MEMS microphone,TBD,TBD,TBD_MIC bottom-port,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; Acoustic hole and recommended land pattern blocked
+U10,1,IC,Diodes Incorporated,PAM8302A,PAM8302A,TBD,TBD,https://www.diodes.com/datasheet/download/PAM8302A.pdf,No,TBD; requires re-review,Pin table verified against DS41333 Rev.6-2; orderable part code depends on the package choice (SO-8 / MSOP-8 / U-DFN3030-8) which stays open
+J4,1,Connector,TBD,TBD,SPEAKER CONTACTS,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; Floating BTL output; neither contact goes to GND
+C601,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,ES8311 PVDD decoupling
+C602,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,ES8311 DVDD decoupling
+C603,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,ES8311 AVDD bulk
+C604,1,Capacitor,TBD,TBD,10u 10V,TBD,TBD,,No,TBD; requires re-review,ES8311 AVDD reservoir
+C605,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,DAC reference bypass
+C606,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,ADC reference bypass
+C607,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,VMID / mic bias reference
+C608,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,mic input AC coupling
+C609,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,mic input AC coupling
+C610,1,Capacitor,TBD,TBD,220n,TBD,TBD,,No,TBD; requires re-review,DAC to amp AC coupling
+C611,1,Capacitor,TBD,TBD,220n,TBD,TBD,,No,TBD; requires re-review,DAC to amp AC coupling
+C612,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,PAM8302A VDD decoupling
+C613,1,Capacitor,TBD,TBD,10u 10V,TBD,TBD,,No,TBD; requires re-review,PAM8302A VDD reservoir
+C614,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,shutdown release delay
+R601,1,Resistor,TBD,TBD,100k,TBD,TBD,,No,TBD; requires re-review,shutdown pull-up
+U11,1,IC,Texas Instruments,DRV2605LDGSR,DRV2605LDGSR,DGS VSSOP10,TBD,https://www.ti.com/lit/ds/symlink/drv2605l.pdf,No,TBD; requires re-review,"Motor selection/calibration TBD; enable uses removable pull-up, not spare MCU GPIO; Electrical draft; land-pattern release pending"
+J6,1,Connector,TBD,TBD,MOTOR CONNECTOR,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; LRA/ERM voltage/current and actual connector required
+C701,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,
+C702,1,Capacitor,TBD,TBD,1u,TBD,TBD,,No,TBD; requires re-review,
+C703,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,
+R701,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+SW1,1,Switch,TBD,TBD,SOS NO,TBD,TBD,,No,TBD; requires re-review,Logical contacts only; physical switch footprint/pin map TBD
+R711,1,Resistor,TBD,TBD,1k,TBD,TBD,,No,TBD; requires re-review,
+R712,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+C711,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,
+SW2,1,Switch,TBD,TBD,AI NO,TBD,TBD,,No,TBD; requires re-review,Logical contacts only; physical switch footprint/pin map TBD
+R713,1,Resistor,TBD,TBD,1k,TBD,TBD,,No,TBD; requires re-review,
+R714,1,Resistor,TBD,TBD,10k,TBD,TBD,,No,TBD; requires re-review,
+C712,1,Capacitor,TBD,TBD,100n,TBD,TBD,,No,TBD; requires re-review,
+J1,1,Connector,TBD,TBD,POGO_4_LOGICAL,Physical pogo pattern TBD,TBD,,No,TBD; requires re-review,Numbering is user-defined. UART at connector has series resistors.; Electrical draft; land-pattern release pending
+R801,1,Resistor,TBD,TBD,1k,TBD,TBD,,No,TBD; requires re-review,
+R802,1,Resistor,TBD,TBD,1k,TBD,TBD,,No,TBD; requires re-review,
+D3,1,ESD,TBD,TBD,POGO UART ESD,TBD,TBD,,No,TBD; requires re-review,NOT RELEASED: no pin-bearing symbol; Select clamps compatible with 3V3 factory UART
+TP1,1,Test point,PCB fabricator,PCB feature,TP_5V,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_5V; net VBUS_5V
+TP2,1,Test point,PCB fabricator,PCB feature,TP_VBAT,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_VBAT; net VBAT
+TP3,1,Test point,PCB fabricator,PCB feature,TP_VBAT_MODEM,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_VBAT_MODEM; net VBAT_MODEM
+TP4,1,Test point,PCB fabricator,PCB feature,TP_3V3,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_3V3; net +3V3_SYS
+TP5,1,Test point,PCB fabricator,PCB feature,TP_1V8,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_1V8; net +1V8
+TP6,1,Test point,PCB fabricator,PCB feature,TP_GND,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_GND; net GND
+TP7,1,Test point,PCB fabricator,PCB feature,TP_UART_TX,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_UART_TX; net UART0_TX
+TP8,1,Test point,PCB fabricator,PCB feature,TP_UART_RX,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_UART_RX; net UART0_RX
+TP9,1,Test point,PCB fabricator,PCB feature,TP_I2C_SCL,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_I2C_SCL; net I2C_SCL
+TP10,1,Test point,PCB fabricator,PCB feature,TP_I2C_SDA,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_I2C_SDA; net I2C_SDA
+TP11,1,Test point,PCB fabricator,PCB feature,TP_MODEM_TX,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_MODEM_TX; net MODEM_TX
+TP12,1,Test point,PCB fabricator,PCB feature,TP_MODEM_RX,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_MODEM_RX; net MODEM_RX
+TP13,1,Test point,PCB fabricator,PCB feature,TP_MODEM_PWRKEY,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_MODEM_PWRKEY; net MODEM_PWRKEY
+TP14,1,Test point,PCB fabricator,PCB feature,TP_ESP_USB_DP,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_ESP_USB_DP; net ESP_USB_DP
+TP15,1,Test point,PCB fabricator,PCB feature,TP_ESP_USB_DM,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_ESP_USB_DM; net ESP_USB_DM
+TP16,1,Test point,PCB fabricator,PCB feature,TP_MODEM_USB_DP,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_MODEM_USB_DP; net MODEM_USB_DP
+TP17,1,Test point,PCB fabricator,PCB feature,TP_MODEM_USB_DM,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_MODEM_USB_DM; net MODEM_USB_DM
+TP18,1,Test point,PCB fabricator,PCB feature,TP_RESET,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_RESET; net ESP_EN
+TP19,1,Test point,PCB fabricator,PCB feature,TP_BOOT,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_BOOT; net ESP_BOOT
+TP20,1,Test point,PCB fabricator,PCB feature,TP_CHG_STATUS,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_CHG_STATUS; net CHG_STATUS
+TP21,1,Test point,PCB fabricator,PCB feature,TP_PGOOD,1.0mm copper disc,project:TestPad_1mm,,No,TBD; requires re-review,Fixture name TP_PGOOD; net PGOOD
+D4,1,ESD,TBD,TBD,USB ESD TBD,TBD,TBD,,No,TBD; requires re-review,"Required protection for ESP_USB_DP, ESP_USB_DM, GND; no pin-bearing symbol until selected"
+D5,1,ESD,TBD,TBD,USB ESD TBD,TBD,TBD,,No,TBD; requires re-review,"Required protection for MODEM_USB_DP, MODEM_USB_DM, GND; no pin-bearing symbol until selected"
+NTC1,1,Thermistor,TBD,TBD,10k NTC in battery pack,TBD,TBD,,No,TBD; requires re-review,Off-board actual cell temperature sensing; B curve and thresholds TBD
+FB1,1,Ferrite bead,TBD,TBD,Audio ferrite bead option,TBD,TBD,,Yes,TBD; requires re-review,Not connected until codec power circuit confirmed; impedance/current TBD
+ESIM1,1,eSIM,TBD,TBD,eSIM option,TBD,TBD,,Yes,TBD; requires re-review,Logical future option only; no shared populated SIM stubs or guessed pin map

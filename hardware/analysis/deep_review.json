@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "produced_for_run_id": "20260920-native-and-kicad-happy",
+  "produced_at": "2026-09-20T07:58:56.911403+00:00",
+  "findings": [
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "error",
+      "confidence": "high",
+      "summary": "U6 TS/BAT_NTC \u4ec5\u8fde\u63a5 U6.1\uff1b\u7535\u6c60NTC\u548c\u8fde\u63a5\u5668\u7535\u8def\u5c1a\u672a\u5b9e\u73b0\uff0c\u4e0d\u80fd\u58f0\u79f0\u5145\u7535\u529f\u80fd\u5b8c\u6574\u3002",
+      "evidence": {
+        "components": [
+          "U6"
+        ],
+        "nets": [
+          "BAT_NTC"
+        ],
+        "datasheet": [
+          {
+            "mpn": "BQ24074RGTR",
+            "page": 9,
+            "quote": "Connect the TS input to the NTC thermistor in the battery pack."
+          }
+        ],
+        "computation": {
+          "description": "\u5b9e\u9645 kicad-happy \u7f51\u7edc\u4e0e\u5143\u4ef6\u503c\u9010\u9879\u6bd4\u5bf9/\u8ba1\u7b97\uff1bTI \u53c2\u6570\u4eba\u5de5\u8bfb\u53d6\u3002",
+          "script": "analysis/helpers/check_power.py",
+          "result": "BAT_NTC endpoints: U6.1 only; no physical NTC or battery connector symbol"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U6"
+      ],
+      "nets": [
+        "BAT_NTC"
+      ],
+      "finding_id": "deep_review:6c40168d40ca"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "\u5206\u6790\u5668\u4f7f\u7528 0.6V \u4f30\u7b97\u9519\u8bef\uff1b\u672c\u7535\u8def\u6309 TPS63070 \u7684 0.8V \u57fa\u51c6\u8f93\u51fa\u7ea63.307V\uff0c\u4e0d\u4fee\u6539470k/150k\u5206\u538b\u3002",
+      "evidence": {
+        "components": [
+          "U7",
+          "R105",
+          "R106"
+        ],
+        "nets": [
+          "DCDC_FB",
+          "+3V3_SYS"
+        ],
+        "datasheet": [
+          {
+            "mpn": "TPS63070RNMR",
+            "page": 17,
+            "quote": "800mV"
+          }
+        ],
+        "computation": {
+          "description": "\u5b9e\u9645 kicad-happy \u7f51\u7edc\u4e0e\u5143\u4ef6\u503c\u9010\u9879\u6bd4\u5bf9/\u8ba1\u7b97\uff1bTI \u53c2\u6570\u4eba\u5de5\u8bfb\u53d6\u3002",
+          "script": "analysis/helpers/check_power.py",
+          "result": "VOUT=0.8*(1+470000/150000)=3.306667 V"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U7",
+        "R105",
+        "R106"
+      ],
+      "nets": [
+        "DCDC_FB",
+        "+3V3_SYS"
+      ],
+      "finding_id": "deep_review:905af50b1e98"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "\u5df2\u8865 R109\uff1aU7 \u7684 EN/PS_SYNC \u7ecf\u5171\u7528 100k \u4e32\u963b\u8fde\u63a5 SYS\uff0c\u4fdd\u6301\u5e38\u5f00\u548c\u7701\u7535\u6a21\u5f0f\u3002",
+      "evidence": {
+        "components": [
+          "U7",
+          "R109"
+        ],
+        "nets": [
+          "SYS",
+          "DCDC_CTRL"
+        ],
+        "datasheet": [
+          {
+            "mpn": "TPS63070RNMR",
+            "page": 11,
+            "quote": "the resistor can be shared."
+          }
+        ],
+        "computation": {
+          "description": "\u5b9e\u9645 kicad-happy \u7f51\u7edc\u4e0e\u5143\u4ef6\u503c\u9010\u9879\u6bd4\u5bf9/\u8ba1\u7b97\uff1bTI \u53c2\u6570\u4eba\u5de5\u8bfb\u53d6\u3002",
+          "script": "analysis/helpers/check_power.py",
+          "result": "R109=100000 ohm; SYS -> R109 -> U7.1 and U7.14; no direct SYS strap remains"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U7",
+        "R109"
+      ],
+      "nets": [
+        "SYS",
+        "DCDC_CTRL"
+      ],
+      "finding_id": "deep_review:e27e04713d58"
+    }
+  ],
+  "quarantined": []
+}

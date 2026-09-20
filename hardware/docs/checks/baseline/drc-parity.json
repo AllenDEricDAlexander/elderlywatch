@@ -1,0 +1,1071 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T15:41:15",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "缺失的封装 C101 (4.7u 16V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C102 (10u 10V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C103 (10u 10V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C104 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C105 (10u 10V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C106 (10u 10V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C107 (10u 10V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C108 (22u 10V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C109 (22u 10V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C110 (10u 10V)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C111 (1u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C112 (1u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C113 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 L101 (1.5uH / Isat TBD)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R101 (1.78k 1%)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R102 (1.62k 1%)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R103 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R104 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R105 (470k 1%)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R106 (150k 1%)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R107 (100k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R108 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 U5 (MAX17048G+)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 U6 (BQ24074RGTR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 U7 (TPS63070RNMR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 U8 (TLV75518PDBVR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C201 (1u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C202 (22u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C203 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C204 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C205 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C206 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C207 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C208 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R201 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R202 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R203 (4.7k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R204 (4.7k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R205 (0R / tune SI)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R206 (0R / tune SI)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 U1 (ESP32-S3-PICO-1-N8R8)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C301 (TBD C / DNP)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C302 (TBD C / DNP)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C303 (TBD C / DNP)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C304 (TBD C / DNP)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C305 (TBD C / DNP)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C306 (TBD C / DNP)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C307 (TBD C / DNP)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C308 (TBD C / DNP)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C321 (220u low ESR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C322 (220u low ESR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C323 (22u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C324 (22u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C325 (22u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C326 (22u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C327 (1u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C328 (1u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C329 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C330 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R301 (0R)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R302 (0R)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R303 (0R)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R304 (0R)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C401 (100n VDDIO)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C402 (100n VDD)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C403 (1u local)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C404 (100n RTC)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R401 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R402 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 U3 (BMI270)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 U4 (RV-3028-C7)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C701 (1u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C702 (1u)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C703 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C711 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 C712 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R701 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R711 (1k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R712 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R713 (1k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R714 (10k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 SW1 (SOS NO)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 SW2 (AI NO)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 U11 (DRV2605LDGSR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 J1 (POGO_4_LOGICAL)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R801 (1k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "缺失的封装 R802 (1k)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        }
+    ],
+    "source": "aiot-watch.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "H1 的 NPTH 焊盘",
+                    "pos": {
+                        "x": -15.05,
+                        "y": -17.8
+                    },
+                    "uuid": "7594471b-ec46-4ef0-977b-d0cf544ae996"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "H2 的 NPTH 焊盘",
+                    "pos": {
+                        "x": 15.05,
+                        "y": -17.8
+                    },
+                    "uuid": "fbfa728f-29f2-4cfe-aa52-eb23408787cb"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "H3 的 NPTH 焊盘",
+                    "pos": {
+                        "x": -15.05,
+                        "y": 17.8
+                    },
+                    "uuid": "ee70d74d-18f1-415e-9f69-373a44b49976"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "H4 的 NPTH 焊盘",
+                    "pos": {
+                        "x": 15.05,
+                        "y": 17.8
+                    },
+                    "uuid": "f130e43f-ce35-451d-9b62-65b22ab4c98d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "在库 'project' 中找不到封装 'NPTH_1.4mm'",
+            "items": [
+                {
+                    "description": "封装 H1",
+                    "pos": {
+                        "x": -15.05,
+                        "y": -17.8
+                    },
+                    "uuid": "d192f540-8a22-5ac6-9e5d-d535a2881713"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "在库 'project' 中找不到封装 'NPTH_1.4mm'",
+            "items": [
+                {
+                    "description": "封装 H2",
+                    "pos": {
+                        "x": 15.05,
+                        "y": -17.8
+                    },
+                    "uuid": "c8ae4b1d-171d-5c35-80fd-64230859a5cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "在库 'project' 中找不到封装 'NPTH_1.4mm'",
+            "items": [
+                {
+                    "description": "封装 H3",
+                    "pos": {
+                        "x": -15.05,
+                        "y": 17.8
+                    },
+                    "uuid": "b0d9f115-390a-5395-a26c-1774c865eea0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "在库 'project' 中找不到封装 'NPTH_1.4mm'",
+            "items": [
+                {
+                    "description": "封装 H4",
+                    "pos": {
+                        "x": 15.05,
+                        "y": 17.8
+                    },
+                    "uuid": "c96dc15a-f67c-53bd-9a1f-8f26b4d8a7fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_5V",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 4.0
+                    },
+                    "uuid": "8d6ff2fb-67e9-5fa5-b934-3ea2af37b343"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_VBAT",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 4.0
+                    },
+                    "uuid": "3d7ee721-14cd-5bc5-adb9-b244f3414f79"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_VBAT_MODEM",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 4.0
+                    },
+                    "uuid": "cb55ca10-563c-5420-a407-71d359ea6e0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_3V3",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 5.75
+                    },
+                    "uuid": "73e64d65-e62b-5bc4-984d-a6d4e5132c66"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_1V8",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 5.75
+                    },
+                    "uuid": "91408364-a6d0-5f21-b5b3-949e0e1bec36"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_GND",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 5.75
+                    },
+                    "uuid": "000ea013-cce8-5686-9699-af4f81520a67"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_UART_TX",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 7.5
+                    },
+                    "uuid": "15fe2ee0-e064-5adf-b53d-6eb34411eff9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_UART_RX",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 7.5
+                    },
+                    "uuid": "dc6f27b8-d677-543d-a330-192c9e4b8301"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_I2C_SCL",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 7.5
+                    },
+                    "uuid": "b41c3d77-2ec8-50f1-a510-f28ef27815e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_I2C_SDA",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 9.25
+                    },
+                    "uuid": "72a48966-388f-5528-a4ac-edbc8f82cff0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_TX",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 9.25
+                    },
+                    "uuid": "ffe77d32-dd5f-5dba-a84a-ec95f5c817ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_RX",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 9.25
+                    },
+                    "uuid": "9fa2ffb4-8e01-52bb-b283-153b13d54e02"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_PWRKEY",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 11.0
+                    },
+                    "uuid": "cf619d0b-581c-5ea0-910f-93091d109e51"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_ESP_USB_DP",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 11.0
+                    },
+                    "uuid": "0a82c453-fedf-51fe-9335-ad70240ddef6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_ESP_USB_DM",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 11.0
+                    },
+                    "uuid": "58f1a850-5450-5962-859b-8864663ebc4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_USB_DP",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 12.75
+                    },
+                    "uuid": "30577d5f-0851-5120-a0f5-a14cce0f0d9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_MODEM_USB_DM",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 12.75
+                    },
+                    "uuid": "9ce758e5-eb69-5a26-b8ed-c2d6fce5cf58"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_RESET",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 12.75
+                    },
+                    "uuid": "34b3f59b-b6fe-5607-aea5-3d8152475b94"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_BOOT",
+                    "pos": {
+                        "x": -15.0,
+                        "y": 14.5
+                    },
+                    "uuid": "fad239a4-0957-5460-b64d-584977c16c26"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_CHG_STATUS",
+                    "pos": {
+                        "x": -13.2,
+                        "y": 14.5
+                    },
+                    "uuid": "430e31c9-aa39-5e73-9538-b2a66db7740a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "封装 'TestPad_1mm' 与库 'project' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 TP_PGOOD",
+                    "pos": {
+                        "x": -11.4,
+                        "y": 14.5
+                    },
+                    "uuid": "c7f26de8-8d5b-501f-b9fa-b74c9c2d8047"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.6500 mm)",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'AIOT-SENIOR-WATCH EVT-V1'",
+                    "pos": {
+                        "x": 0.0,
+                        "y": -19.0
+                    },
+                    "uuid": "6761a7a2-bb79-5aeb-8349-cd05d0fb5e79"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)",
+            "items": [
+                {
+                    "description": "H1 的参考字段",
+                    "pos": {
+                        "x": -15.05,
+                        "y": -19.3
+                    },
+                    "uuid": "175296b0-db03-4332-bd84-71a0c6d4320f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)",
+            "items": [
+                {
+                    "description": "H2 的参考字段",
+                    "pos": {
+                        "x": 15.05,
+                        "y": -19.3
+                    },
+                    "uuid": "1cb99022-5b98-4d5e-9a0c-dd7346fb6440"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)",
+            "items": [
+                {
+                    "description": "H3 的参考字段",
+                    "pos": {
+                        "x": -15.05,
+                        "y": 16.3
+                    },
+                    "uuid": "ee5ca2ed-6552-4236-8485-ac2b2aa27c4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)",
+            "items": [
+                {
+                    "description": "H4 的参考字段",
+                    "pos": {
+                        "x": 15.05,
+                        "y": 16.3
+                    },
+                    "uuid": "ebe42fc1-f32c-4330-bbd5-29063966c6c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}
