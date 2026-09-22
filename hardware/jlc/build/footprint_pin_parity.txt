@@ -1,0 +1,11 @@
+ref   footprint                                geometry         delta              note
+U11   VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL        10 pins/10 pads  0 missing / 0 extra ok
+U3    LGA-14_L3.0-W2.5-P0.50-BR                14 pins/14 pads  0 missing / 0 extra ok
+U4    DFN-8_L3.2-W1.5-P0.9-BL                  8 pins/8 pads    0 missing / 0 extra ok
+U5    TDFN-8_L2.0-W2.0-P0.50-BL-EP1.2          9 pins/9 pads    0 missing / 0 extra ok
+U6    QFN-16_L3.0-W3.0-P0.50-TL-EP1.7          17 pins/17 pads  0 missing / 0 extra ok
+U7    VQFN-15_L3.0-W2.5-P0.50-BL               15 pins/15 pads  0 missing / 0 extra tied-pads ok
+U8    SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR        5 pins/5 pads    0 missing / 0 extra ok
+U9    WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7         21 pins/21 pads  0 missing / 0 extra ok
+
+0 mismatch(es):

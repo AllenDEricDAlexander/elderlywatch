@@ -1,0 +1,389 @@
+project ea905f22c789460e8404c7cb6b73ac04 / target page 10_NEW: a7948021787444c3 (reused, 12 pages total)
+read 03_MODEM_SIM_RF    comps= 117 wires=  94 texts= 20 polys= 32 bbox=47.24409,-1585.433075..2265.5,-65.35433
+read 07_HAPTIC_BUTTONS  comps=  50 wires=  36 texts=  6 polys=  4 bbox=47.24409,-1380.7086649999999..1760.5000000000002,-65.35433
+read 04_IMU_RTC         comps=  38 wires=  29 texts=  5 polys=  0 bbox=47.24409,-849.212595..1760.5000000000002,-65.35433
+read 00_TOP             comps=   9 wires=   0 texts= 49 polys=  0 bbox=47.24409,-1479.133855..1743.2848566308594,-65.35433
+read 02_ESP32           comps=  83 wires=  67 texts= 13 polys=  0 bbox=47.24409,-1290.157475..1760.5000000000002,-65.35433
+read 01_POWER           comps= 125 wires=  95 texts= 12 polys=  8 bbox=47.24409,-1518.503935..2265.5,-65.35433
+read 08_DEBUG_TEST      comps=  57 wires=  32 texts=  6 polys=  4 bbox=47.24409,-1321.653545..2225.5,-65.35433
+read 06_AUDIO           comps=  82 wires=  64 texts= 19 polys=  8 bbox=47.24409,-1612.755905..2245.5,-65.35433
+read 05_DISPLAY         comps=  12 wires=  11 texts= 11 polys=  4 bbox=47.24409,-392.913385..1198.5411631591796,-65.35433
+tiles: 9  framed extent: 7009.8 x 5502.7 API units (border adds 1205 more height)
+expected: flag=2 part=126 poly=60 port=428 rect=12 text=190 wire=428 total=1246
+stats: blocked_part=12 blocked_value=19 nets=102 refs=126
+round 1: live flag=2 frame=0 part=143 poly=52 port=355 rect=11 text=189 wire=303 | missing=269 blocked=0 repair=0 stray=78
+      still missing: wire ESP_BOOT
+      still missing: wire +3V3_SYS
+      still missing: wire I2C_SCL
+      still missing: wire +3V3_SYS
+      still missing: wire I2C_SDA
+      still missing: wire ESP_USB_DP_RAW
+      still missing: wire ESP_USB_DP
+      still missing: wire ESP_USB_DM_RAW
+      still missing: wire ESP_USB_DM
+      still missing: wire +3V3_SYS
+      plan: 209 delete, 394 create
+      4 item(s) in  0.3s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  1.5s  drop=4
+      4 item(s) in  0.5s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.2s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.5s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.9s  drop=4
+      4 item(s) in  0.5s  drop=4
+      4 item(s) in  0.7s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.8s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.7s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.5s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.5s  drop=4
+      4 item(s) in  0.9s  drop=4
+      4 item(s) in  1.0s  drop=4
+      4 item(s) in  0.2s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.9s  drop=4
+      1 item(s) in  0.3s  drop=1
+      4 item(s) in  0.2s  wire=1
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire I2C_SCL: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  0.4s  part=1 wire=3
+      4 item(s) in  0.1s  poly=2 text=2
+      4 item(s) in  0.2s  poly=4
+      4 item(s) in  0.2s  poly=2 wire=2
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in 17.8s  wire=4
+      4 item(s) in  1.3s  wire=4
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  1.1s  wire=4
+      4 item(s) in  0.5s  wire=4
+      4 item(s) in  0.3s  wire=4
+      4 item(s) in  0.4s  wire=4
+      4 item(s) in  8.4s  wire=2
+      refused (verify decides): wire MODEM_USB_DP: create failed!
+      refused (verify decides): wire MODEM_USB_DM: create failed!
+      4 item(s) in  1.4s  wire=1
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire I2S0_BCLK: create failed!
+      4 item(s) in  1.4s  wire=2
+      refused (verify decides): wire CODEC_DAC_N: create failed!
+      refused (verify decides): wire CODEC_VMID: create failed!
+      4 item(s) in  1.0s  wire=2
+      refused (verify decides): wire I2C_SDA: create failed!
+      refused (verify decides): wire GND: create failed!
+      4 item(s) in  0.3s  wire=1
+      refused (verify decides): wire MIC1_N: create failed!
+      refused (verify decides): wire AMP_SD: create failed!
+      refused (verify decides): wire SPK_P: create failed!
+      4 item(s) in  0.3s  wire=1
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire SPK_N: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      4 item(s) in  0.2s  wire=1
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire GND: create failed!
+      4 item(s) in  1.3s  wire=2
+      refused (verify decides): wire CODEC_VMID: create failed!
+      refused (verify decides): wire GND: create failed!
+      4 item(s) in  1.4s  wire=2
+      refused (verify decides): wire CODEC_MIC_N: create failed!
+      refused (verify decides): wire CODEC_DAC_P: create failed!
+      4 item(s) in  1.0s  wire=1
+      refused (verify decides): wire CODEC_DAC_N: create failed!
+      refused (verify decides): wire AMP_IN_N: create failed!
+      refused (verify decides): wire VBAT: create failed!
+      4 item(s) in  1.5s  wire=2
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire AMP_SD: create failed!
+      4 item(s) in  1.0s  text=3 wire=1
+      4 item(s) in  1.1s  wire=2
+      refused (verify decides): wire LCD_DC: create failed!
+      refused (verify decides): wire TP_SCL: create failed!
+      4 item(s) in  2.5s  port=1 rect=1 wire=2
+      4 item(s) in  1.6s  port=4
+      4 item(s) in  2.2s  port=4
+      4 item(s) in  0.7s  port=4
+      4 item(s) in  0.5s  port=4
+      4 item(s) in  0.6s  port=4
+      HUNG on 4 item(s) (port GND…): HTTP 500: {"success":false,"error":"Request 862d4647-de89-4095-92c3-6cd43bb8d59e timed out
+      1 of them landed anyway; retrying 3
+      3 item(s) in  1.5s  port=3
+      4 item(s) in  0.4s  port=4
+      4 item(s) in  0.4s  port=4
+      4 item(s) in  0.4s  port=4
+      4 item(s) in 13.3s  port=4
+      4 item(s) in  0.5s  port=4
+      4 item(s) in  1.6s  port=4
+      4 item(s) in  0.5s  port=4
+      HUNG on 4 item(s) (port CODEC_DAC_N…): HTTP 500: {"success":false,"error":"Request 18ca71ab-e90c-4a05-a095-bd2c61571d7d timed out
+      2 item(s) in  7.3s  port=2
+      2 item(s) in  0.4s  port=2
+      HUNG on 4 item(s) (port VBAT…): HTTP 500: {"success":false,"error":"Request 9910507b-4293-4ed8-9547-044546645e1a timed out
+      HUNG on 2 item(s) (port VBAT…): HTTP 500: {"success":false,"error":"Request 2044d3b0-1268-4224-9169-af50b3378a86 timed out
+      HUNG on 1 item(s) (port VBAT…): HTTP 500: {"success":false,"error":"Request abd7d008-26dc-4b57-ae8c-f3fea2c9d734 timed out
+      POISON x1: port VBAT - nothing landed, nothing on that slot
+      HUNG on 1 item(s) (port GND…): HTTP 500: {"success":false,"error":"Request 5fccfb63-4ab3-445d-afb3-15cd238f0fa5 timed out
+      POISON x1: port GND - nothing landed, nothing on that slot
+      HUNG on 2 item(s) (port AMP_SD…): HTTP 500: {"success":false,"error":"Request f1f5e7cc-2450-4ba2-8a43-8d6109860dd0 timed out
+      1 item(s) in 19.8s  port=1
+      HUNG on 1 item(s) (port GND…): HTTP 500: {"success":false,"error":"EDA window \"47643fb2-a367-4a40-b130-bc0aa271ed97\" di
+      1 of them landed anyway; retrying 0
+      4 item(s) in  2.0s  port=4
+      HUNG on 4 item(s) (port GND…): HTTP 500: {"success":false,"error":"Request 4f2083f0-50e8-4c24-beb2-b5470228a8c4 timed out
+      HUNG on 2 item(s) (port GND…): HTTP 500: {"success":false,"error":"Request 3915e7ed-1286-42d6-99f4-f21ee10f0a9e timed out
+      2 of them landed anyway; retrying 0
+      2 item(s) in  0.2s  port=2
+      4 item(s) in  0.4s  port=4
+      HUNG on 4 item(s) (port TP_SDA…): HTTP 500: {"success":false,"error":"Request a8b7a620-c5e0-426a-b83d-2d2306b57b8c timed out
+      HUNG on 2 item(s) (port TP_SDA…): HTTP 500: {"success":false,"error":"Request 577db4ff-e138-4bf9-9a90-985880b30087 timed out
+      HUNG on 1 item(s) (port TP_SDA…): HTTP 500: {"success":false,"error":"Request 60a91a6c-ce84-4585-833d-5386b4fd7a65 timed out
+      POISON x1: port TP_SDA - nothing landed, nothing on that slot
+      1 item(s) in  3.1s  port=1
+      2 item(s) in  2.3s  port=2
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  2.8s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.0s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.8s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.4s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.3s  port=4
+      4 item(s) in  2.0s  flag=2 port=2
+      4 item(s) in  2.4s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.3s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.1s  port=4
+      2 item(s) in  0.7s  port=2
+round 2: live flag=2 frame=0 part=126 poly=60 port=453 rect=11 text=190 wire=403 | missing=33 blocked=0 repair=2 stray=32
+      wire power_PWR_FLAG (9353c9db5d675f00): net!=POWER_PWR_FLAG
+      wire power_PWR_FLAG (94b454ae03b36aa6): net!=POWER_PWR_FLAG
+      still missing: wire +3V3_SYS
+      still missing: wire I2C_SCL
+      still missing: wire +3V3_SYS
+      still missing: wire MODEM_USB_DP
+      still missing: wire MODEM_USB_DM
+      still missing: wire +3V3_SYS
+      still missing: wire GND
+      still missing: wire I2S0_BCLK
+      still missing: wire CODEC_DAC_N
+      still missing: wire CODEC_VMID
+      plan: 73 delete, 65 create
+      4 item(s) in  0.5s  drop=2 fix_wire=2
+      4 item(s) in  0.7s  drop=4
+      4 item(s) in  0.7s  drop=4
+      4 item(s) in  0.8s  drop=4
+      4 item(s) in  1.0s  drop=4
+      4 item(s) in  0.9s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.0s  drop=4
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.7s  drop=4
+      4 item(s) in  0.7s  drop=4
+      4 item(s) in  0.5s  drop=4
+      4 item(s) in  0.8s  drop=4
+      4 item(s) in  0.8s  drop=4
+      4 item(s) in  0.4s  drop=4
+      4 item(s) in  0.4s  drop=4
+      4 item(s) in  0.7s  drop=4
+      4 item(s) in  0.7s  drop=4
+      3 item(s) in  0.7s  drop=3
+      4 item(s) in  0.5s  wire=1
+      refused (verify decides): wire I2C_SCL: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire MODEM_USB_DP: create failed!
+      4 item(s) in  1.2s  wire=2
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire I2S0_BCLK: create failed!
+      4 item(s) in  1.8s  wire=2
+      refused (verify decides): wire I2C_SDA: create failed!
+      refused (verify decides): wire GND: create failed!
+      4 item(s) in  0.8s  wire=1
+      refused (verify decides): wire AMP_SD: create failed!
+      refused (verify decides): wire SPK_P: create failed!
+      refused (verify decides): wire GND: create failed!
+      4 item(s) in  0.5s  wire=1
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: create failed!
+      4 item(s) in  1.1s  wire=2
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire CODEC_MIC_N: create failed!
+      4 item(s) in  1.2s  wire=2
+      refused (verify decides): wire AMP_IN_N: create failed!
+      refused (verify decides): wire VBAT: create failed!
+      4 item(s) in  0.3s  wire=1
+      refused (verify decides): wire AMP_SD: create failed!
+      refused (verify decides): wire LCD_DC: create failed!
+      refused (verify decides): wire TP_SCL: create failed!
+      4 item(s) in  1.6s  port=3 rect=1
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.2s  port=4
+      1 item(s) in  0.5s  port=1
+round 3: live flag=2 frame=0 part=126 poly=60 port=428 rect=12 text=190 wire=408 | missing=20 blocked=0 repair=1 stray=0
+      wire power_PWR_FLAG (94b454ae03b36aa6): net!=POWER_PWR_FLAG
+      still missing: wire I2C_SCL
+      still missing: wire +3V3_SYS
+      still missing: wire MODEM_USB_DP
+      still missing: wire GND
+      still missing: wire I2S0_BCLK
+      still missing: wire I2C_SDA
+      still missing: wire GND
+      still missing: wire AMP_SD
+      still missing: wire SPK_P
+      still missing: wire GND
+      plan: 20 delete, 40 create
+      4 item(s) in  0.6s  drop=2 fix_wire=1
+      refused (verify decides): drop_component port:I2C_SCL@2896,614: delete() returned nothing
+      4 item(s) in  0.6s  drop=4
+      4 item(s) in  0.9s  drop=4
+      4 item(s) in  0.7s  drop=4
+      4 item(s) in  0.7s  drop=4
+      1 item(s) in  0.4s  drop=1
+      4 item(s) in  1.9s  wire=3
+      refused (verify decides): wire GND: create failed!
+      4 item(s) in  1.1s  wire=2
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire AMP_SD: create failed!
+      4 item(s) in  1.3s  wire=2
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      4 item(s) in  1.4s  wire=2
+      refused (verify decides): wire CODEC_MIC_N: create failed!
+      refused (verify decides): wire AMP_IN_N: create failed!
+      4 item(s) in  0.3s  wire=1
+      refused (verify decides): wire AMP_SD: create failed!
+      refused (verify decides): wire LCD_DC: create failed!
+      refused (verify decides): wire TP_SCL: create failed!
+      4 item(s) in  1.8s  port=4
+      4 item(s) in  1.5s  port=4
+      4 item(s) in  1.7s  port=4
+      4 item(s) in  1.2s  port=4
+      4 item(s) in  1.3s  port=4
+round 4: live flag=2 frame=0 part=126 poly=60 port=429 rect=12 text=190 wire=418 | missing=10 blocked=0 repair=0 stray=1
+      still missing: wire GND
+      still missing: wire GND
+      still missing: wire AMP_SD
+      still missing: wire +3V3_SYS
+      still missing: wire +3V3_SYS
+      still missing: wire CODEC_MIC_N
+      still missing: wire AMP_IN_N
+      still missing: wire AMP_SD
+      still missing: wire LCD_DC
+      still missing: wire TP_SCL
+      plan: 11 delete, 20 create
+      4 item(s) in  0.8s  drop=4
+      4 item(s) in  0.8s  drop=4
+      3 item(s) in  0.7s  drop=3
+      4 item(s) in  0.7s  wire=1
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire AMP_SD: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      4 item(s) in  1.6s  wire=2
+      refused (verify decides): wire AMP_IN_N: create failed!
+      refused (verify decides): wire AMP_SD: create failed!
+      4 item(s) in  2.8s  port=2 wire=2
+      4 item(s) in  1.1s  port=4
+      4 item(s) in  1.2s  port=4
+round 5: live flag=2 frame=0 part=126 poly=60 port=428 rect=12 text=190 wire=423 | missing=5 blocked=0 repair=0 stray=0
+      still missing: wire GND
+      still missing: wire AMP_SD
+      still missing: wire +3V3_SYS
+      still missing: wire AMP_IN_N
+      still missing: wire AMP_SD
+      plan: 5 delete, 10 create
+      4 item(s) in  0.8s  drop=4
+      1 item(s) in  0.3s  drop=1
+      4 item(s) in  1.9s  wire=2
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire AMP_IN_N: create failed!
+      4 item(s) in  2.2s  port=3 wire=1
+      2 item(s) in  0.7s  port=2
+round 6: live flag=2 frame=0 part=126 poly=60 port=428 rect=12 text=190 wire=426 | missing=2 blocked=0 repair=0 stray=0
+      still missing: wire +3V3_SYS
+      still missing: wire AMP_IN_N
+      plan: 2 delete, 4 create
+      2 item(s) in  0.5s  drop=2
+      4 item(s) in  2.2s  port=2 wire=2
+round 7: live flag=2 frame=0 part=126 poly=60 port=428 rect=12 text=190 wire=428 | missing=0 blocked=0 repair=0 stray=0
+
+PASS: 1246 primitive(s) expected, live flag=2 frame=0 part=126 poly=60 port=428 rect=12 text=190 wire=428; missing=0 blocked=0 attr-repair=0 stray=0
+exit=0

@@ -1,0 +1,16 @@
+const t0 = Date.now();
+const target = 'f0706db0ae88edcc';
+const marks = {};
+await eda.dmt_EditorControl.openDocument(target);
+marks.open = Date.now() - t0;
+const t1 = Date.now();
+const w = await eda.sch_PrimitiveWire.create([500, -500, 600, -500], 'TESTNET', null, 1, 0);
+marks.wire = Date.now() - t1;
+marks.wireId = w ? w.getState_PrimitiveId() : null;
+if (w) w.done();
+const t2 = Date.now();
+const saved = await eda.sch_Document.save();
+marks.save = Date.now() - t2;
+marks.total = Date.now() - t0;
+marks.saved = saved;
+return marks;

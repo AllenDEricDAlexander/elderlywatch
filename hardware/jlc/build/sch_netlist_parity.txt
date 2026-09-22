@@ -1,0 +1,20 @@
+tolerance: 0.01   filter: all refs
+pages scanned: 10
+
+kicad nodes in scope   : 376
+jlc pins resolved    : 377
+matched              : 346
+no-connect open      : 28  (WRONG NET on NC pins: 0)
+renumbered pads      : 2 of 2 expected
+added pads           : 1 of 1 expected
+WRONG NET            : 0
+MISSING in jlc       : 0
+EXTRA in jlc         : 0
+multi-net pins       : 0
+
+expected deltas from the pad-numbering decisions (verified to carry the right net):
+  U5.EP      -> U5.9     GND
+  U6.EP      -> U6.17    GND
+  (added) U9.21       GND
+
+pin tips resolved through a non-zero offset (float debris, count by magnitude): {'1.1e-13': 40, '1.3e-13': 3, '2.3e-13': 36, '2.8e-14': 22, '5.7e-14': 54, '6.4e-14': 4, '8.0e-14': 4}

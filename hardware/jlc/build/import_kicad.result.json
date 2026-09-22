@@ -1,0 +1,36 @@
+{
+  "projectName": "aiot-kicad-import",
+  "uuid": "ea905f22c789460e8404c7cb6b73ac04",
+  "ownerTeamUuid": "5c6d8ce5c6d44a5082b5a5efcf48bd8b",
+  "importedAt": "2026-09-21",
+  "source": "hardware/kicad (zip 93444 B, 22 files)",
+  "verifiedTree": {
+    "boards": [
+      {"uuid": "3e4e5d87c113e90e", "name": "aiot-watch"},
+      {"uuid": "cd81ce9bbcc08faf", "name": "00_TOP"}
+    ],
+    "pcb": [{"uuid": "52caa9452ee66dee", "name": "aiot-watch", "board": "aiot-watch"}],
+    "pages": [
+      {"uuid": "30968987fbc1647d", "name": "aiot-watch", "schematic": "a27357ea1b21e67b"},
+      {"uuid": "07dc7dde94c1bf76", "name": "00_TOP", "schematic": "1a9c373f83df62d2"},
+      {"uuid": "2ef9ed7773e0c42f", "name": "01_POWER", "schematic": "240b9c508235f5e1"},
+      {"uuid": "e98944c2045546cf", "name": "02_ESP32", "schematic": "b2a9af641cf2bf63"},
+      {"uuid": "8fa31840ba825b92", "name": "03_MODEM_SIM_RF", "schematic": "3c810a1544706db5"},
+      {"uuid": "9e364700c984f124", "name": "04_IMU_RTC", "schematic": "be9c99ebf69a3a82"},
+      {"uuid": "35d0bca337813128", "name": "05_DISPLAY", "schematic": "960958cbc05028ba"},
+      {"uuid": "e99e682aca69cae1", "name": "06_AUDIO", "schematic": "781b0c39fb23a086"},
+      {"uuid": "bbbca101b360e299", "name": "07_HAPTIC_BUTTONS", "schematic": "940af6262e155680"},
+      {"uuid": "3fdc6001a068d82e", "name": "08_DEBUG_TEST", "schematic": "8c564cbaeefecb7a"}
+    ]
+  },
+  "pageContentSample": {
+    "01_POWER": {"parts": 27, "netPorts": 95, "refs": "C101-C113,L101,R101-R109,U5-U8"},
+    "02_ESP32": {"parts": 15, "netPorts": 67, "refs": "C201-C208,R201-R206,U1"},
+    "03_MODEM_SIM_RF": {"parts": 22, "netPorts": 94, "refs": "C301-C308,C321-C330,R301-R304"}
+  },
+  "gaps": [
+    "every imported component has footprint.uuid = \"\"",
+    "U2/J2 absent as parts on 03_MODEM_SIM_RF (pinless in the KiCad source, D01/D03)",
+    "hierarchy flattened: each sub-sheet became its own schematic; board 00_TOP is spurious"
+  ]
+}

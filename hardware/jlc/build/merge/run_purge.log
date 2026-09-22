@@ -1,0 +1,349 @@
+project ea905f22c789460e8404c7cb6b73ac04 / target page 10_ALL: f0706db0ae88edcc (reused, 11 pages total)
+read 03_MODEM_SIM_RF    comps= 117 wires=  94 texts= 20 polys= 32 bbox=47.24409,-1585.433075..2265.5,-65.35433
+read 07_HAPTIC_BUTTONS  comps=  50 wires=  36 texts=  6 polys=  4 bbox=47.24409,-1380.7086649999999..1760.5000000000002,-65.35433
+read 04_IMU_RTC         comps=  38 wires=  29 texts=  5 polys=  0 bbox=47.24409,-849.212595..1760.5000000000002,-65.35433
+read 00_TOP             comps=   9 wires=   0 texts= 49 polys=  0 bbox=47.24409,-1479.133855..1743.2848566308594,-65.35433
+read 02_ESP32           comps=  83 wires=  67 texts= 13 polys=  0 bbox=47.24409,-1290.157475..1760.5000000000002,-65.35433
+read 01_POWER           comps= 125 wires=  95 texts= 12 polys=  8 bbox=47.24409,-1518.503935..2265.5,-65.35433
+read 08_DEBUG_TEST      comps=  57 wires=  32 texts=  6 polys=  4 bbox=47.24409,-1321.653545..2225.5,-65.35433
+read 06_AUDIO           comps=  82 wires=  64 texts= 19 polys=  8 bbox=47.24409,-1612.755905..2245.5,-65.35433
+read 05_DISPLAY         comps=  12 wires=  11 texts= 11 polys=  4 bbox=47.24409,-392.913385..1198.5411631591796,-65.35433
+tiles: 9  merged extent: 6889.8 x 5226.4 API units
+expected: flag=2 part=126 poly=60 port=428 text=150 wire=428 total=1194
+round 1: live flag=2 part=140 poly=60 port=421 text=154 wire=282 | missing=168 blocked=0 repair=0 stray=33
+      still missing: wire +3V3_SYS
+      still missing: wire HAPTIC_P
+      still missing: wire GND
+      still missing: wire HAPTIC_N
+      still missing: wire +3V3_SYS
+      still missing: wire HAPTIC_P
+      still missing: wire HAPTIC_N
+      still missing: wire HAPTIC_REG
+      still missing: wire GND
+      still missing: wire +3V3_SYS
+      plan: 196 delete, 331 create
+     12 item(s) in 12.0s  drop=12
+     12 item(s) in  0.2s  drop=12
+     12 item(s) in  0.2s  drop=12
+     12 item(s) in  0.8s  drop=12
+     12 item(s) in  0.9s  drop=12
+     12 item(s) in  0.9s  drop=12
+     12 item(s) in  0.7s  drop=12
+     12 item(s) in  1.6s  drop=12
+     12 item(s) in  1.9s  drop=12
+     12 item(s) in  2.1s  drop=12
+     12 item(s) in  1.9s  drop=12
+     12 item(s) in  2.0s  drop=12
+     12 item(s) in  2.4s  drop=12
+     12 item(s) in  1.9s  drop=12
+     12 item(s) in  1.6s  drop=12
+     12 item(s) in  2.5s  drop=12
+      4 item(s) in  1.2s  drop=4
+     12 item(s) in  8.4s  wire=12
+     12 item(s) in  0.2s  wire=1
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire RTC_INT: abandoned - the client kept refusing creates
+      refused (verify decides): wire ESP_EN: abandoned - the client kept refusing creates
+      refused (verify decides): wire ESP_BOOT: abandoned - the client kept refusing creates
+      refused (verify decides): wire BTN_SOS: abandoned - the client kept refusing creates
+      refused (verify decides): wire BAT_ALERT: abandoned - the client kept refusing creates
+      refused (verify decides): wire LCD_CS: abandoned - the client kept refusing creates
+      refused (verify decides): wire LCD_MOSI: abandoned - the client kept refusing creates
+     12 item(s) in  8.4s  wire=12
+     12 item(s) in  0.2s  wire=1
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire ESP_EN: abandoned - the client kept refusing creates
+      refused (verify decides): wire ESP_BOOT: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire I2C_SCL: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire I2C_SDA: abandoned - the client kept refusing creates
+      refused (verify decides): wire ESP_USB_DP_RAW: abandoned - the client kept refusing creates
+      refused (verify decides): wire ESP_USB_DP: abandoned - the client kept refusing creates
+     12 item(s) in  0.2s  wire=1
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire CHG_ILIM: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBUS_5V: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire DCDC_CTRL: abandoned - the client kept refusing creates
+     12 item(s) in  0.2s  wire=1
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire DCDC_FB: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire DCDC_L1: abandoned - the client kept refusing creates
+      refused (verify decides): wire SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire DCDC_CTRL: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire +1V8: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+     12 item(s) in  2.1s  wire=4
+      refused (verify decides): wire VBUS_5V: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire CHG_ISET: create failed!
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire CHG_ILIM: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+     12 item(s) in  1.6s  wire=3
+      refused (verify decides): wire DCDC_L1: create failed!
+      refused (verify decides): wire DCDC_L2: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire DCDC_VAUX: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+     12 item(s) in  0.8s  wire=2
+      refused (verify decides): wire +1V8: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire DCDC_CTRL: create failed!
+      refused (verify decides): wire power_PWR_FLAG: abandoned - the client kept refusing creates
+      refused (verify decides): wire power_PWR_FLAG: abandoned - the client kept refusing creates
+      refused (verify decides): wire POGO_UART_RX: abandoned - the client kept refusing creates
+      refused (verify decides): wire POGO_UART_TX: abandoned - the client kept refusing creates
+      refused (verify decides): wire POGO_UART_RX: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBAT_MODEM: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+     12 item(s) in  2.3s  wire=4
+      refused (verify decides): wire MODEM_TX: create failed!
+      refused (verify decides): wire MODEM_RX: create failed!
+      refused (verify decides): wire MODEM_PWRKEY: create failed!
+      refused (verify decides): wire ESP_EN: abandoned - the client kept refusing creates
+      refused (verify decides): wire AUDIO_MCLK: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire I2S0_BCLK: abandoned - the client kept refusing creates
+     12 item(s) in  2.0s  wire=4
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire CODEC_VMID: create failed!
+      refused (verify decides): wire CODEC_MIC_P: create failed!
+      refused (verify decides): wire I2C_SDA: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire MIC_SUPPLY_TBD: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire MIC1_P: abandoned - the client kept refusing creates
+     12 item(s) in  1.3s  wire=3
+      refused (verify decides): wire SPK_P: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire CODEC_DACVREF: abandoned - the client kept refusing creates
+      refused (verify decides): wire CODEC_ADCVREF: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+     12 item(s) in  0.1s  wire=1
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire CODEC_MIC_P: create failed!
+      refused (verify decides): wire MIC1_N: create failed!
+      refused (verify decides): wire CODEC_DAC_P: abandoned - the client kept refusing creates
+      refused (verify decides): wire AMP_IN_N: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBAT: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire AMP_SD: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBAT: abandoned - the client kept refusing creates
+     12 item(s) in  0.2s  wire=1
+      refused (verify decides): wire LCD_BL: create failed!
+      refused (verify decides): wire TP_SCL: create failed!
+      refused (verify decides): wire TP_SDA: create failed!
+      refused (verify decides): wire TP_INT: abandoned - the client kept refusing creates
+      refused (verify decides): port +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): port HAPTIC_P: abandoned - the client kept refusing creates
+      refused (verify decides): port GND: abandoned - the client kept refusing creates
+      refused (verify decides): port HAPTIC_N: abandoned - the client kept refusing creates
+      refused (verify decides): port +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): port HAPTIC_P: abandoned - the client kept refusing creates
+      refused (verify decides): port HAPTIC_N: abandoned - the client kept refusing creates
+     12 item(s) in  7.0s  port=12
+     12 item(s) in  5.5s  port=12
+     12 item(s) in  4.9s  port=12
+     12 item(s) in  3.9s  port=12
+     12 item(s) in  3.2s  port=12
+     12 item(s) in  3.8s  port=12
+     12 item(s) in  3.0s  port=12
+     12 item(s) in  2.6s  port=12
+      HUNG on 12 item(s) (port GND…): HTTP 500: {"success":false,"error":"Request f54d4c78-6740-4b00-881c-1479e2fc456c timed out
+      8 of them landed anyway; retrying 4
+      4 item(s) in  1.4s  port=4
+     12 item(s) in  1.9s  port=12
+     12 item(s) in  2.0s  port=12
+      HUNG on 12 item(s) (port MIC1_P…): HTTP 500: {"success":false,"error":"Request 893580ce-06e3-44cd-8660-bf8364b6cd37 timed out
+      HUNG on 6 item(s) (port MIC1_P…): HTTP 500: {"success":false,"error":"Request 8a405b0a-7c87-49ce-919d-6d577f7e024c timed out
+      HUNG on 3 item(s) (port MIC1_P…): HTTP 500: {"success":false,"error":"Request e458fc70-9715-4023-8a2f-00677e9db28a timed out
+      HUNG on 1 item(s) (port MIC1_P…): HTTP 500: {"success":false,"error":"Request abd44eb1-1b7b-44c2-841e-bd0f4b658a57 timed out
+      POISON x1: port MIC1_P - nothing landed, nothing on that slot
+      2 item(s) in  0.9s  port=2
+      3 item(s) in  1.0s  port=3
+      6 item(s) in  3.2s  port=6
+     12 item(s) in  6.8s  port=12
+      7 item(s) in  4.3s  port=7
+round 2: live flag=2 part=126 poly=60 port=446 text=150 wire=330 | missing=118 blocked=0 repair=0 stray=38
+      still missing: port +3V3_SYS
+      still missing: port HAPTIC_P
+      still missing: port GND
+      still missing: port HAPTIC_N
+      still missing: port +3V3_SYS
+      still missing: port HAPTIC_P
+      still missing: port HAPTIC_N
+      still missing: wire +3V3_SYS
+      still missing: wire +3V3_SYS
+      still missing: wire GND
+      plan: 168 delete, 231 create
+     12 item(s) in  7.7s  drop=12
+     12 item(s) in  1.9s  drop=12
+     12 item(s) in  1.5s  drop=12
+     12 item(s) in  2.3s  drop=12
+     12 item(s) in  2.3s  drop=12
+     12 item(s) in  2.3s  drop=12
+     12 item(s) in  2.1s  drop=12
+     12 item(s) in  7.9s  drop=12
+      HUNG on 12 item(s) (drop_component port:GND@3084,449…): HTTP 500: {"success":false,"error":"Request 63c42b48-aeec-41d7-847e-a59f7120155f timed out
+      HUNG on 12 item(s) (wire +3V3_SYS…): HTTP 500: {"success":false,"error":"Request 75139f2a-b6f4-48ec-ac56-c1da782e01f2 timed out
+      6 item(s) in  0.0s  
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire RTC_INT: abandoned - the client kept refusing creates
+      refused (verify decides): wire ESP_EN: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): wire ESP_BOOT: create failed!
+      refused (verify decides): wire BTN_SOS: create failed!
+      refused (verify decides): wire BAT_ALERT: create failed!
+      refused (verify decides): wire LCD_CS: abandoned - the client kept refusing creates
+      refused (verify decides): wire LCD_MOSI: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire ESP_EN: create failed!
+      refused (verify decides): wire ESP_BOOT: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire I2C_SCL: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire I2C_SDA: abandoned - the client kept refusing creates
+      refused (verify decides): wire ESP_USB_DP_RAW: abandoned - the client kept refusing creates
+      refused (verify decides): wire ESP_USB_DP: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire CHG_ILIM: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBUS_5V: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire DCDC_CTRL: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire DCDC_FB: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire DCDC_L1: create failed!
+      refused (verify decides): wire SYS: create failed!
+      refused (verify decides): wire DCDC_CTRL: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire +1V8: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBUS_5V: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire CHG_ISET: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire CHG_ILIM: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire +3V3_SYS: create failed!
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire DCDC_L1: abandoned - the client kept refusing creates
+      refused (verify decides): wire DCDC_L2: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire DCDC_VAUX: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire SYS: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire +1V8: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire DCDC_CTRL: abandoned - the client kept refusing creates
+      refused (verify decides): wire power_PWR_FLAG: abandoned - the client kept refusing creates
+      refused (verify decides): wire power_PWR_FLAG: abandoned - the client kept refusing creates
+      refused (verify decides): wire POGO_UART_RX: abandoned - the client kept refusing creates
+      refused (verify decides): wire POGO_UART_TX: abandoned - the client kept refusing creates
+      refused (verify decides): wire POGO_UART_RX: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBAT_MODEM: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire MODEM_TX: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire MODEM_RX: create failed!
+      refused (verify decides): wire MODEM_PWRKEY: create failed!
+      refused (verify decides): wire ESP_EN: create failed!
+      refused (verify decides): wire AUDIO_MCLK: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire I2S0_BCLK: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire CODEC_VMID: abandoned - the client kept refusing creates
+      refused (verify decides): wire CODEC_MIC_P: abandoned - the client kept refusing creates
+      refused (verify decides): wire I2C_SDA: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire MIC_SUPPLY_TBD: create failed!
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire MIC1_P: create failed!
+      refused (verify decides): wire SPK_P: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): wire CODEC_DACVREF: abandoned - the client kept refusing creates
+      refused (verify decides): wire CODEC_ADCVREF: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire GND: create failed!
+      refused (verify decides): wire CODEC_MIC_P: create failed!
+      refused (verify decides): wire MIC1_N: create failed!
+      refused (verify decides): wire CODEC_DAC_P: abandoned - the client kept refusing creates
+      refused (verify decides): wire AMP_IN_N: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBAT: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire AMP_SD: abandoned - the client kept refusing creates
+      refused (verify decides): wire GND: abandoned - the client kept refusing creates
+      refused (verify decides): wire VBAT: abandoned - the client kept refusing creates
+      refused (verify decides): wire LCD_BL: abandoned - the client kept refusing creates
+     12 item(s) in  0.0s  
+      refused (verify decides): wire TP_SCL: create failed!
+      refused (verify decides): wire TP_SDA: create failed!
+      refused (verify decides): wire TP_INT: create failed!
+      refused (verify decides): port +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): port HAPTIC_P: abandoned - the client kept refusing creates
+      refused (verify decides): port GND: abandoned - the client kept refusing creates
+      refused (verify decides): port HAPTIC_N: abandoned - the client kept refusing creates
+      refused (verify decides): port +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): port HAPTIC_P: abandoned - the client kept refusing creates
+      refused (verify decides): port HAPTIC_N: abandoned - the client kept refusing creates
+      refused (verify decides): port +3V3_SYS: abandoned - the client kept refusing creates
+      refused (verify decides): port +3V3_SYS: abandoned - the client kept refusing creates

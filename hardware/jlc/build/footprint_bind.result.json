@@ -1,0 +1,112 @@
+{
+  "project": {
+    "uuid": "ea905f22c789460e8404c7cb6b73ac04",
+    "name": "aiot-kicad-import"
+  },
+  "results": [
+    {
+      "ref": "U11",
+      "status": "BOUND",
+      "device": "ac8f368bca1eff62",
+      "lcscId": "C527464",
+      "mpn": "DRV2605LDGSR",
+      "footprintName": "VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+      "footprintUuid": "352e9d9423984cf2a5de83a2ea9bd494",
+      "verifiedFootprint": "70156bbbfe5dadc9",
+      "verifiedSource": "352e9d9423984cf2a5de83a2ea9bd494|0819f05c4eef4c71ace90d822a990e87",
+      "verifiedName": "VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+      "verified": true
+    },
+    {
+      "ref": "U3",
+      "status": "BOUND",
+      "device": "b26361d6be67715c",
+      "lcscId": "C2836813",
+      "mpn": "BMI270",
+      "footprintName": "LGA-14_L3.0-W2.5-P0.50-BR",
+      "footprintUuid": "8c460b0f0d5f4008a73fbd6cd2ad99e2",
+      "verifiedFootprint": "9bcf486b5a76c178",
+      "verifiedSource": "8c460b0f0d5f4008a73fbd6cd2ad99e2|0819f05c4eef4c71ace90d822a990e87",
+      "verifiedName": "LGA-14_L3.0-W2.5-P0.50-BR",
+      "verified": true
+    },
+    {
+      "ref": "U4",
+      "status": "BOUND",
+      "device": "f9833ba356a61365",
+      "lcscId": "C2829066",
+      "mpn": "RV-3028-C7",
+      "footprintName": "DFN-8_L3.2-W1.5-P0.9-BL",
+      "footprintUuid": "0e6f3a134f1a4ecbb148405f6442af6c",
+      "verifiedFootprint": "0072b78721079b54",
+      "verifiedSource": "0e6f3a134f1a4ecbb148405f6442af6c|0819f05c4eef4c71ace90d822a990e87",
+      "verifiedName": "DFN-8_L3.2-W1.5-P0.9-BL",
+      "verified": true
+    },
+    {
+      "ref": "U5",
+      "status": "BOUND",
+      "device": "adaf21d01e23ca6a",
+      "lcscId": "C2682616",
+      "mpn": "MAX17048G+T10",
+      "footprintName": "TDFN-8_L2.0-W2.0-P0.50-BL-EP1.2",
+      "footprintUuid": "2c6125140a7f4f7e895de1075aa2914e",
+      "verifiedFootprint": "f1cd31730789c580",
+      "verifiedSource": "2c6125140a7f4f7e895de1075aa2914e|0819f05c4eef4c71ace90d822a990e87",
+      "verifiedName": "TDFN-8_L2.0-W2.0-P0.50-BL-EP1.2",
+      "verified": true
+    },
+    {
+      "ref": "U6",
+      "status": "BOUND",
+      "device": "02ad5da2424fb75a",
+      "lcscId": "C54313",
+      "mpn": "BQ24074RGTR",
+      "footprintName": "QFN-16_L3.0-W3.0-P0.50-TL-EP1.7",
+      "footprintUuid": "2acf4ae43e1643c9bcfc4472e2176fc0",
+      "verifiedFootprint": "079272ef62343cd5",
+      "verifiedSource": "2acf4ae43e1643c9bcfc4472e2176fc0|0819f05c4eef4c71ace90d822a990e87",
+      "verifiedName": "QFN-16_L3.0-W3.0-P0.50-TL-EP1.7",
+      "verified": true
+    },
+    {
+      "ref": "U7",
+      "status": "BOUND",
+      "device": "76eb7c766178926b",
+      "lcscId": "C109322",
+      "mpn": "TPS63070RNMR",
+      "footprintName": "VQFN-15_L3.0-W2.5-P0.50-BL",
+      "footprintUuid": "30ffd733094b4aaeb5482411d7dd745f",
+      "verifiedFootprint": "44eccd5b599eb340",
+      "verifiedSource": "30ffd733094b4aaeb5482411d7dd745f|0819f05c4eef4c71ace90d822a990e87",
+      "verifiedName": "VQFN-15_L3.0-W2.5-P0.50-BL",
+      "verified": true
+    },
+    {
+      "ref": "U8",
+      "status": "BOUND",
+      "device": "fddc74b7f9ff215f",
+      "lcscId": "C2877863",
+      "mpn": "TLV75518PDBVR",
+      "footprintName": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+      "footprintUuid": "c65512e222f74539b9aedd26f1ca303e",
+      "verifiedFootprint": "bb6b1a91dd4130e0",
+      "verifiedSource": "c65512e222f74539b9aedd26f1ca303e|0819f05c4eef4c71ace90d822a990e87",
+      "verifiedName": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+      "verified": true
+    },
+    {
+      "ref": "U9",
+      "status": "BOUND",
+      "device": "901becdd9f9aedc5",
+      "lcscId": "C962342",
+      "mpn": "ES8311",
+      "footprintName": "WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7",
+      "footprintUuid": "3cec98ac294d4065ba5bfc19541e228c",
+      "verifiedFootprint": "3b013fdf677048ea",
+      "verifiedSource": "3cec98ac294d4065ba5bfc19541e228c|0819f05c4eef4c71ace90d822a990e87",
+      "verifiedName": "WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7",
+      "verified": true
+    }
+  ]
+}

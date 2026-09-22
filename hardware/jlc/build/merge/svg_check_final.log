@@ -1,0 +1,33 @@
+rectangles: furniture=12  frame=9  border/title=3
+  OK  frame 03_MODEM_SIM_RF    want=[-40, -220.7480300000002, 2298.25591, 1769.0787449999998] got=[-40.0, -220.7, 2298.3, 1769.1]
+  OK  frame 07_HAPTIC_BUTTONS  want=[-40, -2301.771655, 1793.2559100000003, 1564.354335] got=[-40.0, -2301.8, 1793.3, 1564.3000000000002]
+  OK  frame 04_IMU_RTC         want=[5176.51182, -220.7480300000002, 1793.2559099999999, 1032.8582649999998] got=[5176.5, -220.7, 1793.3000000000002, 1032.9]
+  OK  frame 00_TOP             want=[5176.51182, -2301.771655, 1776.0407666308593, 1662.779525] got=[5176.5, -2301.8, 1776.1000000000004, 1662.8000000000002]
+  OK  frame 02_ESP32           want=[2578.25591, 1538.149605, 1793.2559099999999, 1473.8031449999999] got=[2578.3, 1538.1, 1793.1999999999998, 1473.8]
+  OK  frame 01_POWER           want=[-40, 1538.149605, 2298.25591, 1702.149605] got=[-40.0, 1538.1, 2298.3, 1702.1]
+  OK  frame 08_DEBUG_TEST      want=[2578.25591, -2301.771655, 2258.25591, 1505.299215] got=[2578.3, -2301.8, 2258.2, 1505.3000000000002]
+  OK  frame 06_AUDIO           want=[2578.25591, -220.7480300000002, 2278.25591, 1796.4015749999999] got=[2578.3, -220.7, 2278.2, 1796.4]
+  OK  frame 05_DISPLAY         want=[5176.51182, 1538.149605, 1231.2970731591795, 576.559055] got=[5176.5, 1538.1, 1231.3000000000002, 576.5]
+  unclaimed amber rects: 0 (expect 0 - anything here is a probe or a duplicated frame)
+border rect: topLeft=(-290.0, 1788.1) 7509.8x6707.700000000001  ->  API x -290.0..7219.8,  y -4919.6..1788.1
+text elements in export: 1295
+  OK  00_TOP             title+3 notes in export: 4/4
+  OK  01_POWER           title+3 notes in export: 4/4
+  OK  02_ESP32           title+3 notes in export: 4/4
+  OK  03_MODEM_SIM_RF    title+3 notes in export: 4/4
+  OK  04_IMU_RTC         title+3 notes in export: 4/4
+  OK  05_DISPLAY         title+3 notes in export: 4/4
+  OK  06_AUDIO           title+3 notes in export: 4/4
+  OK  07_HAPTIC_BUTTONS  title+3 notes in export: 4/4
+  OK  08_DEBUG_TEST      title+3 notes in export: 4/4
+  OK  'AIOT-WATCH · 单页总图 10_ALL' -> 1
+  OK  '图例：琥珀色框' -> 1
+  OK  '发布闸门 HOLD' -> 2
+  OK  '本页位号已全部排除出 BOM' -> 1
+  OK  'tools/check_sch_netlist_parity.py' -> 1
+  OK  'U2 SIM8230C' -> 1
+  probe/ghost strings still in the export: 0
+decoration wording missing from the render: 0
+decoration strings spilling outside their own partition frame: 0
+content shapes: 1975, all inside the border
+texts outside the border: 0

@@ -1,34 +1,31 @@
-# AIoT 老人智能手表 EVT V1 — 未完成的评审草稿
+# AIoT 老人智能手表 — 硬件目录
 
-**不能作为能工作的电路板使用，不能送厂打样。** 当前有109个原理图符号，但PCB只有21个测试焊盘和4个孔；SIM8230C、Codec及部分接口只有无引脚图框。还有88个原理图器件封装没有上板。
+同一块板子目前维护两套 EDA 表达：
 
-## 本轮实际进展
+| 目录 | 工具 | 状态 |
+|---|---|---|
+| `kicad/` | KiCad 10.0.6 | 进行中的评审草稿。原理图 126 器件已网表化，PCB 只有 21 个测试焊盘和 4 个安装孔，105 个器件未绑封装。不可打样。 |
+| `jlc/` | 嘉立创EDA 专业版 | 目标适配版。用嘉立创/LCSC 元件库重建原理图与 PCB，取得真实封装、料号和可下单 BOM。已由 `kicad/` 经客户端 KiCad 导入器迁移出 10 页原理图（位号、网络、引脚齐全，缺封装分配）；工程目前在嘉立创云端 Personal 空间，尚未落成本地文件。 |
 
-- 已用 KiCad 10.0.6 原生加载工程、导出网表和全部图纸，核对291个已连接引脚的网名。
-- ERC：40 errors + 145 warnings，未通过。现有几何对象 DRC 为0，但 schematic-parity 有88项缺失封装，整板仍未通过。
-- 修正三组重复电源输出的符号类型、TP1–TP21合法位号、孔周keepout与库封装一致性、丝印高度和导线显示。
-- 按TI手册，为TPS63070的EN/PS_SYNC增加共用100k串联电阻R109。保持原有常开/省电模式。
-- 已安装并使用用户指定的kicad-happy技能；原理图、PCB、跨域、EMC、热分析和物料生命周期查询已运行。审核中排除了错误Vref、包围盒keepout、未布线“完成”等误报，未采用其评分作为放行依据。
+两套不是自动同步的副本。`kicad/` 是电气意图与设计约束的权威来源（网表、电源树、引脚分配、评审结论）；`jlc/` 是面向嘉立创制造与贴片装配的落地实现。任何电气决策先在 `kicad/` 记录，再在 `jlc/` 实现，避免两边各说一套。
 
-## 打开与查看
+## 为什么做 jlc 版本
 
-打开 `aiot-watch.kicad_pro`，原理图入口为 `aiot-watch.kicad_sch`；00_TOP 下有九张功能图。实际板文件是 `pcb/aiot-watch.kicad_pcb`；根目录同名符号链接用于KiCad项目入口和原理图/PCB一致性检查。
+`kicad/` 的审核长期卡在缺封装和缺料号：36 个唯一 BOM 行里只有 10 个带 MPN，D06/D07 的推荐 land pattern 一直拿不到官方 CAD。嘉立创EDA 自带 LCSC 库与封装，正好补这块，同时直接对齐嘉立创的板厂工艺和贴片坐标要求。
 
-`preview/00_TOP.svg` 至 `08_DEBUG_TEST.svg` 为KiCad原生输出。`PCB_TOP.svg`、`PCB_BOTTOM.svg` 为原生板层输出。部分图有同名PNG。`PCB_PLACEMENT.png` 是旧的分区说明图，不是3D或真实器件装配结果。
+## 查看方式
 
-## 评审入口
+- KiCad：打开 `kicad/aiot-watch.kicad_pro`，原理图入口 `kicad/aiot-watch.kicad_sch`。
+- 嘉立创EDA：打开 `jlc/` 下的工程文件（生成后）。
+- 评审证据统一在 `kicad/docs/`，其中 `ERC_DRC_REPORT.md`、`KICAD_HAPPY_REVIEW.md`、`TODO_DATASHEET_VERIFY.md` 是入口。
 
-- `docs/ERC_DRC_REPORT.md`：原生检查实测、修复与剩余问题。
-- `docs/KICAD_HAPPY_REVIEW.md`：技能辅助审核、证据、误报与未覆盖范围。
-- `docs/TODO_DATASHEET_VERIFY.md`：资料和设计阻断项。
-- `docs/POWER_TREE.md`、`docs/PCB_LAYOUT.md`：电源、RF、布局和机械问题。
-- `bom/BOM.csv`：132行采购/设计草稿，不可据此下单。
-- `docs/PIN_MAPPING.csv`、`docs/NET_MATRIX.md`、`docs/aiot-watch.net.xml`：设计意图与当前部分电路的原生网表。
+## 复现检查
 
-## 验证与后续边界
+仓库根目录：
 
-在hardware目录运行 `python3 tools/validate_draft.py` 和 `python3 tools/check_kicad.py`。前者只检查结构；后者真实执行ERC、含schematic-parity的DRC、原生网表对照和图纸导出。目前后者退出码为5，不能改成忽略。原始JSON、命令日志与源文件哈希见 `docs/NATIVE_CHECK.json`。
+```bash
+python3 hardware/kicad/tools/validate_draft.py   # 仅结构不变量
+python3 hardware/kicad/tools/check_kicad.py      # 原生 ERC / DRC / parity / 网表
+```
 
-STEP 1和BOM草稿已建立；真实封装、部分电路和全器件placement未完成。当前有六个铜层，但介质层叠/阻抗未定。尚未达到可放行的STEP 20。没有布线、覆铜、最终地过孔、3D装配校验或制造输出；布局确认前不进入Routing。
-
-除安装用户指定技能外，项目变更仅在hardware目录。未启动项目服务、浏览器或硬件，未下单，未提交Git。
+`check_kicad.py` 保留 `--exit-code-violations`，当前退出码为 5，表示仍有违规，不允许改成忽略。

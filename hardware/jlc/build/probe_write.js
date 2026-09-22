@@ -1,0 +1,16 @@
+const sym = '7ac0f6329abd612c', lib = 'ea905f22c789460e8404c7cb6b73ac04';
+await eda.lib_Symbol.openInEditor(sym, lib);
+const src = await eda.sys_FileManager.getDocumentSource();
+const out = {};
+out.identity = await eda.lib_Symbol.updateDocumentSource(sym, lib, src);
+out.noTrailingNewline = await eda.lib_Symbol.updateDocumentSource(sym, lib, src.replace(/\n$/, ''));
+const lines = src.split('\n');
+const rectIdx = lines.findIndex(l => l.includes('"type":"RECT"'));
+let h = JSON.parse(lines[rectIdx].slice(0, lines[rectIdx].indexOf('||')));
+let b = JSON.parse(lines[rectIdx].slice(lines[rectIdx].indexOf('||') + 2).replace(/\|$/, ''));
+b.dotY1 = -30;
+const edited = lines.slice();
+edited[rectIdx] = JSON.stringify(h) + '||' + JSON.stringify(b) + '|';
+out.rectEdit = await eda.lib_Symbol.updateDocumentSource(sym, lib, edited.join('\n'));
+out.afterRect = (await eda.sys_FileManager.getDocumentSource()).includes('"dotY1":-30');
+return out;

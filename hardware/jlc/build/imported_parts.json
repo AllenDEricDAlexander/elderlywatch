@@ -1,0 +1,900 @@
+{
+  "project": {
+    "uuid": "ea905f22c789460e8404c7cb6b73ac04",
+    "name": "aiot-kicad-import"
+  },
+  "parts": [
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C301",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C302",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C303",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C304",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C305",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C306",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C307",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C308",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C321",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C322",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C323",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C324",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C325",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C326",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C327",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C328",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C329",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "C330",
+      "deviceUuid": "0c6538c7d5506e06",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "R301",
+      "deviceUuid": "1622b8186c7bcc24",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "R302",
+      "deviceUuid": "1622b8186c7bcc24",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "R303",
+      "deviceUuid": "1622b8186c7bcc24",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "03_MODEM_SIM_RF",
+      "ref": "R304",
+      "deviceUuid": "1622b8186c7bcc24",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "U11",
+      "deviceUuid": "ac8f368bca1eff62",
+      "deviceName": "project_U11_DRV2605LDGSR",
+      "footprint": "",
+      "mpn": "DRV2605LDGSR"
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "C701",
+      "deviceUuid": "1111c058ca921ba4",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "C702",
+      "deviceUuid": "1111c058ca921ba4",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "C703",
+      "deviceUuid": "1111c058ca921ba4",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "C711",
+      "deviceUuid": "1111c058ca921ba4",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "C712",
+      "deviceUuid": "1111c058ca921ba4",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "R701",
+      "deviceUuid": "d83dea04ea17f73e",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "R711",
+      "deviceUuid": "d83dea04ea17f73e",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "R712",
+      "deviceUuid": "d83dea04ea17f73e",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "R713",
+      "deviceUuid": "d83dea04ea17f73e",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "R714",
+      "deviceUuid": "d83dea04ea17f73e",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "SW1",
+      "deviceUuid": "71ac1aa849a320c6",
+      "deviceName": "project_SW",
+      "footprint": ""
+    },
+    {
+      "page": "07_HAPTIC_BUTTONS",
+      "ref": "SW2",
+      "deviceUuid": "71ac1aa849a320c6",
+      "deviceName": "project_SW",
+      "footprint": ""
+    },
+    {
+      "page": "04_IMU_RTC",
+      "ref": "U3",
+      "deviceUuid": "b26361d6be67715c",
+      "deviceName": "project_U3_BMI270",
+      "footprint": "",
+      "mpn": "BMI270"
+    },
+    {
+      "page": "04_IMU_RTC",
+      "ref": "U4",
+      "deviceUuid": "f9833ba356a61365",
+      "deviceName": "project_U4_RV_3028_C7",
+      "footprint": "",
+      "mpn": "RV-3028-C7"
+    },
+    {
+      "page": "04_IMU_RTC",
+      "ref": "C401",
+      "deviceUuid": "fe4df97c265c9983",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "04_IMU_RTC",
+      "ref": "C402",
+      "deviceUuid": "fe4df97c265c9983",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "04_IMU_RTC",
+      "ref": "C403",
+      "deviceUuid": "fe4df97c265c9983",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "04_IMU_RTC",
+      "ref": "C404",
+      "deviceUuid": "fe4df97c265c9983",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "04_IMU_RTC",
+      "ref": "R401",
+      "deviceUuid": "fb435149b880dac1",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "04_IMU_RTC",
+      "ref": "R402",
+      "deviceUuid": "fb435149b880dac1",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "U1",
+      "deviceUuid": "878c761593104177",
+      "deviceName": "project_U1_ESP32_S3_PICO_1_N8R8",
+      "footprint": "",
+      "mpn": "ESP32-S3-PICO-1-N8R8"
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "R201",
+      "deviceUuid": "55f1cf2bb31bf053",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "R202",
+      "deviceUuid": "55f1cf2bb31bf053",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "R203",
+      "deviceUuid": "55f1cf2bb31bf053",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "R204",
+      "deviceUuid": "55f1cf2bb31bf053",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "R205",
+      "deviceUuid": "55f1cf2bb31bf053",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "R206",
+      "deviceUuid": "55f1cf2bb31bf053",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "C201",
+      "deviceUuid": "dad1d5d3fad3320d",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "C202",
+      "deviceUuid": "dad1d5d3fad3320d",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "C203",
+      "deviceUuid": "dad1d5d3fad3320d",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "C204",
+      "deviceUuid": "dad1d5d3fad3320d",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "C205",
+      "deviceUuid": "dad1d5d3fad3320d",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "C206",
+      "deviceUuid": "dad1d5d3fad3320d",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "C207",
+      "deviceUuid": "dad1d5d3fad3320d",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "02_ESP32",
+      "ref": "C208",
+      "deviceUuid": "dad1d5d3fad3320d",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "U6",
+      "deviceUuid": "02ad5da2424fb75a",
+      "deviceName": "project_U6_BQ24074RGTR",
+      "footprint": "",
+      "mpn": "BQ24074RGTR"
+    },
+    {
+      "page": "01_POWER",
+      "ref": "U7",
+      "deviceUuid": "76eb7c766178926b",
+      "deviceName": "project_U7_TPS63070RNMR",
+      "footprint": "",
+      "mpn": "TPS63070RNMR"
+    },
+    {
+      "page": "01_POWER",
+      "ref": "U8",
+      "deviceUuid": "fddc74b7f9ff215f",
+      "deviceName": "project_U8_TLV75518PDBVR",
+      "footprint": "",
+      "mpn": "TLV75518PDBVR"
+    },
+    {
+      "page": "01_POWER",
+      "ref": "U5",
+      "deviceUuid": "adaf21d01e23ca6a",
+      "deviceName": "project_U5_MAX17048GP",
+      "footprint": "",
+      "mpn": "MAX17048G+"
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R101",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R102",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R103",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R104",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R105",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R106",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R107",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R108",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "R109",
+      "deviceUuid": "493b264b383c1bec",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C101",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C102",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C103",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C104",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C105",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C106",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C107",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C108",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C109",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C110",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C111",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C112",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "C113",
+      "deviceUuid": "19b592fa8cedb412",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "01_POWER",
+      "ref": "L101",
+      "deviceUuid": "66ede25f5d1bb7c4",
+      "deviceName": "project_L",
+      "footprint": ""
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "J1",
+      "deviceUuid": "f84355faa5557b28",
+      "deviceName": "project_J1_POGO_4_LOGICAL",
+      "footprint": ""
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "R801",
+      "deviceUuid": "eb151c0f3fcdc47a",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "R802",
+      "deviceUuid": "eb151c0f3fcdc47a",
+      "deviceName": "project_R",
+      "footprint": ""
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP1",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP2",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP3",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP4",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP5",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP6",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP7",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP8",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP9",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP10",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP11",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP12",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP13",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP14",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP15",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP16",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP17",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP18",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP19",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP20",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "08_DEBUG_TEST",
+      "ref": "TP21",
+      "deviceUuid": "c0f7a6bde8fdd7ce",
+      "deviceName": "project_TP",
+      "footprint": "840d5114b71a38b1"
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "U9",
+      "deviceUuid": "901becdd9f9aedc5",
+      "deviceName": "project_U9_ES8311",
+      "footprint": "",
+      "mpn": "ES8311"
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "U10",
+      "deviceUuid": "1e3d97c9f0785828",
+      "deviceName": "project_U10_PAM8302A",
+      "footprint": "",
+      "mpn": "PAM8302A"
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C601",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C602",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C603",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C604",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C605",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C606",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C607",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C608",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C609",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C610",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C611",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C612",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C613",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "C614",
+      "deviceUuid": "ec7dbd061e843177",
+      "deviceName": "project_C",
+      "footprint": ""
+    },
+    {
+      "page": "06_AUDIO",
+      "ref": "R601",
+      "deviceUuid": "04ed53bc7aa2c078",
+      "deviceName": "project_R",
+      "footprint": ""
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+tolerance: 0.01   filter: all refs
+
+page                         comps  wires  tips  exact loose  none frac-tips
+aiot-watch                       2      0     0      0     0     0         0
+03_MODEM_SIM_RF                117     94   138     57    81     0        89
+07_HAPTIC_BUTTONS               50     36    70     26    44     0        53
+04_IMU_RTC                      38     29    63     19    39     5        47
+00_TOP                           9      0     0      0     0     0         0
+02_ESP32                        83     67   152     37    97    18        96
+01_POWER                       125     95   189     97    88     4        91
+08_DEBUG_TEST                   57     32    61     32    29     0        40
+06_AUDIO                        82     64   123     63    59     1        54
+05_DISPLAY                      12     11    11      2     9     0         9
+
+TOTALS  tips=807  exact=333  loose=446  none=28  fractional pin tips=479
+largest loose offset = 0.000000000000321555
+
+loose offset magnitudes (orders of magnitude, most-negative first):
+  1e-14    237  ############################################################
+  1e-13    209  ############################################################
+
+part             loose tips   worst offset
+?                       283      3.216e-13
+U1                       32      1.271e-13
+U11                       8      2.842e-14
+U3                        8      5.684e-14
+U4                        5      2.842e-14
+U8                        4      2.274e-13
+U9                        4      5.684e-14
+C101                      2      2.274e-13
+C104                      2      2.274e-13
+C106                      2      2.274e-13
+C109                      2      2.274e-13
+C112                      2      2.274e-13
+C201                      2      2.274e-13
+C202                      2      2.274e-13
+C205                      2      2.274e-13
+C208                      2      2.274e-13
+C325                      2      2.274e-13
+C330                      2      2.274e-13
+C402                      2      2.274e-13
+C601                      2      5.684e-14
+C603                      2      2.274e-13
+C606                      2      5.684e-14
+C608                      2      2.274e-13
+C611                      2      5.684e-14
+C613                      2      2.274e-13
+C702                      2      2.274e-13
+C711                      2      2.274e-13
+C712                      2      2.274e-13
+L101                      2      2.274e-13
+R102                      2      2.274e-13
+R109                      2      2.274e-13
+R204                      2      2.274e-13
+R301                      2      1.137e-13
+R302                      2      1.137e-13
+R303                      2      1.137e-13
+R304                      2      1.137e-13
+R401                      2      2.274e-13
+R711                      2      2.274e-13
+R713                      2      2.274e-13
+U6                        2      5.684e-14
+U7                        2      5.684e-14
+C103                      1      5.684e-14
+C105                      1      5.684e-14
+C108                      1      5.684e-14
+C111                      1      5.684e-14
+C204                      1      5.684e-14
+C207                      1      5.684e-14
+C301                      1      5.684e-14
+C303                      1      5.684e-14
+C305                      1      5.684e-14
+C307                      1      5.684e-14
+C322                      1      1.137e-13
+C327                      1      1.137e-13
+C401                      1      5.684e-14
+C404                      1      5.684e-14
+C701                      1      5.684e-14
+R101                      1      5.684e-14
+R104                      1      5.684e-14
+R106                      1      5.684e-14
+R108                      1      5.684e-14
+R201                      1      5.684e-14
+R203                      1      5.684e-14
+R206                      1      5.684e-14
+R701                      1      5.684e-14
+R801                      1      2.274e-13
+R802                      1      2.274e-13
+SW1                       1      5.684e-14
+SW2                       1      5.684e-14
+TP11                      1      1.137e-13
+TP14                      1      1.137e-13
+TP17                      1      1.137e-13
+TP2                       1      1.137e-13
+TP20                      1      1.137e-13
+TP5                       1      1.137e-13
+TP8                       1      1.137e-13
+
+loose pin tips (nearest wire endpoint is within tolerance but not on it):
+  page                     part      pin   name               tip (x, y)                   offset       net/nc
+  03_MODEM_SIM_RF          ?         1                        (1880., -1095.)              3.216e-13    RF_GNSS
+  03_MODEM_SIM_RF          ?         1                        (1880., -1110.)              3.216e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (1525., -1190.)              3.216e-13    RF_WIFI
+  03_MODEM_SIM_RF          ?         1                        (1725., -1190.)              3.216e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (1880., -1270.)              3.216e-13    RF_WIFI
+  03_MODEM_SIM_RF          ?         1                        (1880., -1285.)              3.216e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (1170., -1435.)              3.216e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (1410., -1435.)              3.216e-13    VBAT_MODEM
+  03_MODEM_SIM_RF          ?         1                        (1610., -1435.)              3.216e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (1850., -1435.)              3.216e-13    VBAT_MODEM
+  03_MODEM_SIM_RF          ?         1                        (1170., -1510.)              3.216e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (1410., -1510.)              3.216e-13    VBAT_MODEM
+  03_MODEM_SIM_RF          ?         1                        (1610., -1510.)              3.216e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (1850., -1510.)              3.216e-13    VBAT_MODEM
+  07_HAPTIC_BUTTONS        ?         1                        (1035., -1100.)              3.216e-13    BTN_AI
+  07_HAPTIC_BUTTONS        ?         1                        (1545., -1100.)              3.216e-13    +3V3_SYS
+  07_HAPTIC_BUTTONS        ?         1                        (1745., -1100.)              3.216e-13    BTN_AI
+  07_HAPTIC_BUTTONS        ?         1                        (1035., -1200.)              3.216e-13    GND
+  02_ESP32                 ?         1                        (1035., -1065.)              3.216e-13    GND
+  02_ESP32                 ?         1                        (1545., -1065.)              3.216e-13    +3V3_SYS
+  02_ESP32                 ?         1                        (1745., -1065.)              3.216e-13    GND
+  02_ESP32                 ?         1                        (1035., -1140.)              3.216e-13    GND
+  01_POWER                 ?         1                        (1035., -1070.)              3.216e-13    GND
+  01_POWER                 ?         1                        (1545., -1070.)              3.216e-13    SYS
+  01_POWER                 ?         1                        (1745., -1070.)              3.216e-13    GND
+  01_POWER                 ?         1                        (1035., -1140.)              3.216e-13    GND
+  01_POWER                 ?         1                        (1545., -1140.)              3.216e-13    +3V3_SYS
+  01_POWER                 ?         1                        (1745., -1140.)              3.216e-13    GND
+  01_POWER                 ?         1                        (1035., -1215.)              3.216e-13    GND
+  01_POWER                 ?         1                        (1545., -1215.)              3.216e-13    VBAT
+  01_POWER                 ?         1                        (1745., -1215.)              3.216e-13    GND
+  01_POWER                 ?         1                        (1035., -1285.)              3.216e-13    DCDC_CTRL
+  08_DEBUG_TEST            ?         1                        (1560., -1065.)              3.216e-13    PGOOD
+  06_AUDIO                 ?         1                        (1100., -1050.)              3.216e-13    CODEC_MIC_P
+  06_AUDIO                 ?         1                        (1380., -1050.)              3.216e-13    MIC1_N
+  06_AUDIO                 ?         1                        (1500., -1050.)              3.216e-13    CODEC_MIC_N
+  06_AUDIO                 ?         1                        (1780., -1050.)              3.216e-13    CODEC_DAC_P
+  06_AUDIO                 ?         1                        (1900., -1050.)              3.216e-13    AMP_IN_P
+  06_AUDIO                 ?         1                        (1100., -1210.)              3.216e-13    GND
+  06_AUDIO                 ?         1                        (1380., -1210.)              3.216e-13    AMP_SD
+  06_AUDIO                 ?         1                        (1500., -1210.)              3.216e-13    GND
+  06_AUDIO                 ?         1                        (1780., -1210.)              3.216e-13    VBAT
+  06_AUDIO                 ?         1                        (1900., -1210.)              3.216e-13    AMP_SD
+  03_MODEM_SIM_RF          ?         1                        (995., -1190.)               2.542e-13    RF_WIFI
+  02_ESP32                 ?         1                        (1035., -985.)               2.542e-13    GND
+  01_POWER                 ?         1                        (1035., -930.)               2.542e-13    DCDC_L2
+  01_POWER                 ?         1                        (1035., -1000.)              2.542e-13    GND
+  06_AUDIO                 ?         1                        (980., -1050.)               2.542e-13    MIC1_P
+  06_AUDIO                 ?         1                        (980., -1210.)               2.542e-13    VBAT
+  03_MODEM_SIM_RF          ?         1                        (1880., -935.)               2.274e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (1525., -1015.)              2.274e-13    RF_GNSS
+  03_MODEM_SIM_RF          ?         1                        (1725., -1015.)              2.274e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (970., -1435.)               2.274e-13    VBAT_MODEM
+  03_MODEM_SIM_RF          ?         1                        (2050., -1435.)              2.274e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (970., -1510.)               2.274e-13    VBAT_MODEM
+  03_MODEM_SIM_RF          ?         1                        (2050., -1510.)              2.274e-13    GND
+  03_MODEM_SIM_RF          C325      1     ~                  (2000., -1435.)              2.274e-13    VBAT_MODEM
+  03_MODEM_SIM_RF          C325      2     ~                  (2040., -1435.)              2.274e-13    GND
+  03_MODEM_SIM_RF          C330      1     ~                  (2000., -1510.)              2.274e-13    VBAT_MODEM
+  03_MODEM_SIM_RF          C330      2     ~                  (2040., -1510.)              2.274e-13    GND
+  07_HAPTIC_BUTTONS        C702      2     ~                  (1025., -470.)               2.274e-13    GND
+  07_HAPTIC_BUTTONS        C711      2     ~                  (1025., -925.)               2.274e-13    GND
+  07_HAPTIC_BUTTONS        C712      2     ~                  (1025., -1200.)              2.274e-13    GND
+  07_HAPTIC_BUTTONS        R711      2     ~                  (1025., -825.)               2.274e-13    BTN_SOS
+  07_HAPTIC_BUTTONS        R713      2     ~                  (1025., -1100.)              2.274e-13    BTN_AI
+  04_IMU_RTC               C402      2     ~                  (1025., -490.)               2.274e-13    GND
+  04_IMU_RTC               R401      2     ~                  (1025., -585.)               2.274e-13    RTC_INT
+  02_ESP32                 ?         1                        (1545., -985.)               2.274e-13    +3V3_SYS
+  02_ESP32                 ?         1                        (1745., -985.)               2.274e-13    GND
+  02_ESP32                 R204      2     ~                  (1025., -905.)               2.274e-13    I2C_SDA
+  02_ESP32                 C201      2     ~                  (1025., -825.)               2.274e-13    GND
+  02_ESP32                 C202      2     ~                  (1025., -985.)               2.274e-13    GND
+  02_ESP32                 C205      2     ~                  (1025., -1065.)              2.274e-13    GND
+  02_ESP32                 C208      2     ~                  (1025., -1140.)              2.274e-13    GND
+  01_POWER                 ?         1                        (1545., -930.)               2.274e-13    +3V3_SYS
+  01_POWER                 ?         1                        (1745., -930.)               2.274e-13    DCDC_FB
+  01_POWER                 ?         1                        (1545., -1000.)              2.274e-13    +3V3_SYS
+  01_POWER                 ?         1                        (1745., -1000.)              2.274e-13    DCDC_PG
+  01_POWER                 U8        1     IN                 (1820., -170.)               2.274e-13    +3V3_SYS
+  01_POWER                 U8        2     GND                (1820., -185.)               2.274e-13    GND
+  01_POWER                 U8        3     EN                 (1820., -200.)               2.274e-13    +3V3_SYS
+  01_POWER                 U8        5     OUT                (2040., -185.)               2.274e-13    +1V8
+  01_POWER                 R102      2     ~                  (1025., -785.)               2.274e-13    GND
+  01_POWER                 R109      2     ~                  (1025., -1285.)              2.274e-13    DCDC_CTRL
+  01_POWER                 C101      2     ~                  (1025., -860.)               2.274e-13    GND
+  01_POWER                 C104      2     ~                  (1025., -1000.)              2.274e-13    GND
+  01_POWER                 C106      2     ~                  (1025., -1070.)              2.274e-13    GND
+  01_POWER                 C109      2     ~                  (1025., -1140.)              2.274e-13    GND
+  01_POWER                 C112      2     ~                  (1025., -1215.)              2.274e-13    GND
+  01_POWER                 L101      2     ~                  (1025., -930.)               2.274e-13    DCDC_L2
+  08_DEBUG_TEST            ?         1                        (1560., -965.)               2.274e-13    ESP_EN
+  08_DEBUG_TEST            R801      1     ~                  (1180., -215.)               2.274e-13    UART0_TX
+  08_DEBUG_TEST            R802      1     ~                  (1180., -315.)               2.274e-13    POGO_UART_RX
+  06_AUDIO                 C603      1     ~                  (1020., -890.)               2.274e-13    +3V3_SYS
+  06_AUDIO                 C603      2     ~                  (1060., -890.)               2.274e-13    GND
+  06_AUDIO                 C608      1     ~                  (1020., -1050.)              2.274e-13    MIC1_P
+  06_AUDIO                 C608      2     ~                  (1060., -1050.)              2.274e-13    CODEC_MIC_P
+  06_AUDIO                 C613      1     ~                  (1020., -1210.)              2.274e-13    VBAT
+  06_AUDIO                 C613      2     ~                  (1060., -1210.)              2.274e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (835., -515.)                1.608e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (795., -670.)                1.608e-13    CELL_MAIN_RF
+  03_MODEM_SIM_RF          ?         1                        (995., -670.)                1.608e-13    RF_CELL_MAIN
+  03_MODEM_SIM_RF          ?         1                        (795., -845.)                1.608e-13    CELL_DIV_RF
+  03_MODEM_SIM_RF          ?         1                        (995., -845.)                1.608e-13    RF_CELL_DIV
+  03_MODEM_SIM_RF          ?         1                        (795., -1015.)               1.608e-13    GNSS_RF
+  03_MODEM_SIM_RF          ?         1                        (995., -1015.)               1.608e-13    RF_GNSS
+  07_HAPTIC_BUTTONS        ?         1                        (835., -825.)                1.608e-13    BTN_SOS_CONTACT
+  07_HAPTIC_BUTTONS        ?         1                        (835., -925.)                1.608e-13    BTN_SOS
+  04_IMU_RTC               ?         1                        (835., -585.)                1.608e-13    +3V3_SYS
+  02_ESP32                 ?         1                        (660., -565.)                1.608e-13    +3V3_SYS
+  02_ESP32                 ?         1                        (660., -580.)                1.608e-13    +3V3_SYS
+  02_ESP32                 ?         1                        (660., -595.)                1.608e-13    GND
+  02_ESP32                 ?         1                        (835., -825.)                1.608e-13    ESP_EN
+  02_ESP32                 ?         1                        (835., -905.)                1.608e-13    +3V3_SYS
+  02_ESP32                 ?         1                        (835., -985.)                1.608e-13    +3V3_SYS
+  01_POWER                 ?         1                        (970., -515.)                1.608e-13    BAT_NTC
+  01_POWER                 ?         1                        (835., -785.)                1.608e-13    CHG_ILIM
+  01_POWER                 ?         1                        (835., -860.)                1.608e-13    VBUS_5V
+  01_POWER                 ?         1                        (835., -930.)                1.608e-13    DCDC_L1
+  01_POWER                 ?         1                        (835., -1000.)               1.608e-13    DCDC_VAUX
+  08_DEBUG_TEST            ?         1                        (855., -570.)                1.608e-13    +1V8
+  08_DEBUG_TEST            ?         1                        (855., -670.)                1.608e-13    UART0_RX
+  08_DEBUG_TEST            ?         1                        (855., -770.)                1.608e-13    MODEM_TX
+  08_DEBUG_TEST            ?         1                        (855., -865.)                1.608e-13    ESP_USB_DP
+  08_DEBUG_TEST            ?         1                        (855., -965.)                1.608e-13    MODEM_USB_DM
+  06_AUDIO                 ?         1                        (820., -515.)                1.608e-13    SPK_P
+  06_AUDIO                 ?         1                        (820., -530.)                1.608e-13    VBAT
+  06_AUDIO                 ?         1                        (820., -545.)                1.608e-13    GND
+  06_AUDIO                 ?         1                        (820., -560.)                1.608e-13    SPK_N
+  06_AUDIO                 ?         1                        (580., -890.)                1.608e-13    +3V3_SYS
+  06_AUDIO                 ?         1                        (700., -890.)                1.608e-13    GND
+  06_AUDIO                 ?         1                        (980., -890.)                1.608e-13    +3V3_SYS
+  02_ESP32                 U1        21    GPIO15             (420., -490.)                1.271e-13    I2S0_LRCK
+  02_ESP32                 U1        23    GPIO17             (420., -520.)                1.271e-13    I2S0_DIN
+  02_ESP32                 U1        27    GPIO21             (420., -580.)                1.271e-13    MCU_MODEM_TX
+  02_ESP32                 ?         1                        (660., -475.)                1.271e-13    UART0_TX
+  02_ESP32                 ?         1                        (660., -490.)                1.271e-13    UART0_RX
+  01_POWER                 ?         1                        (505., -515.)                1.271e-13    GND
+  03_MODEM_SIM_RF          ?         1                        (835., -470.)                1.137e-13    SIM_CLK
+  03_MODEM_SIM_RF          ?         1                        (835., -485.)                1.137e-13    SIM_DATA
+  03_MODEM_SIM_RF          ?         1                        (835., -500.)                1.137e-13    SIM_RST
+  03_MODEM_SIM_RF          ?         1                        (795., -1190.)               1.137e-13    ESP_RF
+  03_MODEM_SIM_RF          C322      2     ~                  (715., -1435.)               1.137e-13    GND
+  03_MODEM_SIM_RF          C327      2     ~                  (715., -1510.)               1.137e-13    GND
+  03_MODEM_SIM_RF          R301      1     ~                  (945., -670.)                1.137e-13    CELL_MAIN_RF
+  03_MODEM_SIM_RF          R301      2     ~                  (985., -670.)                1.137e-13    RF_CELL_MAIN
+  03_MODEM_SIM_RF          R302      1     ~                  (945., -845.)                1.137e-13    CELL_DIV_RF
+  03_MODEM_SIM_RF          R302      2     ~                  (985., -845.)                1.137e-13    RF_CELL_DIV
+  03_MODEM_SIM_RF          R303      1     ~                  (945., -1015.)               1.137e-13    GNSS_RF
+  03_MODEM_SIM_RF          R303      2     ~                  (985., -1015.)               1.137e-13    RF_GNSS
+  03_MODEM_SIM_RF          R304      1     ~                  (945., -1190.)               1.137e-13    ESP_RF
+  03_MODEM_SIM_RF          R304      2     ~                  (985., -1190.)               1.137e-13    RF_WIFI
+  07_HAPTIC_BUTTONS        ?         1                        (835., -470.)                1.137e-13    +3V3_SYS
+  07_HAPTIC_BUTTONS        ?         1                        (1035., -825.)               1.137e-13    BTN_SOS
+  07_HAPTIC_BUTTONS        ?         1                        (1035., -925.)               1.137e-13    GND
+  07_HAPTIC_BUTTONS        ?         1                        (835., -1100.)               1.137e-13    BTN_AI_CONTACT
+  07_HAPTIC_BUTTONS        ?         1                        (835., -1200.)               1.137e-13    BTN_AI
+  07_HAPTIC_BUTTONS        C702      1     ~                  (985., -470.)                1.137e-13    +3V3_SYS
+  07_HAPTIC_BUTTONS        C711      1     ~                  (985., -925.)                1.137e-13    BTN_SOS
+  07_HAPTIC_BUTTONS        C712      1     ~                  (985., -1200.)               1.137e-13    BTN_AI
+  07_HAPTIC_BUTTONS        R711      1     ~                  (985., -825.)                1.137e-13    BTN_SOS_CONTACT
+  07_HAPTIC_BUTTONS        R713      1     ~                  (985., -1100.)               1.137e-13    BTN_AI_CONTACT
+  04_IMU_RTC               ?         1                        (835., -490.)                1.137e-13    +3V3_SYS
+  04_IMU_RTC               ?         1                        (1035., -585.)               1.137e-13    RTC_INT
+  04_IMU_RTC               C402      1     ~                  (985., -490.)                1.137e-13    +3V3_SYS
+  04_IMU_RTC               R401      1     ~                  (985., -585.)                1.137e-13    +3V3_SYS
+  02_ESP32                 U1        50    GPIO44             (640., -490.)                1.137e-13    UART0_RX
+  02_ESP32                 U1        56    VDDA               (640., -580.)                1.137e-13    +3V3_SYS
+  02_ESP32                 U1        57    GND                (640., -595.)                1.137e-13    GND
+  02_ESP32                 ?         1                        (1035., -825.)               1.137e-13    GND
+  02_ESP32                 ?         1                        (1035., -905.)               1.137e-13    I2C_SDA
+  02_ESP32                 ?         1                        (835., -1065.)               1.137e-13    +3V3_SYS
+  02_ESP32                 ?         1                        (835., -1140.)               1.137e-13    +3V3_SYS
+  02_ESP32                 R204      1     ~                  (985., -905.)                1.137e-13    +3V3_SYS
+  02_ESP32                 C201      1     ~                  (985., -825.)                1.137e-13    ESP_EN
+  02_ESP32                 C202      1     ~                  (985., -985.)                1.137e-13    +3V3_SYS
+  02_ESP32                 C205      1     ~                  (985., -1065.)               1.137e-13    +3V3_SYS
+  02_ESP32                 C208      1     ~                  (985., -1140.)               1.137e-13    +3V3_SYS
+  01_POWER                 ?         1                        (970., -485.)                1.137e-13    VBAT
+  01_POWER                 ?         1                        (970., -500.)                1.137e-13    GND
+  01_POWER                 ?         1                        (1035., -785.)               1.137e-13    GND
+  01_POWER                 ?         1                        (1035., -860.)               1.137e-13    GND
+  01_POWER                 ?         1                        (835., -1070.)               1.137e-13    SYS
+  01_POWER                 ?         1                        (835., -1140.)               1.137e-13    +3V3_SYS
+  01_POWER                 ?         1                        (835., -1215.)               1.137e-13    +1V8
+  01_POWER                 ?         1                        (835., -1285.)               1.137e-13    SYS
+  01_POWER                 R102      1     ~                  (985., -785.)                1.137e-13    CHG_ILIM
+  01_POWER                 R109      1     ~                  (985., -1285.)               1.137e-13    SYS
+  01_POWER                 C101      1     ~                  (985., -860.)                1.137e-13    VBUS_5V
+  01_POWER                 C104      1     ~                  (985., -1000.)               1.137e-13    DCDC_VAUX
+  01_POWER                 C106      1     ~                  (985., -1070.)               1.137e-13    SYS
+  01_POWER                 C109      1     ~                  (985., -1140.)               1.137e-13    +3V3_SYS
+  01_POWER                 C112      1     ~                  (985., -1215.)               1.137e-13    +1V8
+  01_POWER                 L101      1     ~                  (985., -930.)                1.137e-13    DCDC_L1
+  08_DEBUG_TEST            ?         1                        (855., -470.)                1.137e-13    VBAT
+  08_DEBUG_TEST            ?         1                        (855., -1065.)               1.137e-13    CHG_STATUS
+  08_DEBUG_TEST            TP2       1     ~                  (1005., -470.)               1.137e-13    VBAT
+  08_DEBUG_TEST            TP5       1     ~                  (1005., -570.)               1.137e-13    +1V8
+  08_DEBUG_TEST            TP8       1     ~                  (1005., -670.)               1.137e-13    UART0_RX
+  08_DEBUG_TEST            TP11      1     ~                  (1005., -770.)               1.137e-13    MODEM_TX
+  08_DEBUG_TEST            TP14      1     ~                  (1005., -865.)               1.137e-13    ESP_USB_DP
+  08_DEBUG_TEST            TP17      1     ~                  (1005., -965.)               1.137e-13    MODEM_USB_DM
+  08_DEBUG_TEST            TP20      1     ~                  (1005., -1065.)              1.137e-13    CHG_STATUS
+  06_AUDIO                 ?         1                        (1100., -890.)               1.137e-13    GND
+  06_AUDIO                 ?         1                        (1380., -890.)               1.137e-13    +3V3_SYS
+  06_AUDIO                 ?         1                        (580., -1050.)               1.137e-13    CODEC_VMID
+  06_AUDIO                 ?         1                        (700., -1050.)               1.137e-13    GND
+  06_AUDIO                 ?         1                        (580., -1210.)               1.137e-13    VBAT
+  06_AUDIO                 ?         1                        (700., -1210.)               1.137e-13    GND
+  07_HAPTIC_BUTTONS        ?         1                        (325., -470.)                8.039e-14    GND
+  04_IMU_RTC               ?         1                        (325., -490.)                8.039e-14    GND
+  02_ESP32                 U1        7     GPIO2              (420., -280.)                8.039e-14    BTN_AI
+  02_ESP32                 U1        11    GPIO6              (420., -340.)                8.039e-14    IMU_INT1
+  02_ESP32                 U1        20    VDD3P3_RTC         (420., -475.)                8.039e-14    +3V3_SYS
+  02_ESP32                 U1        22    GPIO16             (420., -505.)                8.039e-14    I2S0_DOUT
+  01_POWER                 ?         1                        (505., -260.)                8.039e-14    CHG_ISET
+  01_POWER                 ?         1                        (505., -275.)                8.039e-14    GND
+  01_POWER                 ?         1                        (505., -470.)                8.039e-14    GND
+  01_POWER                 ?         1                        (505., -485.)                8.039e-14    I2C_SCL
+  01_POWER                 ?         1                        (505., -500.)                8.039e-14    I2C_SDA
+  06_AUDIO                 ?         1                        (380., -260.)                8.039e-14    AUDIO_MCLK
+  06_AUDIO                 ?         1                        (380., -275.)                8.039e-14    +3V3_SYS
+  06_AUDIO                 ?         1                        (380., -290.)                8.039e-14    +3V3_SYS
+  06_AUDIO                 ?         1                        (380., -305.)                8.039e-14    GND
+  06_AUDIO                 ?         1                        (380., -320.)                8.039e-14    I2S0_BCLK
+  06_AUDIO                 ?         1                        (380., -335.)                8.039e-14    I2S0_DIN
+  06_AUDIO                 ?         1                        (380., -350.)                8.039e-14    I2S0_LRCK
+  06_AUDIO                 ?         1                        (380., -365.)                8.039e-14    I2S0_DOUT
+  06_AUDIO                 ?         1                        (380., -380.)                8.039e-14    GND
+  02_ESP32                 U1        1     LNA_IN             (420., -190.)                6.355e-14    ESP_RF
+  02_ESP32                 U1        2     VDD3P3             (420., -205.)                6.355e-14    +3V3_SYS
+  02_ESP32                 U1        4     CHIP_PU            (420., -235.)                6.355e-14    ESP_EN
+  02_ESP32                 U1        5     GPIO0              (420., -250.)                6.355e-14    ESP_BOOT
+  02_ESP32                 ?         1                        (250., -265.)                6.355e-14    BTN_SOS
+  02_ESP32                 ?         1                        (250., -280.)                6.355e-14    BTN_AI
+  02_ESP32                 ?         1                        (250., -310.)                6.355e-14    I2C_SDA
+  02_ESP32                 ?         1                        (250., -325.)                6.355e-14    I2C_SCL
+  02_ESP32                 ?         1                        (250., -340.)                6.355e-14    IMU_INT1
+  03_MODEM_SIM_RF          ?         1                        (1585., -260.)               5.684e-14    MCU_PCM_DIN
+  03_MODEM_SIM_RF          ?         1                        (1585., -275.)               5.684e-14    MCU_PCM_DOUT
+  03_MODEM_SIM_RF          ?         1                        (1585., -290.)               5.684e-14    MODEM_TX
+  03_MODEM_SIM_RF          ?         1                        (1585., -305.)               5.684e-14    MODEM_RX
+  03_MODEM_SIM_RF          ?         1                        (1585., -325.)               5.684e-14    MODEM_PCM_CLK
+  03_MODEM_SIM_RF          ?         1                        (1585., -340.)               5.684e-14    MODEM_PCM_SYNC
+  03_MODEM_SIM_RF          ?         1                        (1585., -355.)               5.684e-14    MODEM_PCM_DIN
+  03_MODEM_SIM_RF          ?         1                        (1585., -370.)               5.684e-14    MODEM_PCM_DOUT
+  03_MODEM_SIM_RF          ?         1                        (305., -670.)                5.684e-14    GND
+  03_MODEM_SIM_RF          ?         1                        (305., -1190.)               5.684e-14    GND
+  03_MODEM_SIM_RF          ?         1                        (285., -1435.)               5.684e-14    GND
+  03_MODEM_SIM_RF          ?         1                        (285., -1510.)               5.684e-14    GND
+  03_MODEM_SIM_RF          C301      2     ~                  (295., -670.)                5.684e-14    GND
+  03_MODEM_SIM_RF          C303      2     ~                  (295., -845.)                5.684e-14    GND
+  03_MODEM_SIM_RF          C305      2     ~                  (295., -1015.)               5.684e-14    GND
+  03_MODEM_SIM_RF          C307      2     ~                  (295., -1190.)               5.684e-14    GND
+  07_HAPTIC_BUTTONS        ?         1                        (1545., -470.)               5.684e-14    +3V3_SYS
+  07_HAPTIC_BUTTONS        ?         1                        (325., -560.)                5.684e-14    HAPTIC_EN
+  07_HAPTIC_BUTTONS        C701      1     ~                  (275., -470.)                5.684e-14    HAPTIC_REG
+  07_HAPTIC_BUTTONS        R701      1     ~                  (275., -560.)                5.684e-14    +3V3_SYS
+  07_HAPTIC_BUTTONS        SW1       1     ~                  (275., -825.)                5.684e-14    BTN_SOS_CONTACT
+  07_HAPTIC_BUTTONS        SW2       1     ~                  (275., -1100.)               5.684e-14    BTN_AI_CONTACT
+  04_IMU_RTC               U3        7     GND                (345., -280.)                5.684e-14    GND
+  04_IMU_RTC               U3        14    SDx                (565., -280.)                5.684e-14    I2C_SDA
+  04_IMU_RTC               ?         1                        (585., -265.)                5.684e-14    I2C_SCL
+  04_IMU_RTC               ?         1                        (585., -280.)                5.684e-14    I2C_SDA
+  04_IMU_RTC               ?         1                        (1545., -490.)               5.684e-14    +3V3_SYS
+  04_IMU_RTC               ?         1                        (325., -585.)                5.684e-14    GND
+  04_IMU_RTC               C401      1     ~                  (275., -490.)                5.684e-14    +3V3_SYS
+  04_IMU_RTC               C404      1     ~                  (275., -585.)                5.684e-14    +3V3_SYS
+  02_ESP32                 U1        3     VDD3P3             (420., -220.)                5.684e-14    +3V3_SYS
+  02_ESP32                 U1        6     GPIO1              (420., -265.)                5.684e-14    BTN_SOS
+  02_ESP32                 U1        9     GPIO4              (420., -310.)                5.684e-14    I2C_SDA
+  02_ESP32                 U1        10    GPIO5              (420., -325.)                5.684e-14    I2C_SCL
+  02_ESP32                 U1        12    GPIO7              (420., -355.)                5.684e-14    IMU_INT2
+  02_ESP32                 U1        13    GPIO8              (420., -370.)                5.684e-14    RTC_INT
+  02_ESP32                 U1        14    GPIO9              (420., -385.)                5.684e-14    BAT_ALERT
+  02_ESP32                 U1        15    GPIO10             (420., -400.)                5.684e-14    LCD_CS
+  02_ESP32                 U1        16    GPIO11             (420., -415.)                5.684e-14    LCD_MOSI
+  02_ESP32                 U1        17    GPIO12             (420., -430.)                5.684e-14    LCD_SCLK
+  02_ESP32                 U1        18    GPIO13             (420., -445.)                5.684e-14    LCD_DC
+  02_ESP32                 U1        19    GPIO14             (420., -460.)                5.684e-14    I2S0_BCLK
+  02_ESP32                 U1        24    GPIO18             (420., -535.)                5.684e-14    AUDIO_MCLK
+  02_ESP32                 U1        25    GPIO19             (420., -550.)                5.684e-14    ESP_USB_DM_RAW
+  02_ESP32                 U1        26    GPIO20             (420., -565.)                5.684e-14    ESP_USB_DP_RAW
+  02_ESP32                 U1        36    GPIO48             (640., -280.)                5.684e-14    LCD_RST
+  02_ESP32                 U1        37    GPIO47             (640., -295.)                5.684e-14    LCD_BL
+  02_ESP32                 U1        49    GPIO43             (640., -475.)                5.684e-14    UART0_TX
+  02_ESP32                 ?         1                        (250., -355.)                5.684e-14    IMU_INT2
+  02_ESP32                 ?         1                        (250., -370.)                5.684e-14    RTC_INT
+  02_ESP32                 ?         1                        (250., -385.)                5.684e-14    BAT_ALERT
+  02_ESP32                 ?         1                        (250., -400.)                5.684e-14    LCD_CS
+  02_ESP32                 ?         1                        (250., -415.)                5.684e-14    LCD_MOSI
+  02_ESP32                 ?         1                        (250., -430.)                5.684e-14    LCD_SCLK
+  02_ESP32                 ?         1                        (250., -445.)                5.684e-14    LCD_DC
+  02_ESP32                 ?         1                        (250., -460.)                5.684e-14    I2S0_BCLK
+  02_ESP32                 ?         1                        (250., -475.)                5.684e-14    +3V3_SYS
+  02_ESP32                 ?         1                        (250., -490.)                5.684e-14    I2S0_LRCK
+  02_ESP32                 ?         1                        (250., -505.)                5.684e-14    I2S0_DOUT
+  02_ESP32                 ?         1                        (660., -280.)                5.684e-14    LCD_RST
+  02_ESP32                 ?         1                        (660., -295.)                5.684e-14    LCD_BL
+  02_ESP32                 ?         1                        (660., -385.)                5.684e-14    MCU_MODEM_RX
+  02_ESP32                 ?         1                        (660., -400.)                5.684e-14    MCU_PCM_CLK
+  02_ESP32                 ?         1                        (660., -415.)                5.684e-14    MCU_PCM_SYNC
+  02_ESP32                 ?         1                        (660., -430.)                5.684e-14    +3V3_SYS
+  02_ESP32                 ?         1                        (660., -445.)                5.684e-14    MCU_PCM_DIN
+  02_ESP32                 ?         1                        (660., -460.)                5.684e-14    MCU_PCM_DOUT
+  02_ESP32                 R201      1     ~                  (275., -825.)                5.684e-14    +3V3_SYS
+  02_ESP32                 R203      1     ~                  (275., -905.)                5.684e-14    +3V3_SYS
+  02_ESP32                 R206      1     ~                  (275., -985.)                5.684e-14    ESP_USB_DM_RAW
+  02_ESP32                 C204      1     ~                  (275., -1065.)               5.684e-14    +3V3_SYS
+  02_ESP32                 C207      1     ~                  (275., -1140.)               5.684e-14    +3V3_SYS
+  01_POWER                 ?         1                        (1270., -260.)               5.684e-14    GND
+  01_POWER                 ?         1                        (325., -1215.)               5.684e-14    GND
+  01_POWER                 ?         1                        (325., -1285.)               5.684e-14    BAT_ALERT
+  01_POWER                 ?         1                        (420., -1340.)               5.684e-14    power_PWR_FLAG
+  01_POWER                 U7        7     VOUT               (1030., -260.)               5.684e-14    +3V3_SYS
+  01_POWER                 U7        15    VSEL               (1250., -260.)               5.684e-14    GND
+  01_POWER                 R101      1     ~                  (275., -785.)                5.684e-14    CHG_ISET
+  01_POWER                 R104      1     ~                  (275., -860.)                5.684e-14    +3V3_SYS
+  01_POWER                 R106      1     ~                  (275., -1000.)               5.684e-14    DCDC_FB
+  01_POWER                 R108      1     ~                  (275., -1285.)               5.684e-14    +3V3_SYS
+  01_POWER                 C103      1     ~                  (275., -930.)                5.684e-14    SYS
+  01_POWER                 C105      1     ~                  (275., -1070.)               5.684e-14    SYS
+  01_POWER                 C108      1     ~                  (275., -1140.)               5.684e-14    +3V3_SYS
+  01_POWER                 C111      1     ~                  (275., -1215.)               5.684e-14    +3V3_SYS
+  01_POWER                 U6        7     PGOOD_N            (265., -260.)                5.684e-14    PGOOD
+  01_POWER                 U6        16    ISET               (485., -260.)                5.684e-14    CHG_ISET
+  08_DEBUG_TEST            ?         1                        (1230., -315.)               5.684e-14    UART0_RX
+  08_DEBUG_TEST            ?         1                        (1560., -470.)               5.684e-14    VBAT_MODEM
+  06_AUDIO                 ?         1                        (380., -245.)                5.684e-14    I2C_SCL
+  06_AUDIO                 ?         1                        (380., -515.)                5.684e-14    AMP_SD
+  06_AUDIO                 ?         1                        (380., -545.)                5.684e-14    AMP_IN_P
+  06_AUDIO                 ?         1                        (380., -560.)                5.684e-14    AMP_IN_N
+  06_AUDIO                 ?         1                        (300., -1210.)               5.684e-14    AMP_IN_N
+  06_AUDIO                 C601      2     ~                  (260., -890.)                5.684e-14    GND
+  06_AUDIO                 C606      2     ~                  (260., -1050.)               5.684e-14    GND
+  06_AUDIO                 C611      2     ~                  (260., -1210.)               5.684e-14    AMP_IN_N
+  06_AUDIO                 U9        2     MCLK               (490., -260.)                5.684e-14    AUDIO_MCLK
+  06_AUDIO                 U9        8     LRCK               (490., -350.)                5.684e-14    I2S0_LRCK
+  06_AUDIO                 U9        12    OUTP               (710., -260.)                5.684e-14    CODEC_DAC_P
+  06_AUDIO                 U9        18    MIC1P/DMIC_SDA     (710., -350.)                5.684e-14    CODEC_MIC_P
+  07_HAPTIC_BUTTONS        ?         1                        (155., -190.)                4.019e-14    HAPTIC_REG
+  07_HAPTIC_BUTTONS        ?         1                        (155., -205.)                4.019e-14    I2C_SCL
+  07_HAPTIC_BUTTONS        ?         1                        (155., -220.)                4.019e-14    I2C_SDA
+  07_HAPTIC_BUTTONS        ?         1                        (155., -235.)                4.019e-14    GND
+  07_HAPTIC_BUTTONS        ?         1                        (155., -250.)                4.019e-14    HAPTIC_EN
+  04_IMU_RTC               ?         1                        (175., -190.)                4.019e-14    GND
+  04_IMU_RTC               ?         1                        (175., -235.)                4.019e-14    IMU_INT1
+  04_IMU_RTC               ?         1                        (175., -250.)                4.019e-14    +3V3_SYS
+  02_ESP32                 ?         1                        (250., -190.)                4.019e-14    ESP_RF
+  02_ESP32                 ?         1                        (250., -205.)                4.019e-14    +3V3_SYS
+  02_ESP32                 ?         1                        (250., -220.)                4.019e-14    +3V3_SYS
+  02_ESP32                 ?         1                        (250., -235.)                4.019e-14    ESP_EN
+  02_ESP32                 ?         1                        (250., -250.)                4.019e-14    ESP_BOOT
+  08_DEBUG_TEST            ?         1                        (155., -170.)                4.019e-14    VBUS_5V
+  08_DEBUG_TEST            ?         1                        (155., -185.)                4.019e-14    GND
+  05_DISPLAY               ?         1                        (165., -215.)                4.019e-14    +3V3_SYS
+  05_DISPLAY               ?         1                        (165., -230.)                4.019e-14    GND
+  05_DISPLAY               ?         1                        (165., -250.)                4.019e-14    LCD_SCLK
+  03_MODEM_SIM_RF          ?         1                        (125., -195.)                2.842e-14    VBAT_MODEM
+  03_MODEM_SIM_RF          ?         1                        (125., -215.)                2.842e-14    GND
+  03_MODEM_SIM_RF          ?         1                        (125., -230.)                2.842e-14    MODEM_TX
+  03_MODEM_SIM_RF          ?         1                        (125., -245.)                2.842e-14    MODEM_RX
+  03_MODEM_SIM_RF          ?         1                        (1585., -195.)               2.842e-14    MCU_MODEM_TX
+  03_MODEM_SIM_RF          ?         1                        (1585., -215.)               2.842e-14    MCU_MODEM_RX
+  03_MODEM_SIM_RF          ?         1                        (1585., -230.)               2.842e-14    MCU_PCM_CLK
+  03_MODEM_SIM_RF          ?         1                        (1585., -245.)               2.842e-14    MCU_PCM_SYNC
+  07_HAPTIC_BUTTONS        U11       1     REG                (325., -190.)                2.842e-14    HAPTIC_REG
+  07_HAPTIC_BUTTONS        U11       2     SCL                (325., -205.)                2.842e-14    I2C_SCL
+  07_HAPTIC_BUTTONS        U11       4     IN_TRIG            (325., -235.)                2.842e-14    GND
+  07_HAPTIC_BUTTONS        U11       5     EN                 (325., -250.)                2.842e-14    HAPTIC_EN
+  07_HAPTIC_BUTTONS        U11       6     VDD_NC             (545., -190.)                2.842e-14    +3V3_SYS
+  07_HAPTIC_BUTTONS        U11       7     OUT_P              (545., -205.)                2.842e-14    HAPTIC_P
+  07_HAPTIC_BUTTONS        U11       9     OUT_N              (545., -235.)                2.842e-14    HAPTIC_N
+  07_HAPTIC_BUTTONS        U11       10    VDD                (545., -250.)                2.842e-14    +3V3_SYS
+  04_IMU_RTC               U3        1     SDO_SA0            (345., -190.)                2.842e-14    GND
+  04_IMU_RTC               U3        4     INT1               (345., -235.)                2.842e-14    IMU_INT1
+  04_IMU_RTC               U3        5     VDDIO              (345., -250.)                2.842e-14    +3V3_SYS
+  04_IMU_RTC               U3        8     VDD                (565., -190.)                2.842e-14    +3V3_SYS
+  04_IMU_RTC               U3        9     INT2               (565., -205.)                2.842e-14    IMU_INT2
+  04_IMU_RTC               U3        12    CSB                (565., -250.)                2.842e-14    +3V3_SYS
+  04_IMU_RTC               ?         1                        (175., -265.)                2.842e-14    GND
+  04_IMU_RTC               ?         1                        (175., -280.)                2.842e-14    GND
+  04_IMU_RTC               ?         1                        (585., -190.)                2.842e-14    +3V3_SYS
+  04_IMU_RTC               ?         1                        (585., -205.)                2.842e-14    IMU_INT2
+  04_IMU_RTC               ?         1                        (585., -250.)                2.842e-14    +3V3_SYS
+  04_IMU_RTC               ?         1                        (1080., -205.)               2.842e-14    RTC_INT
+  04_IMU_RTC               ?         1                        (1080., -220.)               2.842e-14    I2C_SCL
+  04_IMU_RTC               ?         1                        (1080., -235.)               2.842e-14    I2C_SDA
+  04_IMU_RTC               U4        2     INT_N              (1250., -205.)               2.842e-14    RTC_INT
+  04_IMU_RTC               U4        4     SDA                (1250., -235.)               2.842e-14    I2C_SDA
+  04_IMU_RTC               U4        5     VSS                (1470., -190.)               2.842e-14    GND
+  04_IMU_RTC               U4        6     VBACKUP            (1470., -205.)               2.842e-14    RTC_VBACKUP
+  04_IMU_RTC               U4        8     EVI                (1470., -235.)               2.842e-14    GND
+  01_POWER                 ?         1                        (1270., -170.)               2.842e-14    DCDC_L2
+  01_POWER                 ?         1                        (1270., -185.)               2.842e-14    GND
+  01_POWER                 ?         1                        (1270., -200.)               2.842e-14    DCDC_L1
+  01_POWER                 ?         1                        (1270., -215.)               2.842e-14    SYS
+  01_POWER                 ?         1                        (1270., -230.)               2.842e-14    SYS
+  01_POWER                 ?         1                        (1270., -245.)               2.842e-14    DCDC_CTRL
+  01_POWER                 ?         1                        (1650., -170.)               2.842e-14    +3V3_SYS
+  01_POWER                 ?         1                        (1650., -185.)               2.842e-14    GND
+  01_POWER                 ?         1                        (1650., -200.)               2.842e-14    +3V3_SYS
+  01_POWER                 ?         1                        (2060., -185.)               2.842e-14    +1V8
+  08_DEBUG_TEST            ?         1                        (1230., -215.)               2.842e-14    POGO_UART_TX
+  08_DEBUG_TEST            ?         1                        (1700., -215.)               2.842e-14    POGO_UART_TX
+  08_DEBUG_TEST            ?         1                        (1700., -230.)               2.842e-14    POGO_UART_RX
+  08_DEBUG_TEST            ?         1                        (1700., -250.)               2.842e-14    GND
+  08_DEBUG_TEST            ?         1                        (145., -670.)                2.842e-14    UART0_TX
+  08_DEBUG_TEST            ?         1                        (145., -770.)                2.842e-14    I2C_SDA
+  08_DEBUG_TEST            ?         1                        (145., -1065.)               2.842e-14    ESP_BOOT
+  06_AUDIO                 ?         1                        (1725., -215.)               2.842e-14    SPK_P
+  06_AUDIO                 ?         1                        (1725., -230.)               2.842e-14    SPK_N
+  06_AUDIO                 ?         1                        (180., -1050.)               2.842e-14    CODEC_ADCVREF
+  06_AUDIO                 ?         1                        (180., -1210.)               2.842e-14    CODEC_DAC_N
+  06_AUDIO                 C601      1     ~                  (220., -890.)                2.842e-14    +3V3_SYS
+  06_AUDIO                 C606      1     ~                  (220., -1050.)               2.842e-14    CODEC_ADCVREF
+  06_AUDIO                 C611      1     ~                  (220., -1210.)               2.842e-14    CODEC_DAC_N
+  05_DISPLAY               ?         1                        (165., -265.)                2.842e-14    LCD_MOSI
+  05_DISPLAY               ?         1                        (165., -280.)                2.842e-14    LCD_CS
+  05_DISPLAY               ?         1                        (165., -295.)                2.842e-14    LCD_DC
+  05_DISPLAY               ?         1                        (165., -310.)                2.842e-14    LCD_RST
+  05_DISPLAY               ?         1                        (165., -325.)                2.842e-14    LCD_BL
+  05_DISPLAY               ?         1                        (165., -345.)                2.842e-14    TP_SCL
+  03_MODEM_SIM_RF          ?         1                        (125., -305.)                1.421e-14    MODEM_USB_DP
+  03_MODEM_SIM_RF          ?         1                        (125., -325.)                1.421e-14    MODEM_USB_DM
+  03_MODEM_SIM_RF          ?         1                        (125., -340.)                1.421e-14    MODEM_PCM_CLK
+  03_MODEM_SIM_RF          ?         1                        (125., -355.)                1.421e-14    MODEM_PCM_SYNC
+  03_MODEM_SIM_RF          ?         1                        (125., -370.)                1.421e-14    MODEM_PCM_DIN
+  03_MODEM_SIM_RF          ?         1                        (125., -385.)                1.421e-14    MODEM_PCM_DOUT
+  03_MODEM_SIM_RF          ?         1                        (125., -400.)                1.421e-14    SIM_VCC
+  03_MODEM_SIM_RF          ?         1                        (105., -845.)                1.421e-14    CELL_DIV_RF
+  03_MODEM_SIM_RF          ?         1                        (105., -1015.)               1.421e-14    GNSS_RF
+  03_MODEM_SIM_RF          ?         1                        (85., -1510.)                1.421e-14    VBAT_MODEM
+  07_HAPTIC_BUTTONS        ?         1                        (125., -560.)                1.421e-14    +3V3_SYS
+  07_HAPTIC_BUTTONS        ?         1                        (125., -825.)                1.421e-14    BTN_SOS_CONTACT
+  07_HAPTIC_BUTTONS        ?         1                        (125., -1100.)               1.421e-14    BTN_AI_CONTACT
+  04_IMU_RTC               ?         1                        (125., -585.)                1.421e-14    +3V3_SYS
+  02_ESP32                 ?         1                        (125., -825.)                1.421e-14    +3V3_SYS
+  02_ESP32                 ?         1                        (125., -1065.)               1.421e-14    +3V3_SYS
+  01_POWER                 ?         1                        (95., -170.)                 1.421e-14    BAT_NTC
+  01_POWER                 ?         1                        (95., -530.)                 1.421e-14    BAT_ALERT
+  01_POWER                 ?         1                        (125., -785.)                1.421e-14    CHG_ISET
+  01_POWER                 ?         1                        (125., -860.)                1.421e-14    +3V3_SYS
+  01_POWER                 ?         1                        (125., -1000.)               1.421e-14    DCDC_FB
+  01_POWER                 ?         1                        (125., -1070.)               1.421e-14    SYS
+  01_POWER                 ?         1                        (125., -1285.)               1.421e-14    +3V3_SYS
+
+tips with NO wire within tolerance (net ports and label-terminated pins belong here; check the rest):
+  page                     part      pin   name               tip (x, y)                   offset       net/nc
+  02_ESP32                 U1        30    NC                 (640., -190.)                9.000e+01    LCD_RST
+  02_ESP32                 U1        31    NC                 (640., -205.)                7.500e+01    LCD_RST
+  02_ESP32                 U1        32    NC                 (640., -220.)                6.000e+01    LCD_RST
+  02_ESP32                 U1        40    GPIO35             (640., -340.)                4.500e+01    LCD_BL
+  02_ESP32                 U1        33    NC                 (640., -235.)                4.500e+01    LCD_RST
+  02_ESP32                 U1        41    GPIO36             (640., -355.)                3.000e+01    MCU_MODEM_RX
+  02_ESP32                 U1        29    VDD_SPI            (420., -610.)                3.000e+01    MCU_MODEM_TX
+  02_ESP32                 U1        52    GPIO46             (640., -520.)                3.000e+01    UART0_RX
+  02_ESP32                 U1        53    NC                 (640., -535.)                3.000e+01    +3V3_SYS
+  02_ESP32                 U1        34    NC                 (640., -250.)                3.000e+01    LCD_RST
+  02_ESP32                 U1        39    GPIO34             (640., -325.)                3.000e+01    LCD_BL
+  02_ESP32                 U1        28    SPICS1_PSRAM       (420., -595.)                1.500e+01    MCU_MODEM_TX
+  02_ESP32                 U1        51    GPIO45             (640., -505.)                1.500e+01    UART0_RX
+  02_ESP32                 U1        42    GPIO37             (640., -370.)                1.500e+01    MCU_MODEM_RX
+  01_POWER                 U6        15    ITERM              (485., -245.)                1.500e+01    CHG_ISET
+  04_IMU_RTC               U3        2     ASDx               (345., -205.)                1.500e+01    GND
+  04_IMU_RTC               U3        10    OCSB               (565., -220.)                1.500e+01    IMU_INT2
+  02_ESP32                 U1        8     GPIO3              (420., -295.)                1.500e+01    BTN_AI
+  02_ESP32                 U1        35    NC                 (640., -265.)                1.500e+01    LCD_RST
+  02_ESP32                 U1        54    NC                 (640., -550.)                1.500e+01    +3V3_SYS
+  01_POWER                 U7        6     FB2                (1030., -245.)               1.500e+01    DCDC_FB
+  01_POWER                 U8        4     NC                 (2040., -170.)               1.500e+01    +1V8
+  01_POWER                 U6        14    TMR                (485., -230.)                1.500e+01    VBUS_5V
+  06_AUDIO                 U10       2     NC                 (490., -530.)                1.500e+01    AMP_SD
+  04_IMU_RTC               U3        3     ASCx               (345., -220.)                1.500e+01    IMU_INT1
+  04_IMU_RTC               U3        11    OSDO               (565., -235.)                1.500e+01    +3V3_SYS
+  04_IMU_RTC               U4        1     CLKOUT             (1250., -190.)               1.500e+01    RTC_INT
+  02_ESP32                 U1        38    GPIO33             (640., -310.)                1.500e+01    LCD_BL

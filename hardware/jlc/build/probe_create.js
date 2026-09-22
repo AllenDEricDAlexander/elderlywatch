@@ -1,0 +1,17 @@
+const lib = 'ea905f22c789460e8404c7cb6b73ac04';
+const src0 = await eda.sys_FileManager.getDocumentSource();
+const uuid = await eda.lib_Symbol.create(lib, 'scratch_probe_u9');
+const out = {created: uuid};
+if (!uuid) return out;
+await eda.lib_Symbol.openInEditor(uuid, lib);
+const fresh = await eda.sys_FileManager.getDocumentSource();
+out.freshLines = (fresh || '').split('\n').length;
+out.fresh = (fresh || '').slice(0, 600);
+const ok = await eda.lib_Symbol.updateDocumentSource(uuid, lib, src0 || fresh);
+out.wroteFullU9Source = ok;
+const back = await eda.sys_FileManager.getDocumentSource();
+out.pinCountAfter = (back.match(/"type":"PIN"/g) || []).length;
+out.has21 = false;
+await eda.lib_Symbol.delete(uuid, lib);
+out.deleted = true;
+return out;

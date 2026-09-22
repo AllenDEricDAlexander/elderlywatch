@@ -1,0 +1,159 @@
+project ea905f22c789460e8404c7cb6b73ac04 / target page 10_ALL: f0706db0ae88edcc (reused, 11 pages total)
+read 03_MODEM_SIM_RF    comps= 117 wires=  94 texts= 20 polys= 32 bbox=47.24409,-1585.433075..2265.5,-65.35433
+read 07_HAPTIC_BUTTONS  comps=  50 wires=  36 texts=  6 polys=  4 bbox=47.24409,-1380.7086649999999..1760.5000000000002,-65.35433
+read 04_IMU_RTC         comps=  38 wires=  29 texts=  5 polys=  0 bbox=47.24409,-849.212595..1760.5000000000002,-65.35433
+read 00_TOP             comps=   9 wires=   0 texts= 49 polys=  0 bbox=47.24409,-1479.133855..1743.2848566308594,-65.35433
+read 02_ESP32           comps=  83 wires=  67 texts= 13 polys=  0 bbox=47.24409,-1290.157475..1760.5000000000002,-65.35433
+read 01_POWER           comps= 125 wires=  95 texts= 12 polys=  8 bbox=47.24409,-1518.503935..2265.5,-65.35433
+read 08_DEBUG_TEST      comps=  57 wires=  32 texts=  6 polys=  4 bbox=47.24409,-1321.653545..2225.5,-65.35433
+read 06_AUDIO           comps=  82 wires=  64 texts= 19 polys=  8 bbox=47.24409,-1612.755905..2245.5,-65.35433
+read 05_DISPLAY         comps=  12 wires=  11 texts= 11 polys=  4 bbox=47.24409,-392.913385..1198.5411631591796,-65.35433
+tiles: 9  merged extent: 6929.8 x 5253.7 API units
+expected: flag=2 part=126 poly=60 port=428 text=141 wire=428 total=1185
+round 1: live flag=2 part=126 poly=60 port=428 text=141 wire=428 | missing=0 blocked=0 repair=126 stray=0
+      part C301 (cb87cd163446772b): addIntoBom!=True, addIntoPcb!=True
+      part C302 (dab1246a569be9f9): addIntoBom!=True, addIntoPcb!=True
+      part C303 (06976a292059ef78): addIntoBom!=True, addIntoPcb!=True
+      part C304 (ef2424cd892ad1fb): addIntoBom!=True, addIntoPcb!=True
+      part C305 (a6ad5d1736d81e97): addIntoBom!=True, addIntoPcb!=True
+      part C306 (288bc57a4989a87c): addIntoBom!=True, addIntoPcb!=True
+      part C307 (dd6903ba8a34f8b5): addIntoBom!=True, addIntoPcb!=True
+      part C308 (6d63f9941e508b05): addIntoBom!=True, addIntoPcb!=True
+      part C321 (62a42a0ed99b53f5): addIntoBom!=True, addIntoPcb!=True
+      part C322 (af7d373832fff0e1): addIntoBom!=True, addIntoPcb!=True
+      plan: 0 delete, 0 create
+      6 item(s) in  0.6s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part C325: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C326: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C327: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C328: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C329: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C330: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part R301: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R302: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R303: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R304: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part U11: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C701: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part C702: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C703: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C711: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C712: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part R701: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part R711: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part R712: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R713: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R714: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part SW1: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part SW2: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part U3: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part U4: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C401: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C402: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C403: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C404: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part R401: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part R402: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part U1: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R201: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R202: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part R203: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part R204: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part R205: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R206: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C201: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C202: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C203: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C204: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part C205: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C206: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C207: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C208: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part U7: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part U8: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part R101: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R102: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R103: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R104: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part R105: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part R106: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part R107: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R108: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R109: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C101: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C102: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C103: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part C104: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C105: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C106: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C107: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C108: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part C109: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part C110: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C111: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C112: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part C113: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part L101: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part U5: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part U6: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part J1: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R801: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part R802: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part TP1: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part TP2: abandoned - the client kept refusing creates
+      6 item(s) in  0.0s  
+      refused (verify decides): fix_part TP3: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part TP4: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part TP5: Cannot destructure property 'cmdKey' of 'i' as it is undefined.
+      refused (verify decides): fix_part TP6: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part TP7: abandoned - the client kept refusing creates
+      refused (verify decides): fix_part TP8: abandoned - the client kept refusing creates
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.5s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  1.0s  fix_part=6
+round 2: live flag=2 part=126 poly=60 port=428 text=141 wire=428 | missing=0 blocked=0 repair=84 stray=0
+      part C325 (65b40e3b904cfd91): addIntoBom!=True, addIntoPcb!=True
+      part C326 (ced911e863d981d7): addIntoBom!=True, addIntoPcb!=True
+      part C327 (0d32de653110cf38): addIntoBom!=True, addIntoPcb!=True
+      part C328 (7b458b331ae3b48c): addIntoBom!=True, addIntoPcb!=True
+      part C329 (b5c240944c279acb): addIntoBom!=True, addIntoPcb!=True
+      part C330 (40585c35fb9ff391): addIntoBom!=True, addIntoPcb!=True
+      part R301 (93b039c36e38dff4): addIntoBom!=True, addIntoPcb!=True
+      part R302 (90161ff316ec2996): addIntoBom!=True, addIntoPcb!=True
+      part R303 (3e696d853809102f): addIntoBom!=True, addIntoPcb!=True
+      part R304 (449305a47bad1897): addIntoBom!=True, addIntoPcb!=True
+      plan: 0 delete, 0 create
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+      6 item(s) in  0.3s  fix_part=6
+round 3: live flag=2 part=126 poly=60 port=428 text=141 wire=428 | missing=0 blocked=0 repair=0 stray=0
+
+PASS: 1185 primitive(s) expected, live flag=2 part=126 poly=60 port=428 text=141 wire=428; missing=0 blocked=0 attr-repair=0 stray=0
+MERGE_EXIT=0
